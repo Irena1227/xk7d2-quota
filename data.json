@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T23:23:43.852+08:00",
+  "updatedAt": "2026-07-18T23:33:43.442+08:00",
   "sources": {
     "deepseek": {
       "ok": false,
@@ -7,28 +7,45 @@
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-07-18T23:23:38.360+08:00",
+      "fetchedAt": "2026-07-18T23:33:38.374+08:00",
       "error": "fetch failed"
     },
     "claude": {
-      "ok": false,
+      "ok": true,
       "label": "Claude",
-      "windows": [],
-      "fetchedAt": "2026-07-18T23:23:38.407+08:00",
-      "error": "fetch failed"
+      "windows": [
+        {
+          "name": "5小时",
+          "usedPct": 84,
+          "resetAt": "2026-07-19T01:10:00.363+08:00"
+        },
+        {
+          "name": "7天",
+          "usedPct": 30,
+          "resetAt": "2026-07-23T20:00:00.363+08:00"
+        }
+      ],
+      "fetchedAt": "2026-07-18T23:33:38.423+08:00",
+      "error": null
     },
     "codex": {
-      "ok": false,
+      "ok": true,
       "label": "Codex",
-      "windows": [],
-      "fetchedAt": "2026-07-18T23:23:38.409+08:00",
-      "error": "failed to fetch codex rate limits: error sending request for url (https://chatgpt.com/backend-api/wham/usage)"
+      "windows": [
+        {
+          "name": "周",
+          "usedPct": 20,
+          "resetAt": "2026-07-25T11:27:41.000+08:00"
+        }
+      ],
+      "fetchedAt": "2026-07-18T23:33:38.426+08:00",
+      "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-07-18T23:23:38.419+08:00",
+      "fetchedAt": "2026-07-18T23:33:38.435+08:00",
       "error": "fetch failed"
     }
   }
