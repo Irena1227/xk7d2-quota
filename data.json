@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T06:13:40.371+08:00",
+  "updatedAt": "2026-07-19T06:23:39.864+08:00",
   "sources": {
     "deepseek": {
       "ok": true,
@@ -7,26 +7,15 @@
       "balance": 27.11,
       "currency": "CNY",
       "detail": "余额 ¥27.11",
-      "fetchedAt": "2026-07-19T06:13:38.275+08:00",
+      "fetchedAt": "2026-07-19T06:23:38.269+08:00",
       "error": null
     },
     "claude": {
-      "ok": true,
+      "ok": false,
       "label": "Claude",
-      "windows": [
-        {
-          "name": "5小时",
-          "usedPct": 31,
-          "resetAt": "2026-07-19T06:20:00.264+08:00"
-        },
-        {
-          "name": "7天",
-          "usedPct": 35,
-          "resetAt": "2026-07-23T20:00:00.264+08:00"
-        }
-      ],
-      "fetchedAt": "2026-07-19T06:13:38.319+08:00",
-      "error": null
+      "windows": [],
+      "fetchedAt": "2026-07-19T06:23:38.313+08:00",
+      "error": "HTTP 401：Invalid authentication credentials"
     },
     "codex": {
       "ok": true,
@@ -35,17 +24,17 @@
         {
           "name": "周",
           "usedPct": 27,
-          "resetAt": "2026-07-25T11:27:42.000+08:00"
+          "resetAt": "2026-07-25T11:27:41.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-19T06:13:38.321+08:00",
+      "fetchedAt": "2026-07-19T06:23:38.315+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-07-19T06:13:38.330+08:00",
+      "fetchedAt": "2026-07-19T06:23:38.325+08:00",
       "error": "HTTP 401"
     }
   }
