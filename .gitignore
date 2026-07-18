@@ -1,0 +1,8 @@
+*
+!.gitignore
+!.nojekyll
+!index.html
+!eink.html
+!data.json
+!data.js
+

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="refresh" content="120">
+<title>额度中控台 · 墨水版</title>
+<style>
+  /* ===== 墨水屏风格：纸、墨、粗边框，无渐变无阴影无动画 ===== */
+  body {
+    background: #ffffff;
+    color: #000000;
+    font-family: Georgia, "Songti SC", "SimSun", serif;
+    margin: 0;
+    padding: 16px;
+  }
+  .head {
+    text-align: center;
+    border-bottom: 3px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 14px;
+  }
+  .head h1 {
+    font-size: 26px;
+    letter-spacing: 4px;
+    margin: 0 0 4px;
+  }
+  .head .sub {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  .moon {
+    font-size: 30px;
+    vertical-align: -4px;
+  }
+  .grid {
+    display: block;
+  }
+  .card {
+    border: 3px solid #000;
+    border-radius: 14px;
+    padding: 12px 14px;
+    margin-bottom: 12px;
+    background: #fff;
+  }
+  .card .top {
+    border-bottom: 2px solid #000;
+    padding-bottom: 6px;
+    margin-bottom: 8px;
+  }
+  .name {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  .role { font-size: 11px; }
+  .big {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.1;
+    font-family: Georgia, serif;
+  }
+  .big small { font-size: 13px; font-weight: normal; }
+  .alert-tag {
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 8px;
+    font-size: 11px;
+    padding: 1px 8px;
+    margin-left: 8px;
+    vertical-align: 8px;
+    background: #000;
+    color: #fff;
+  }
+  .win { margin-top: 8px; }
+  .win-head { font-size: 13px; }
+  .win-head b { float: right; }
+  .bar {
+    border: 2px solid #000;
+    border-radius: 8px;
+    height: 14px;
+    margin-top: 3px;
+    overflow: hidden;
+  }
+  .bar i {
+    display: block;
+    height: 100%;
+    background: #000;
+  }
+  /* 告急窗口用斜纹填充（墨水屏的"红色"） */
+  .bar i.hot {
+    background: repeating-linear-gradient(
+      45deg, #000 0, #000 3px, #fff 3px, #fff 6px
+    );
+  }
+  .reset { font-size: 11px; margin-top: 2px; }
+  .err {
+    margin-top: 8px;
+    font-size: 12px;
+    border: 2px dashed #000;
+    border-radius: 8px;
+    padding: 5px 8px;
+  }
+  .foot {
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 2px;
+    border-top: 3px solid #000;
+    padding-top: 8px;
+    margin-top: 6px;
+  }
+</style>
+</head>
+<body>
+  <div class="head">
+    <h1><span class="moon">☾</span> 额度中控台</h1>
+    <div class="sub" id="updated">数据加载中……</div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <div class="foot">朧月 · 锚 ⚓ · 为 Avenil 值班</div>
+
+<!-- 数据由后端写成 data.js（老式浏览器兼容：不用 fetch，用 script 标签） -->
+<script src="data.js"></script>
+<script>
+/* ES5 写法，兼容 Kindle 体验版浏览器（古老 WebKit） */
+var META = {
+  deepseek: { emoji:"≈", role:"Cinder" },
+  claude:   { emoji:"♦", role:"Oshra" },
+  codex:    { emoji:"♜", role:"Codex" },
+  kimi:     { emoji:"☾", role:"朧月" }
+};
+
+var DEMO = {
+  updatedAt: null,
+  sources: {
+    kimi:     { ok:false, label:"Kimi", windows:[], error:"等待后端（演示）" },
+    claude:   { ok:true, label:"Claude", windows:[{name:"5小时",usedPct:23.5},{name:"7天",usedPct:41.0}] },
+    codex:    { ok:true, label:"Codex", windows:[{name:"5小时",usedPct:8.8},{name:"周",usedPct:32.4}] },
+    deepseek: { ok:true, label:"DeepSeek", balance:12.34, currency:"CNY" }
+  }
+};
+
+function levelOf(p) {
+  if (p == null) return "ok";
+  if (p >= 70) return "hot";
+  return "ok";
+}
+
+function fmtTime(iso) {
+  if (!iso) return "";
+  var d = new Date(iso);
+  var h = d.getHours(), m = d.getMinutes();
+  return (h<10?"0":"")+h + ":" + (m<10?"0":"")+m;
+}
+
+function fmtReset(iso) {
+  if (!iso) return "";
+  var d = new Date(iso);
+  return "重置 " + (d.getMonth()+1) + "-" + d.getDate() + " " + fmtTime(iso);
+}
+
+function cardHtml(key, src) {
+  var meta = META[key] || { emoji:"·", role:"" };
+  var html = '<div class="card"><div class="top">'
+    + '<span class="name">' + meta.emoji + ' ' + (src.label||key) + '</span>'
+    + ' <span class="role">' + meta.role + '</span></div>';
+
+  if (src.ok) {
+    if (key === "deepseek" && src.balance != null) {
+      var low = src.balance <= 5;
+      html += '<div class="big">¥' + Number(src.balance).toFixed(2)
+        + '<small> 余额</small>'
+        + (low ? '<span class="alert-tag">该充钱了</span>' : '')
+        + '</div>';
+    } else if (src.windows && src.windows.length) {
+      var worst = 0, i;
+      for (i=0;i<src.windows.length;i++) worst = Math.max(worst, src.windows[i].usedPct||0);
+      html += '<div class="big">' + worst.toFixed(0) + '%'
+        + '<small> 最紧窗口</small>'
+        + (worst>=70 ? '<span class="alert-tag">告急</span>' : '')
+        + '</div>';
+      for (i=0;i<src.windows.length;i++) {
+        var w = src.windows[i], lv = levelOf(w.usedPct);
+        html += '<div class="win"><div class="win-head">' + w.name
+          + ' <b>' + (w.usedPct||0).toFixed(1) + '%</b></div>'
+          + '<div class="bar"><i class="' + (lv==="hot"?"hot":"") + '" style="width:' + Math.min(100,w.usedPct||0) + '%"></i></div>'
+          + '<div class="reset">' + fmtReset(w.resetAt) + '</div></div>';
+      }
+    } else {
+      html += '<div class="big">在线</div>';
+    }
+  } else {
+    html += '<div class="big">无信号</div>'
+      + '<div class="err">' + (src.error || "未知原因") + '</div>';
+  }
+  return html + '</div>';
+}
+
+function render(data) {
+  var order = ["kimi","claude","codex","deepseek"];
+  var html = "", i;
+  for (i=0;i<order.length;i++) {
+    if (data.sources && data.sources[order[i]]) html += cardHtml(order[i], data.sources[order[i]]);
+  }
+  document.getElementById("grid").innerHTML = html;
+  document.getElementById("updated").innerHTML = data.updatedAt
+    ? "更新于 " + fmtTime(data.updatedAt)
+    : "演示模式 · 等待后端数据";
+}
+
+render(window.DASH_DATA || DEMO);
+</script>
+</body>
+</html>
