@@ -79,12 +79,17 @@
       spans = rows[i].querySelectorAll('.q-label span');
       if (spans.length > 1) {
         spans[0].textContent = label(windows[i].name);
-        spans[1].textContent = Math.round(Number(windows[i].usedPct) || 0) + '%';
+        spans[1].textContent = windows[i].displayValue != null
+          ? String(windows[i].displayValue)
+          : Math.round(Number(windows[i].usedPct) || 0) + '%';
       }
       bar = rows[i].querySelector('.q-bar-fill');
-      if (bar) bar.style.width = Math.max(0, Math.min(100, Number(windows[i].usedPct) || 0)) + '%';
+      if (bar) {
+        var barPct = windows[i].barPct != null ? windows[i].barPct : windows[i].usedPct;
+        bar.style.width = Math.max(0, Math.min(100, Number(barPct) || 0)) + '%';
+      }
       refresh = rows[i].querySelector('.q-refresh');
-      if (refresh) refresh.textContent = countdown(windows[i].resetAt);
+      if (refresh) refresh.textContent = windows[i].detailText || countdown(windows[i].resetAt);
     }
     if (!windows.length && rows.length) {
       rows[0].style.display = 'block';
