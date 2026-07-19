@@ -1,18 +1,18 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-19T21:55:53.212+08:00",
+  "updatedAt": "2026-07-19T22:05:52.981+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
-    "description": "阴",
-    "iconKey": "overcast",
+    "description": "雾霾",
+    "iconKey": "fog",
     "tempC": 28,
-    "feelsLikeC": 31,
-    "humidity": 81,
-    "windKph": 10,
+    "feelsLikeC": 30,
+    "humidity": 83,
+    "windKph": 15,
     "windDir": "东南风",
     "place": "北京",
-    "observedAt": "2026-07-19T21:04:08.420+08:00",
-    "fetchedAt": "2026-07-19T21:55:53.212+08:00",
+    "observedAt": "2026-07-19T22:04:14.302+08:00",
+    "fetchedAt": "2026-07-19T22:05:52.981+08:00",
     "error": null
   },
   "sources": {
@@ -22,15 +22,26 @@ window.DASH_DATA = {
       "balance": 26.97,
       "currency": "CNY",
       "detail": "余额 ¥26.97",
-      "fetchedAt": "2026-07-19T21:55:51.492+08:00",
+      "fetchedAt": "2026-07-19T22:05:51.572+08:00",
       "error": null
     },
     "claude": {
-      "ok": false,
+      "ok": true,
       "label": "Claude",
-      "windows": [],
-      "fetchedAt": "2026-07-19T21:55:51.541+08:00",
-      "error": "HTTP 429：Rate limited. Please try again later."
+      "windows": [
+        {
+          "name": "5小时",
+          "usedPct": 0,
+          "resetAt": "2026-07-20T03:00:00.375+08:00"
+        },
+        {
+          "name": "7天",
+          "usedPct": 46,
+          "resetAt": "2026-07-23T20:00:00.375+08:00"
+        }
+      ],
+      "fetchedAt": "2026-07-19T22:05:51.621+08:00",
+      "error": null
     },
     "codex": {
       "ok": true,
@@ -38,18 +49,18 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "周",
-          "usedPct": 69,
+          "usedPct": 70,
           "resetAt": "2026-07-25T11:27:41.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-19T21:55:51.543+08:00",
+      "fetchedAt": "2026-07-19T22:05:51.622+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-07-19T21:55:51.553+08:00",
+      "fetchedAt": "2026-07-19T22:05:51.633+08:00",
       "error": "HTTP 401"
     }
   }
