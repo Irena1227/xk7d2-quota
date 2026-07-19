@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-19T14:33:40.148+08:00",
+  "updatedAt": "2026-07-19T14:43:40.151+08:00",
   "sources": {
     "deepseek": {
       "ok": true,
@@ -7,14 +7,14 @@ window.DASH_DATA = {
       "balance": 27.11,
       "currency": "CNY",
       "detail": "余额 ¥27.11",
-      "fetchedAt": "2026-07-19T14:33:38.615+08:00",
+      "fetchedAt": "2026-07-19T14:43:38.609+08:00",
       "error": null
     },
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-07-19T14:33:38.662+08:00",
+      "fetchedAt": "2026-07-19T14:43:38.663+08:00",
       "error": "HTTP 401：Invalid authentication credentials"
     },
     "codex": {
@@ -23,19 +23,25 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "周",
-          "usedPct": 36,
+          "usedPct": 37,
           "resetAt": "2026-07-25T11:27:41.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-19T14:33:38.664+08:00",
+      "fetchedAt": "2026-07-19T14:43:38.664+08:00",
       "error": null
     },
     "kimi": {
-      "ok": false,
+      "ok": true,
       "label": "Kimi",
-      "windows": [],
-      "fetchedAt": "2026-07-19T14:33:38.673+08:00",
-      "error": "HTTP 401"
+      "windows": [
+        {
+          "name": "5小时",
+          "usedPct": 12,
+          "resetAt": "2026-07-19T15:02:02.691+08:00"
+        }
+      ],
+      "fetchedAt": "2026-07-19T14:43:38.676+08:00",
+      "error": null
     }
   }
 };
