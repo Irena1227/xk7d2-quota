@@ -1,5 +1,20 @@
 {
-  "updatedAt": "2026-07-19T19:33:40.421+08:00",
+  "updatedAt": "2026-07-19T19:45:27.762+08:00",
+  "weather": {
+    "ok": true,
+    "provider": "cyberboss",
+    "description": "晴",
+    "iconKey": "clear",
+    "tempC": 30,
+    "feelsLikeC": 33,
+    "humidity": 75,
+    "windKph": 10,
+    "windDir": "东南风",
+    "place": "北京",
+    "observedAt": "2026-07-19T19:03:56.954+08:00",
+    "fetchedAt": "2026-07-19T19:45:27.762+08:00",
+    "error": null
+  },
   "sources": {
     "deepseek": {
       "ok": true,
@@ -7,7 +22,7 @@
       "balance": 26.97,
       "currency": "CNY",
       "detail": "余额 ¥26.97",
-      "fetchedAt": "2026-07-19T19:33:38.677+08:00",
+      "fetchedAt": "2026-07-19T19:45:26.304+08:00",
       "error": null
     },
     "claude": {
@@ -16,16 +31,16 @@
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 46,
-          "resetAt": "2026-07-19T21:20:00.509+08:00"
+          "usedPct": 49,
+          "resetAt": "2026-07-19T21:20:00.006+08:00"
         },
         {
           "name": "7天",
-          "usedPct": 44,
-          "resetAt": "2026-07-23T20:00:00.509+08:00"
+          "usedPct": 45,
+          "resetAt": "2026-07-23T20:00:00.006+08:00"
         }
       ],
-      "fetchedAt": "2026-07-19T19:33:38.732+08:00",
+      "fetchedAt": "2026-07-19T19:45:26.355+08:00",
       "error": null
     },
     "codex": {
@@ -34,11 +49,11 @@
       "windows": [
         {
           "name": "周",
-          "usedPct": 60,
+          "usedPct": 61,
           "resetAt": "2026-07-25T11:27:41.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-19T19:33:38.734+08:00",
+      "fetchedAt": "2026-07-19T19:45:26.357+08:00",
       "error": null
     },
     "kimi": {
@@ -47,11 +62,11 @@
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 8,
+          "usedPct": 9,
           "resetAt": "2026-07-19T20:02:02.691+08:00"
         }
       ],
-      "fetchedAt": "2026-07-19T19:33:38.744+08:00",
+      "fetchedAt": "2026-07-19T19:45:26.367+08:00",
       "error": null
     }
   }
