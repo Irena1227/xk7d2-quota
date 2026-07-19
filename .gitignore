@@ -6,3 +6,5 @@
 !data.json
 !data.js
 
+!dashboard-runtime.js
+!live-endpoint.js
