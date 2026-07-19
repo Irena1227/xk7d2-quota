@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T21:05:28.248+08:00",
+  "updatedAt": "2026-07-19T21:15:28.372+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@
     "windDir": "东南风",
     "place": "北京",
     "observedAt": "2026-07-19T21:04:08.420+08:00",
-    "fetchedAt": "2026-07-19T21:05:28.248+08:00",
+    "fetchedAt": "2026-07-19T21:15:28.372+08:00",
     "error": null
   },
   "sources": {
@@ -22,15 +22,26 @@
       "balance": 26.97,
       "currency": "CNY",
       "detail": "余额 ¥26.97",
-      "fetchedAt": "2026-07-19T21:05:26.901+08:00",
+      "fetchedAt": "2026-07-19T21:15:26.969+08:00",
       "error": null
     },
     "claude": {
-      "ok": false,
+      "ok": true,
       "label": "Claude",
-      "windows": [],
-      "fetchedAt": "2026-07-19T21:05:26.946+08:00",
-      "error": "HTTP 429：Rate limited. Please try again later."
+      "windows": [
+        {
+          "name": "5小时",
+          "usedPct": 64,
+          "resetAt": "2026-07-19T21:19:59.736+08:00"
+        },
+        {
+          "name": "7天",
+          "usedPct": 46,
+          "resetAt": "2026-07-23T19:59:59.736+08:00"
+        }
+      ],
+      "fetchedAt": "2026-07-19T21:15:27.021+08:00",
+      "error": null
     },
     "codex": {
       "ok": true,
@@ -38,18 +49,18 @@
       "windows": [
         {
           "name": "周",
-          "usedPct": 66,
+          "usedPct": 67,
           "resetAt": "2026-07-25T11:27:41.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-19T21:05:26.947+08:00",
+      "fetchedAt": "2026-07-19T21:15:27.024+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-07-19T21:05:26.957+08:00",
+      "fetchedAt": "2026-07-19T21:15:27.034+08:00",
       "error": "HTTP 401"
     }
   }
