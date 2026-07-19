@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T01:35:54.377+08:00",
+  "updatedAt": "2026-07-20T01:46:01.723+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@
     "windDir": "东南风",
     "place": "北京",
     "observedAt": "2026-07-20T01:04:38.351+08:00",
-    "fetchedAt": "2026-07-20T01:35:54.377+08:00",
+    "fetchedAt": "2026-07-20T01:46:01.723+08:00",
     "error": null
   },
   "sources": {
@@ -22,15 +22,28 @@
       "balance": 26.97,
       "currency": "CNY",
       "detail": "余额 ¥26.97",
-      "fetchedAt": "2026-07-20T01:35:53.013+08:00",
+      "fetchedAt": "2026-07-20T01:46:00.310+08:00",
       "error": null
     },
     "claude": {
-      "ok": false,
+      "ok": true,
       "label": "Claude",
-      "windows": [],
-      "fetchedAt": "2026-07-20T01:35:53.060+08:00",
-      "error": "HTTP 429：Rate limited. Please try again later."
+      "windows": [
+        {
+          "name": "5小时",
+          "usedPct": 51,
+          "resetAt": "2026-07-20T02:59:59.581+08:00"
+        },
+        {
+          "name": "7天",
+          "usedPct": 51,
+          "resetAt": "2026-07-23T19:59:59.581+08:00"
+        }
+      ],
+      "fetchedAt": "2026-07-20T01:45:00.389+08:00",
+      "error": "HTTP 429：Rate limited. Please try again later.",
+      "stale": true,
+      "lastAttemptAt": "2026-07-20T01:46:00.357+08:00"
     },
     "codex": {
       "ok": true,
@@ -38,19 +51,25 @@
       "windows": [
         {
           "name": "周",
-          "usedPct": 82,
+          "usedPct": 83,
           "resetAt": "2026-07-25T11:27:41.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T01:35:53.062+08:00",
+      "fetchedAt": "2026-07-20T01:46:00.360+08:00",
       "error": null
     },
     "kimi": {
-      "ok": false,
+      "ok": true,
       "label": "Kimi",
-      "windows": [],
-      "fetchedAt": "2026-07-20T01:35:53.071+08:00",
-      "error": "HTTP 401"
+      "windows": [
+        {
+          "name": "5小时",
+          "usedPct": 0,
+          "resetAt": "2026-07-20T06:02:02.691+08:00"
+        }
+      ],
+      "fetchedAt": "2026-07-20T01:46:00.369+08:00",
+      "error": null
     }
   }
 }
