@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-20T00:45:53.929+08:00",
+  "updatedAt": "2026-07-20T00:55:54.237+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "东南风",
     "place": "北京",
     "observedAt": "2026-07-19T23:49:24.864+08:00",
-    "fetchedAt": "2026-07-20T00:45:53.929+08:00",
+    "fetchedAt": "2026-07-20T00:55:54.237+08:00",
     "error": null
   },
   "sources": {
@@ -22,14 +22,14 @@ window.DASH_DATA = {
       "balance": 26.97,
       "currency": "CNY",
       "detail": "余额 ¥26.97",
-      "fetchedAt": "2026-07-20T00:45:52.598+08:00",
+      "fetchedAt": "2026-07-20T00:55:52.716+08:00",
       "error": null
     },
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-07-20T00:45:52.651+08:00",
+      "fetchedAt": "2026-07-20T00:55:52.762+08:00",
       "error": "HTTP 429：Rate limited. Please try again later."
     },
     "codex": {
@@ -38,18 +38,18 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "周",
-          "usedPct": 79,
+          "usedPct": 80,
           "resetAt": "2026-07-25T11:27:41.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T00:45:52.653+08:00",
+      "fetchedAt": "2026-07-20T00:55:52.764+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-07-20T00:45:52.663+08:00",
+      "fetchedAt": "2026-07-20T00:55:52.773+08:00",
       "error": "HTTP 401"
     }
   }
