@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "id": "io.github.irena1227.xk7d2-quota",
+  "name": "Avenil \u7684 Kindle \u4e2d\u63a7\u53f0",
+  "description": "Avenil \u79c1\u4eba Kindle \u989d\u5ea6\u4e2d\u63a7\u53f0\u5b89\u88c5\u6e90\u3002",
+  "packages": {
+    "quota-dashboard": {
+      "name": "\u989d\u5ea6\u4e2d\u63a7\u53f0",
+      "author": "Avenil & \u7ea4\u51dd",
+      "description": "\u5728 Kindle \u4e66\u5e93\u4e2d\u4e00\u952e\u5168\u5c4f\u6253\u5f00\u5b9e\u65f6\u989d\u5ea6\u4e2d\u63a7\u53f0\u3002",
+      "artifacts": [
+        {
+          "url": "packages/quota-dashboard/artifacts/quota-dashboard_1.0.0_kindlehf-kindlepw2.kpkg",
+          "version": [
+            1,
+            0,
+            0
+          ],
+          "dependencies": [],
+          "supported_platforms": [
+            "kindlehf",
+            "kindlepw2"
+          ]
+        }
+      ]
+    }
+  }
+}
