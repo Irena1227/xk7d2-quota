@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-19T18:33:40.078+08:00",
+  "updatedAt": "2026-07-19T18:43:40.046+08:00",
   "sources": {
     "deepseek": {
       "ok": true,
@@ -7,7 +7,7 @@ window.DASH_DATA = {
       "balance": 26.97,
       "currency": "CNY",
       "detail": "余额 ¥26.97",
-      "fetchedAt": "2026-07-19T18:33:38.638+08:00",
+      "fetchedAt": "2026-07-19T18:43:38.628+08:00",
       "error": null
     },
     "claude": {
@@ -16,16 +16,16 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 17,
-          "resetAt": "2026-07-19T21:20:00.428+08:00"
+          "usedPct": 31,
+          "resetAt": "2026-07-19T21:20:00.430+08:00"
         },
         {
           "name": "7天",
-          "usedPct": 42,
-          "resetAt": "2026-07-23T20:00:00.428+08:00"
+          "usedPct": 43,
+          "resetAt": "2026-07-23T20:00:00.430+08:00"
         }
       ],
-      "fetchedAt": "2026-07-19T18:33:38.685+08:00",
+      "fetchedAt": "2026-07-19T18:43:38.673+08:00",
       "error": null
     },
     "codex": {
@@ -38,21 +38,15 @@ window.DASH_DATA = {
           "resetAt": "2026-07-25T11:27:42.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-19T18:33:38.686+08:00",
+      "fetchedAt": "2026-07-19T18:43:38.674+08:00",
       "error": null
     },
     "kimi": {
-      "ok": true,
+      "ok": false,
       "label": "Kimi",
-      "windows": [
-        {
-          "name": "5小时",
-          "usedPct": 8,
-          "resetAt": "2026-07-19T20:02:02.691+08:00"
-        }
-      ],
-      "fetchedAt": "2026-07-19T18:33:38.696+08:00",
-      "error": null
+      "windows": [],
+      "fetchedAt": "2026-07-19T18:43:38.683+08:00",
+      "error": "HTTP 401"
     }
   }
 };
