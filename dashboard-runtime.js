@@ -151,10 +151,20 @@
     document.getElementsByTagName('head')[0].appendChild(script);
   }
 
+  function schedulePoll() {
+    var now = Date.now();
+    var delay = (5000 - (now % 10000) + 10000) % 10000;
+    if (delay < 250) delay += 10000;
+    setTimeout(function () {
+      poll();
+      schedulePoll();
+    }, delay);
+  }
+
   render(window.DASH_DATA);
   clock();
   battery();
   poll();
-  setInterval(poll, 10000);
+  schedulePoll();
   setInterval(clock, 30000);
 }());
