@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-07-20T21:15:01.840+08:00",
+  "updatedAt": "2026-07-20T21:24:05.650+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
     "description": "雾霾",
     "iconKey": "fog",
-    "tempC": 24,
-    "feelsLikeC": 27,
-    "humidity": 94,
-    "windKph": 4,
-    "windDir": "东北风",
+    "tempC": 23,
+    "feelsLikeC": 26,
+    "humidity": 97,
+    "windKph": 6,
+    "windDir": "西风",
     "place": "北京",
-    "observedAt": "2026-07-20T20:21:44.731+08:00",
-    "fetchedAt": "2026-07-20T21:15:01.840+08:00",
+    "observedAt": "2026-07-20T21:21:51.023+08:00",
+    "fetchedAt": "2026-07-20T21:24:05.650+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@
       "balance": 26.63,
       "currency": "CNY",
       "detail": "余额 ¥26.63",
-      "fetchedAt": "2026-07-20T21:15:00.315+08:00",
+      "fetchedAt": "2026-07-20T21:24:00.338+08:00",
       "error": null
     },
     "claude": {
@@ -32,16 +32,18 @@
         {
           "name": "5小时",
           "usedPct": 8,
-          "resetAt": "2026-07-20T23:20:00.168+08:00"
+          "resetAt": "2026-07-20T23:19:59.942+08:00"
         },
         {
           "name": "7天",
           "usedPct": 57,
-          "resetAt": "2026-07-23T20:00:00.168+08:00"
+          "resetAt": "2026-07-23T19:59:59.942+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T21:15:00.362+08:00",
-      "error": null
+      "fetchedAt": "2026-07-20T21:21:00.385+08:00",
+      "error": "fetch failed",
+      "stale": true,
+      "lastAttemptAt": "2026-07-20T21:24:00.391+08:00"
     },
     "codex": {
       "ok": true,
@@ -50,11 +52,13 @@
         {
           "name": "周",
           "usedPct": 94,
-          "resetAt": "2026-07-25T11:27:41.000+08:00"
+          "resetAt": "2026-07-25T11:27:42.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T21:15:00.364+08:00",
-      "error": null
+      "fetchedAt": "2026-07-20T21:21:00.387+08:00",
+      "error": "failed to fetch codex rate limits: error sending request for url (https://chatgpt.com/backend-api/wham/usage)",
+      "stale": true,
+      "lastAttemptAt": "2026-07-20T21:24:00.393+08:00"
     },
     "kimi": {
       "ok": true,
@@ -74,10 +78,10 @@
           "name": "月",
           "usedPct": 26.5,
           "resetAt": "2026-08-16T00:00:00.000+08:00",
-          "observedAt": "2026-07-20T21:15:00.490+08:00"
+          "observedAt": "2026-07-20T21:24:00.532+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T21:15:00.374+08:00",
+      "fetchedAt": "2026-07-20T21:24:00.404+08:00",
       "error": null
     }
   }
