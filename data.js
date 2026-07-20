@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-20T21:36:11.054+08:00",
+  "updatedAt": "2026-07-20T21:45:17.173+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "西风",
     "place": "北京",
     "observedAt": "2026-07-20T21:21:51.023+08:00",
-    "fetchedAt": "2026-07-20T21:36:11.055+08:00",
+    "fetchedAt": "2026-07-20T21:45:17.173+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 26.63,
       "currency": "CNY",
       "detail": "余额 ¥26.63",
-      "fetchedAt": "2026-07-20T21:36:00.322+08:00",
+      "fetchedAt": "2026-07-20T21:45:00.328+08:00",
       "error": null
     },
     "claude": {
@@ -43,7 +43,7 @@ window.DASH_DATA = {
       "fetchedAt": "2026-07-20T21:30:00.366+08:00",
       "error": "fetch failed",
       "stale": true,
-      "lastAttemptAt": "2026-07-20T21:36:00.375+08:00"
+      "lastAttemptAt": "2026-07-20T21:45:00.382+08:00"
     },
     "codex": {
       "ok": true,
@@ -51,14 +51,12 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "周",
-          "usedPct": 94,
-          "resetAt": "2026-07-25T11:27:42.000+08:00"
+          "usedPct": 95,
+          "resetAt": "2026-07-25T11:27:41.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T21:21:00.387+08:00",
-      "error": "failed to fetch codex rate limits: error sending request for url (https://chatgpt.com/backend-api/wham/usage)",
-      "stale": true,
-      "lastAttemptAt": "2026-07-20T21:36:00.377+08:00"
+      "fetchedAt": "2026-07-20T21:45:00.384+08:00",
+      "error": null
     },
     "kimi": {
       "ok": true,
@@ -78,10 +76,10 @@ window.DASH_DATA = {
           "name": "月",
           "usedPct": 26.5,
           "resetAt": "2026-08-16T00:00:00.000+08:00",
-          "observedAt": "2026-07-20T21:36:00.524+08:00"
+          "observedAt": "2026-07-20T21:45:00.527+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T21:36:00.389+08:00",
+      "fetchedAt": "2026-07-20T21:45:00.394+08:00",
       "error": null
     }
   }
