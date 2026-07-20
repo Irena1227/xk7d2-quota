@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T21:45:17.173+08:00",
+  "updatedAt": "2026-07-20T21:54:20.379+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -11,8 +11,8 @@
     "windKph": 6,
     "windDir": "西风",
     "place": "北京",
-    "observedAt": "2026-07-20T21:21:51.023+08:00",
-    "fetchedAt": "2026-07-20T21:45:17.173+08:00",
+    "observedAt": "2026-07-20T21:52:02.167+08:00",
+    "fetchedAt": "2026-07-20T21:54:20.379+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@
       "balance": 26.63,
       "currency": "CNY",
       "detail": "余额 ¥26.63",
-      "fetchedAt": "2026-07-20T21:45:00.328+08:00",
+      "fetchedAt": "2026-07-20T21:54:00.310+08:00",
       "error": null
     },
     "claude": {
@@ -43,7 +43,7 @@
       "fetchedAt": "2026-07-20T21:30:00.366+08:00",
       "error": "fetch failed",
       "stale": true,
-      "lastAttemptAt": "2026-07-20T21:45:00.382+08:00"
+      "lastAttemptAt": "2026-07-20T21:54:00.355+08:00"
     },
     "codex": {
       "ok": true,
@@ -55,8 +55,10 @@
           "resetAt": "2026-07-25T11:27:41.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T21:45:00.384+08:00",
-      "error": null
+      "fetchedAt": "2026-07-20T21:48:00.382+08:00",
+      "error": "Codex app-server 查询超时",
+      "stale": true,
+      "lastAttemptAt": "2026-07-20T21:54:00.357+08:00"
     },
     "kimi": {
       "ok": true,
@@ -64,22 +66,22 @@
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 0,
+          "usedPct": 8,
           "resetAt": "2026-07-21T02:02:02.691+08:00"
         },
         {
           "name": "周",
-          "usedPct": 55,
+          "usedPct": 56,
           "resetAt": "2026-07-24T13:02:02.691+08:00"
         },
         {
           "name": "月",
           "usedPct": 26.5,
           "resetAt": "2026-08-16T00:00:00.000+08:00",
-          "observedAt": "2026-07-20T21:45:00.527+08:00"
+          "observedAt": "2026-07-20T21:54:00.484+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T21:45:00.394+08:00",
+      "fetchedAt": "2026-07-20T21:54:00.368+08:00",
       "error": null
     }
   }
