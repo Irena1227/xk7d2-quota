@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T21:24:05.650+08:00",
+  "updatedAt": "2026-07-20T21:36:11.054+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@
     "windDir": "西风",
     "place": "北京",
     "observedAt": "2026-07-20T21:21:51.023+08:00",
-    "fetchedAt": "2026-07-20T21:24:05.650+08:00",
+    "fetchedAt": "2026-07-20T21:36:11.055+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@
       "balance": 26.63,
       "currency": "CNY",
       "detail": "余额 ¥26.63",
-      "fetchedAt": "2026-07-20T21:24:00.338+08:00",
+      "fetchedAt": "2026-07-20T21:36:00.322+08:00",
       "error": null
     },
     "claude": {
@@ -32,18 +32,18 @@
         {
           "name": "5小时",
           "usedPct": 8,
-          "resetAt": "2026-07-20T23:19:59.942+08:00"
+          "resetAt": "2026-07-20T23:19:59.638+08:00"
         },
         {
           "name": "7天",
           "usedPct": 57,
-          "resetAt": "2026-07-23T19:59:59.942+08:00"
+          "resetAt": "2026-07-23T19:59:59.638+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T21:21:00.385+08:00",
+      "fetchedAt": "2026-07-20T21:30:00.366+08:00",
       "error": "fetch failed",
       "stale": true,
-      "lastAttemptAt": "2026-07-20T21:24:00.391+08:00"
+      "lastAttemptAt": "2026-07-20T21:36:00.375+08:00"
     },
     "codex": {
       "ok": true,
@@ -58,7 +58,7 @@
       "fetchedAt": "2026-07-20T21:21:00.387+08:00",
       "error": "failed to fetch codex rate limits: error sending request for url (https://chatgpt.com/backend-api/wham/usage)",
       "stale": true,
-      "lastAttemptAt": "2026-07-20T21:24:00.393+08:00"
+      "lastAttemptAt": "2026-07-20T21:36:00.377+08:00"
     },
     "kimi": {
       "ok": true,
@@ -78,10 +78,10 @@
           "name": "月",
           "usedPct": 26.5,
           "resetAt": "2026-08-16T00:00:00.000+08:00",
-          "observedAt": "2026-07-20T21:24:00.532+08:00"
+          "observedAt": "2026-07-20T21:36:00.524+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T21:24:00.404+08:00",
+      "fetchedAt": "2026-07-20T21:36:00.389+08:00",
       "error": null
     }
   }
