@@ -1,18 +1,18 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-21T02:36:01.701+08:00",
+  "updatedAt": "2026-07-21T02:45:01.884+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
-    "description": "雾霾",
-    "iconKey": "fog",
-    "tempC": 22,
-    "feelsLikeC": 24,
+    "description": "雨",
+    "iconKey": "rain",
+    "tempC": 21,
+    "feelsLikeC": 23,
     "humidity": 99,
-    "windKph": 5,
-    "windDir": "西南风",
+    "windKph": 6,
+    "windDir": "东南风",
     "place": "北京",
-    "observedAt": "2026-07-21T01:22:28.602+08:00",
-    "fetchedAt": "2026-07-21T02:36:01.701+08:00",
+    "observedAt": "2026-07-21T02:37:35.523+08:00",
+    "fetchedAt": "2026-07-21T02:45:01.884+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 26.63,
       "currency": "CNY",
       "detail": "余额 ¥26.63",
-      "fetchedAt": "2026-07-21T02:36:00.315+08:00",
+      "fetchedAt": "2026-07-21T02:45:00.311+08:00",
       "error": null
     },
     "claude": {
@@ -43,7 +43,7 @@ window.DASH_DATA = {
       "fetchedAt": "2026-07-21T00:15:00.360+08:00",
       "error": "Claude 登录凭证中没有 accessToken",
       "stale": true,
-      "lastAttemptAt": "2026-07-21T02:36:00.367+08:00"
+      "lastAttemptAt": "2026-07-21T02:45:00.362+08:00"
     },
     "codex": {
       "ok": true,
@@ -52,10 +52,10 @@ window.DASH_DATA = {
         {
           "name": "周",
           "usedPct": 98,
-          "resetAt": "2026-07-25T11:27:41.000+08:00"
+          "resetAt": "2026-07-25T11:27:42.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-21T02:36:00.368+08:00",
+      "fetchedAt": "2026-07-21T02:45:00.363+08:00",
       "error": null
     },
     "kimi": {
@@ -79,7 +79,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-20T22:00:04.871+08:00"
         }
       ],
-      "fetchedAt": "2026-07-21T02:36:00.377+08:00",
+      "fetchedAt": "2026-07-21T02:45:00.373+08:00",
       "error": null
     }
   },
