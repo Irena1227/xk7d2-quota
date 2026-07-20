@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-20T09:56:02.293+08:00",
+  "updatedAt": "2026-07-20T10:06:01.832+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "北风",
     "place": "北京",
     "observedAt": "2026-07-20T09:20:28.649+08:00",
-    "fetchedAt": "2026-07-20T09:56:02.294+08:00",
+    "fetchedAt": "2026-07-20T10:06:01.832+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 26.97,
       "currency": "CNY",
       "detail": "余额 ¥26.97",
-      "fetchedAt": "2026-07-20T09:56:00.310+08:00",
+      "fetchedAt": "2026-07-20T10:06:00.317+08:00",
       "error": null
     },
     "claude": {
@@ -32,18 +32,18 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 2,
-          "resetAt": "2026-07-20T13:20:00.239+08:00"
+          "resetAt": "2026-07-20T13:19:59.975+08:00"
         },
         {
           "name": "7天",
           "usedPct": 55,
-          "resetAt": "2026-07-23T20:00:00.240+08:00"
+          "resetAt": "2026-07-23T19:59:59.975+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T09:55:00.359+08:00",
+      "fetchedAt": "2026-07-20T10:05:00.377+08:00",
       "error": "HTTP 429：Rate limited. Please try again later.",
       "stale": true,
-      "lastAttemptAt": "2026-07-20T09:56:00.356+08:00"
+      "lastAttemptAt": "2026-07-20T10:06:00.363+08:00"
     },
     "codex": {
       "ok": true,
@@ -52,10 +52,10 @@ window.DASH_DATA = {
         {
           "name": "周",
           "usedPct": 86,
-          "resetAt": "2026-07-25T11:27:42.000+08:00"
+          "resetAt": "2026-07-25T11:27:41.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T09:56:00.358+08:00",
+      "fetchedAt": "2026-07-20T10:06:00.365+08:00",
       "error": null
     },
     "kimi": {
@@ -81,7 +81,7 @@ window.DASH_DATA = {
           "resetAt": null
         }
       ],
-      "fetchedAt": "2026-07-20T09:56:00.367+08:00",
+      "fetchedAt": "2026-07-20T10:06:00.374+08:00",
       "error": null
     }
   }
