@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-21T07:24:01.709+08:00",
+  "updatedAt": "2026-07-21T07:36:01.587+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "南风",
     "place": "北京",
     "observedAt": "2026-07-21T06:53:03.841+08:00",
-    "fetchedAt": "2026-07-21T07:24:01.709+08:00",
+    "fetchedAt": "2026-07-21T07:36:01.587+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 26.63,
       "currency": "CNY",
       "detail": "余额 ¥26.63",
-      "fetchedAt": "2026-07-21T07:24:00.311+08:00",
+      "fetchedAt": "2026-07-21T07:36:00.303+08:00",
       "error": null
     },
     "claude": {
@@ -43,7 +43,7 @@ window.DASH_DATA = {
       "fetchedAt": "2026-07-21T00:15:00.360+08:00",
       "error": "Claude 登录凭证中没有 accessToken",
       "stale": true,
-      "lastAttemptAt": "2026-07-21T07:24:00.357+08:00"
+      "lastAttemptAt": "2026-07-21T07:36:00.346+08:00"
     },
     "codex": {
       "ok": true,
@@ -55,7 +55,7 @@ window.DASH_DATA = {
           "resetAt": "2026-07-25T11:27:41.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-21T07:24:00.358+08:00",
+      "fetchedAt": "2026-07-21T07:36:00.347+08:00",
       "error": null
     },
     "kimi": {
@@ -79,7 +79,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-20T22:00:04.871+08:00"
         }
       ],
-      "fetchedAt": "2026-07-21T07:24:00.368+08:00",
+      "fetchedAt": "2026-07-21T07:36:00.355+08:00",
       "error": null
     }
   },
