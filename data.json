@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T00:45:01.656+08:00",
+  "updatedAt": "2026-07-21T00:54:02.148+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@
     "windDir": "西北风",
     "place": "北京",
     "observedAt": "2026-07-21T00:37:24.424+08:00",
-    "fetchedAt": "2026-07-21T00:45:01.656+08:00",
+    "fetchedAt": "2026-07-21T00:54:02.149+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@
       "balance": 26.63,
       "currency": "CNY",
       "detail": "余额 ¥26.63",
-      "fetchedAt": "2026-07-21T00:45:00.306+08:00",
+      "fetchedAt": "2026-07-21T00:54:00.315+08:00",
       "error": null
     },
     "claude": {
@@ -43,7 +43,7 @@
       "fetchedAt": "2026-07-21T00:15:00.360+08:00",
       "error": "Claude 登录凭证中没有 accessToken",
       "stale": true,
-      "lastAttemptAt": "2026-07-21T00:45:00.354+08:00"
+      "lastAttemptAt": "2026-07-21T00:54:00.365+08:00"
     },
     "codex": {
       "ok": true,
@@ -55,7 +55,7 @@
           "resetAt": "2026-07-25T11:27:41.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-21T00:45:00.355+08:00",
+      "fetchedAt": "2026-07-21T00:54:00.365+08:00",
       "error": null
     },
     "kimi": {
@@ -64,12 +64,12 @@
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 19,
+          "usedPct": 20,
           "resetAt": "2026-07-21T02:02:02.691+08:00"
         },
         {
           "name": "周",
-          "usedPct": 58,
+          "usedPct": 59,
           "resetAt": "2026-07-24T13:02:02.691+08:00"
         },
         {
@@ -79,7 +79,7 @@
           "observedAt": "2026-07-20T22:00:04.871+08:00"
         }
       ],
-      "fetchedAt": "2026-07-21T00:45:00.365+08:00",
+      "fetchedAt": "2026-07-21T00:54:00.376+08:00",
       "error": null
     }
   },
