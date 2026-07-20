@@ -239,9 +239,29 @@
     }, delay);
   }
 
+  function loadQuote() {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'daily-quote.json?_=' + Date.now(), true);
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState !== 4) return;
+      if (xhr.status !== 200) return;
+      try {
+        var q = JSON.parse(xhr.responseText);
+        if (q && q.text) {
+          var qtNode = el('quoteText');
+          var qsNode = el('quoteSrc');
+          if (qtNode) nodeText(qtNode, q.text);
+          if (qsNode && q.source) nodeText(qsNode, '— ' + q.source);
+        }
+      } catch (e) {}
+    };
+    xhr.send(null);
+  }
+
   render(window.DASH_DATA);
   clock();
   battery();
+  loadQuote();
   if (!quietHours()) poll();
   schedulePoll();
   scheduleClock();
