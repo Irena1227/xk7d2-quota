@@ -206,7 +206,7 @@
     var script = document.createElement('script');
     script.async = true;
     script.src = LIVE + (LIVE.indexOf('?') < 0 ? '?' : '&') + '_=' + Date.now();
-    script.onload = function () { render(window.DASH_DATA); if (script.parentNode) script.parentNode.removeChild(script); };
+    script.onload = function () { render(window.DASH_DATA); loadQuote(); if (script.parentNode) script.parentNode.removeChild(script); };
     script.onerror = function () { if (script.parentNode) script.parentNode.removeChild(script); };
     document.getElementsByTagName('head')[0].appendChild(script);
   }
