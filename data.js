@@ -1,18 +1,18 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-21T00:36:02.276+08:00",
+  "updatedAt": "2026-07-21T00:45:01.656+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
-    "description": "雨",
-    "iconKey": "rain",
+    "description": "雾霾",
+    "iconKey": "fog",
     "tempC": 22,
-    "feelsLikeC": 22,
-    "humidity": 97,
-    "windKph": 18,
-    "windDir": "东南风",
+    "feelsLikeC": 21,
+    "humidity": 98,
+    "windKph": 22,
+    "windDir": "西北风",
     "place": "北京",
-    "observedAt": "2026-07-20T23:37:18.165+08:00",
-    "fetchedAt": "2026-07-21T00:36:02.276+08:00",
+    "observedAt": "2026-07-21T00:37:24.424+08:00",
+    "fetchedAt": "2026-07-21T00:45:01.656+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 26.63,
       "currency": "CNY",
       "detail": "余额 ¥26.63",
-      "fetchedAt": "2026-07-21T00:36:00.319+08:00",
+      "fetchedAt": "2026-07-21T00:45:00.306+08:00",
       "error": null
     },
     "claude": {
@@ -41,9 +41,9 @@ window.DASH_DATA = {
         }
       ],
       "fetchedAt": "2026-07-21T00:15:00.360+08:00",
-      "error": "HTTP 429：Rate limited. Please try again later.",
+      "error": "Claude 登录凭证中没有 accessToken",
       "stale": true,
-      "lastAttemptAt": "2026-07-21T00:36:00.366+08:00"
+      "lastAttemptAt": "2026-07-21T00:45:00.354+08:00"
     },
     "codex": {
       "ok": true,
@@ -55,7 +55,7 @@ window.DASH_DATA = {
           "resetAt": "2026-07-25T11:27:41.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-21T00:36:00.367+08:00",
+      "fetchedAt": "2026-07-21T00:45:00.355+08:00",
       "error": null
     },
     "kimi": {
@@ -64,12 +64,12 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 11,
+          "usedPct": 19,
           "resetAt": "2026-07-21T02:02:02.691+08:00"
         },
         {
           "name": "周",
-          "usedPct": 57,
+          "usedPct": 58,
           "resetAt": "2026-07-24T13:02:02.691+08:00"
         },
         {
@@ -79,7 +79,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-20T22:00:04.871+08:00"
         }
       ],
-      "fetchedAt": "2026-07-21T00:36:00.377+08:00",
+      "fetchedAt": "2026-07-21T00:45:00.365+08:00",
       "error": null
     }
   },
