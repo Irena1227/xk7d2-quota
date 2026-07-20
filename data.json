@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T19:56:01.768+08:00",
+  "updatedAt": "2026-07-20T20:06:01.813+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@
     "windDir": "东风",
     "place": "北京",
     "observedAt": "2026-07-20T19:21:37.462+08:00",
-    "fetchedAt": "2026-07-20T19:56:01.768+08:00",
+    "fetchedAt": "2026-07-20T20:06:01.813+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@
       "balance": 26.63,
       "currency": "CNY",
       "detail": "余额 ¥26.63",
-      "fetchedAt": "2026-07-20T19:56:00.321+08:00",
+      "fetchedAt": "2026-07-20T20:06:00.319+08:00",
       "error": null
     },
     "claude": {
@@ -32,18 +32,18 @@
         {
           "name": "5小时",
           "usedPct": 5,
-          "resetAt": "2026-07-20T23:19:59.871+08:00"
+          "resetAt": "2026-07-20T23:19:59.913+08:00"
         },
         {
           "name": "7天",
           "usedPct": 57,
-          "resetAt": "2026-07-23T19:59:59.871+08:00"
+          "resetAt": "2026-07-23T19:59:59.913+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T19:55:00.356+08:00",
+      "fetchedAt": "2026-07-20T20:05:00.361+08:00",
       "error": "HTTP 429：Rate limited. Please try again later.",
       "stale": true,
-      "lastAttemptAt": "2026-07-20T19:56:00.369+08:00"
+      "lastAttemptAt": "2026-07-20T20:06:00.370+08:00"
     },
     "codex": {
       "ok": true,
@@ -52,10 +52,10 @@
         {
           "name": "周",
           "usedPct": 90,
-          "resetAt": "2026-07-25T11:27:42.000+08:00"
+          "resetAt": "2026-07-25T11:27:41.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T19:56:00.371+08:00",
+      "fetchedAt": "2026-07-20T20:06:00.372+08:00",
       "error": null
     },
     "kimi": {
@@ -81,7 +81,7 @@
           "resetAt": null
         }
       ],
-      "fetchedAt": "2026-07-20T19:56:00.381+08:00",
+      "fetchedAt": "2026-07-20T20:06:00.384+08:00",
       "error": null
     }
   }
