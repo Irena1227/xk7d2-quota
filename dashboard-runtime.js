@@ -2,13 +2,41 @@
   var LIVE = window.DASH_LIVE_ENDPOINT || '';
   var last = null;
   var rendered = '';
+  var POLL_INTERVAL_MS = 3 * 60 * 1000;
+  var POLL_OFFSET_MS = 5000;
   var WD = ['周日','周一','周二','周三','周四','周五','周六'];
 
   function el(id) { return document.getElementById(id); }
-  function txt(id, value) { var node = el(id); if (node) node.textContent = value; }
+  function nodeText(node, value) {
+    value = String(value);
+    if (node && node.textContent !== value) node.textContent = value;
+  }
+  function txt(id, value) { nodeText(el(id), value); }
+  function nodeClass(node, value) {
+    if (node && node.className !== value) node.className = value;
+  }
+  function nodeHtml(node, value) {
+    if (node && node.innerHTML !== value) node.innerHTML = value;
+  }
+  function nodeStyle(node, name, value) {
+    if (node && node.style[name] !== value) node.style[name] = value;
+  }
+  function nodeAttr(node, name, value) {
+    value = String(value);
+    if (node && node.getAttribute(name) !== value) node.setAttribute(name, value);
+  }
   function pad(n) { return n < 10 ? '0' + n : '' + n; }
   function stamp(value) { var n = Date.parse(value || ''); return isNaN(n) ? 0 : n; }
   function hhmm(value) { var d = new Date(value); return isNaN(d.getTime()) ? '--:--' : pad(d.getHours()) + ':' + pad(d.getMinutes()); }
+  function quietHours(value) {
+    var hour = (value || new Date()).getHours();
+    return hour >= 3 && hour < 8;
+  }
+  function delayUntilEight(value) {
+    var now = value || new Date();
+    var next = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 0, 5, 0);
+    return Math.max(1000, next.getTime() - now.getTime());
+  }
 
   function clock() {
     var d = new Date();
@@ -20,13 +48,28 @@
 
   function battery() {
     var m = String(location.search || '').match(/[?&]battery=([0-9]{1,3})/);
+    var c = String(location.search || '').match(/[?&]charging=([01])/);
     var pct = m ? Number(m[1]) : null;
-    if (pct === null && window.KINDLE_DEVICE && typeof window.KINDLE_DEVICE.battery === 'number') pct = window.KINDLE_DEVICE.battery;
+    var charging = c ? c[1] === '1' : false;
+    if (window.KINDLE_DEVICE) {
+      if (typeof window.KINDLE_DEVICE.battery === 'number') pct = window.KINDLE_DEVICE.battery;
+      if (typeof window.KINDLE_DEVICE.charging === 'boolean') charging = window.KINDLE_DEVICE.charging;
+      else if (window.KINDLE_DEVICE.charging === 0 || window.KINDLE_DEVICE.charging === 1) charging = window.KINDLE_DEVICE.charging === 1;
+    }
     if (pct === null) return;
     pct = Math.max(0, Math.min(100, pct));
-    txt('batPct', pct + '%');
+    txt('batPct', (charging ? '⚡ ' : '') + pct + '%');
     var fill = el('batFill');
-    if (fill) fill.setAttribute('width', Math.round(18 * pct / 100));
+    nodeAttr(fill, 'width', Math.round(18 * pct / 100));
+  }
+
+  function loadDeviceStatus() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'device-status.js?_=' + Date.now();
+    script.onload = function () { battery(); if (script.parentNode) script.parentNode.removeChild(script); };
+    script.onerror = function () { if (script.parentNode) script.parentNode.removeChild(script); };
+    document.getElementsByTagName('head')[0].appendChild(script);
   }
 
   function heartbeat() {
@@ -34,15 +77,26 @@
     var when = hhmm(last && last.updatedAt);
     var status = el('dataStatus');
     var alert = el('dataAlert');
-    if (!last || age > 10) {
-      if (status) { status.textContent = '离线 · 最后 ' + when; status.className = 'warn'; }
-      if (alert) { alert.textContent = '电脑或数据链路已离线 · 最后在线 ' + when; alert.className = 'data-alert on'; }
-    } else if (age >= 3) {
-      if (status) { status.textContent = '延迟 ' + age + ' 分钟 · ' + when; status.className = 'warn'; }
-      if (alert) { alert.textContent = '实时数据延迟 ' + age + ' 分钟 · 正在显示最后一次结果'; alert.className = 'data-alert on'; }
+    if (quietHours()) {
+      nodeText(status, '夜间省电 · 08:00恢复');
+      nodeClass(status, '');
+      nodeText(alert, '');
+      nodeClass(alert, 'data-alert');
+    } else if (!last || age > 15) {
+      nodeText(status, '离线 · 最后 ' + when);
+      nodeClass(status, 'warn');
+      nodeText(alert, '电脑或数据链路已离线 · 最后在线 ' + when);
+      nodeClass(alert, 'data-alert on');
+    } else if (age >= 7) {
+      nodeText(status, '延迟 ' + age + ' 分钟 · ' + when);
+      nodeClass(status, 'warn');
+      nodeText(alert, '实时数据延迟 ' + age + ' 分钟 · 正在显示最后一次结果');
+      nodeClass(alert, 'data-alert on');
     } else {
-      if (status) { status.textContent = '实时 · ' + when; status.className = ''; }
-      if (alert) { alert.textContent = ''; alert.className = 'data-alert'; }
+      nodeText(status, '实时 · ' + when);
+      nodeClass(status, '');
+      nodeText(alert, '');
+      nodeClass(alert, 'data-alert');
     }
   }
 
@@ -74,31 +128,31 @@
     var windows = source && source.ok && source.windows ? source.windows : [];
     var i, spans, bar, refresh;
     for (i = 0; i < rows.length; i++) {
-      if (i >= windows.length) { rows[i].style.display = 'none'; continue; }
-      rows[i].style.display = 'block';
+      if (i >= windows.length) { nodeStyle(rows[i], 'display', 'none'); continue; }
+      nodeStyle(rows[i], 'display', 'block');
       spans = rows[i].querySelectorAll('.q-label span');
       if (spans.length > 1) {
-        spans[0].textContent = label(windows[i].name);
-        spans[1].textContent = windows[i].displayValue != null
+        nodeText(spans[0], label(windows[i].name));
+        nodeText(spans[1], windows[i].displayValue != null
           ? String(windows[i].displayValue)
-          : Math.round(Number(windows[i].usedPct) || 0) + '%';
+          : Math.round(Number(windows[i].usedPct) || 0) + '%');
       }
       bar = rows[i].querySelector('.q-bar-fill');
       if (bar) {
         var barPct = windows[i].barPct != null ? windows[i].barPct : windows[i].usedPct;
-        bar.style.width = Math.max(0, Math.min(100, Number(barPct) || 0)) + '%';
+        nodeStyle(bar, 'width', Math.max(0, Math.min(100, Number(barPct) || 0)) + '%');
       }
       refresh = rows[i].querySelector('.q-refresh');
-      if (refresh) refresh.textContent = windows[i].detailText || countdown(windows[i].resetAt);
+      nodeText(refresh, windows[i].detailText || countdown(windows[i].resetAt));
     }
     if (!windows.length && rows.length) {
-      rows[0].style.display = 'block';
+      nodeStyle(rows[0], 'display', 'block');
       spans = rows[0].querySelectorAll('.q-label span');
-      if (spans.length > 1) { spans[0].textContent = '获取失败'; spans[1].textContent = '--'; }
+      if (spans.length > 1) { nodeText(spans[0], '获取失败'); nodeText(spans[1], '--'); }
       bar = rows[0].querySelector('.q-bar-fill');
-      if (bar) bar.style.width = '0%';
+      nodeStyle(bar, 'width', '0%');
       refresh = rows[0].querySelector('.q-refresh');
-      if (refresh) refresh.textContent = '↻ 等待下次采集';
+      nodeText(refresh, '↻ 等待下次采集');
     }
   }
 
@@ -116,9 +170,9 @@
     if (!w || !w.ok) return;
     txt('weatherTemp', Math.round(Number(w.tempC)) + '°');
     var icon = el('weatherIcon');
-    if (icon) icon.innerHTML = '<span style="font-size:30px;line-height:1">' + weatherIcon(w.iconKey, w.description) + '</span>';
+    nodeHtml(icon, '<span style="font-size:30px;line-height:1">' + weatherIcon(w.iconKey, w.description) + '</span>');
     var detail = el('weatherDetail');
-    if (detail) detail.innerHTML = String(w.description || '天气') + ' · 体感 ' + Math.round(Number(w.feelsLikeC)) + '° · 湿度 ' + Math.round(Number(w.humidity)) + '%<br>风 ' + Math.round(Number(w.windKph)) + 'km/h · ' + String(w.place || '北京');
+    nodeHtml(detail, String(w.description || '天气') + ' · 体感 ' + Math.round(Number(w.feelsLikeC)) + '° · 湿度 ' + Math.round(Number(w.humidity)) + '%<br>风 ' + Math.round(Number(w.windKph)) + 'km/h · ' + String(w.place || '北京'));
   }
 
   function deepseek(source) {
@@ -147,6 +201,7 @@
   }
 
   function poll() {
+    loadDeviceStatus();
     if (!LIVE || LIVE.indexOf('__LIVE_') === 0) return;
     var script = document.createElement('script');
     script.async = true;
@@ -157,19 +212,37 @@
   }
 
   function schedulePoll() {
-    var now = Date.now();
-    var delay = (5000 - (now % 10000) + 10000) % 10000;
-    if (delay < 250) delay += 10000;
+    var date = new Date();
+    var now = date.getTime();
+    var delay;
+    if (quietHours(date)) {
+      delay = delayUntilEight(date);
+    } else {
+      delay = (POLL_OFFSET_MS - (now % POLL_INTERVAL_MS) + POLL_INTERVAL_MS) % POLL_INTERVAL_MS;
+      if (delay < 250) delay += POLL_INTERVAL_MS;
+    }
     setTimeout(function () {
-      poll();
+      if (!quietHours()) poll();
       schedulePoll();
+    }, delay);
+  }
+
+  function scheduleClock() {
+    var date = new Date();
+    var now = date.getTime();
+    var delay = quietHours(date)
+      ? delayUntilEight(date)
+      : 60000 - (now % 60000) + 100;
+    setTimeout(function () {
+      clock();
+      scheduleClock();
     }, delay);
   }
 
   render(window.DASH_DATA);
   clock();
   battery();
-  poll();
+  if (!quietHours()) poll();
   schedulePoll();
-  setInterval(clock, 30000);
+  scheduleClock();
 }());
