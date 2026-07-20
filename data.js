@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-20T22:54:01.643+08:00",
+  "updatedAt": "2026-07-20T23:06:01.703+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "东南风",
     "place": "北京",
     "observedAt": "2026-07-20T22:52:13.675+08:00",
-    "fetchedAt": "2026-07-20T22:54:01.643+08:00",
+    "fetchedAt": "2026-07-20T23:06:01.703+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 26.63,
       "currency": "CNY",
       "detail": "余额 ¥26.63",
-      "fetchedAt": "2026-07-20T22:54:00.312+08:00",
+      "fetchedAt": "2026-07-20T23:06:00.315+08:00",
       "error": null
     },
     "claude": {
@@ -31,16 +31,16 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 19,
-          "resetAt": "2026-07-20T23:19:59.883+08:00"
+          "usedPct": 32,
+          "resetAt": "2026-07-20T23:19:59.876+08:00"
         },
         {
           "name": "7天",
-          "usedPct": 58,
-          "resetAt": "2026-07-23T19:59:59.883+08:00"
+          "usedPct": 59,
+          "resetAt": "2026-07-23T19:59:59.876+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T22:54:00.356+08:00",
+      "fetchedAt": "2026-07-20T23:06:00.361+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@ window.DASH_DATA = {
           "resetAt": "2026-07-25T11:27:41.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T22:54:00.358+08:00",
+      "fetchedAt": "2026-07-20T23:06:00.362+08:00",
       "error": null
     },
     "kimi": {
@@ -62,7 +62,7 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 10,
+          "usedPct": 11,
           "resetAt": "2026-07-21T02:02:02.691+08:00"
         },
         {
@@ -77,8 +77,12 @@ window.DASH_DATA = {
           "observedAt": "2026-07-20T22:00:04.871+08:00"
         }
       ],
-      "fetchedAt": "2026-07-20T22:54:00.368+08:00",
+      "fetchedAt": "2026-07-20T23:06:00.372+08:00",
       "error": null
     }
+  },
+  "quote": {
+    "text": "从前的日色变得慢，车，马，邮件都慢，一生只够爱一个人。",
+    "source": "木心 ·《从前慢》"
   }
 };

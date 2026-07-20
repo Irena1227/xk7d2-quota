@@ -185,6 +185,14 @@
     }
   }
 
+  function renderQuote(q) {
+    if (!q || !q.text) return;
+    var qtNode = document.querySelector('.quote-text');
+    var qsNode = document.querySelector('.quote-src');
+    if (qtNode) nodeText(qtNode, q.text);
+    if (qsNode && q.source) nodeText(qsNode, '— ' + q.source);
+  }
+
   function render(data) {
     if (!data || !data.updatedAt || !data.sources) return;
     if (rendered && stamp(data.updatedAt) < stamp(rendered)) return;
@@ -196,6 +204,7 @@
       quota('cardCodex', data.sources.codex);
       quota('cardKimi', data.sources.kimi);
       deepseek(data.sources.deepseek);
+      renderQuote(data.quote);
     }
     heartbeat();
   }
@@ -206,7 +215,7 @@
     var script = document.createElement('script');
     script.async = true;
     script.src = LIVE + (LIVE.indexOf('?') < 0 ? '?' : '&') + '_=' + Date.now();
-    script.onload = function () { render(window.DASH_DATA); loadQuote(); if (script.parentNode) script.parentNode.removeChild(script); };
+    script.onload = function () { render(window.DASH_DATA); if (script.parentNode) script.parentNode.removeChild(script); };
     script.onerror = function () { if (script.parentNode) script.parentNode.removeChild(script); };
     document.getElementsByTagName('head')[0].appendChild(script);
   }
@@ -239,29 +248,9 @@
     }, delay);
   }
 
-  function loadQuote() {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'daily-quote.json?_=' + Date.now(), true);
-    xhr.onreadystatechange = function () {
-      if (xhr.readyState !== 4) return;
-      if (xhr.status !== 200) return;
-      try {
-        var q = JSON.parse(xhr.responseText);
-        if (q && q.text) {
-          var qtNode = el('quoteText');
-          var qsNode = el('quoteSrc');
-          if (qtNode) nodeText(qtNode, q.text);
-          if (qsNode && q.source) nodeText(qsNode, '— ' + q.source);
-        }
-      } catch (e) {}
-    };
-    xhr.send(null);
-  }
-
   render(window.DASH_DATA);
   clock();
   battery();
-  loadQuote();
   if (!quietHours()) poll();
   schedulePoll();
   scheduleClock();
