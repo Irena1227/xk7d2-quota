@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-07-21T06:45:02.077+08:00",
+  "updatedAt": "2026-07-21T06:54:01.751+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
     "description": "雾霾",
     "iconKey": "fog",
-    "tempC": 20,
-    "feelsLikeC": 22,
+    "tempC": 22,
+    "feelsLikeC": 25,
     "humidity": 100,
-    "windKph": 7,
-    "windDir": "东南风",
+    "windKph": 4,
+    "windDir": "南风",
     "place": "北京",
-    "observedAt": "2026-07-21T05:07:50.402+08:00",
-    "fetchedAt": "2026-07-21T06:45:02.078+08:00",
+    "observedAt": "2026-07-21T06:53:03.841+08:00",
+    "fetchedAt": "2026-07-21T06:54:01.751+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@
       "balance": 26.63,
       "currency": "CNY",
       "detail": "余额 ¥26.63",
-      "fetchedAt": "2026-07-21T06:45:00.313+08:00",
+      "fetchedAt": "2026-07-21T06:54:00.310+08:00",
       "error": null
     },
     "claude": {
@@ -43,7 +43,7 @@
       "fetchedAt": "2026-07-21T00:15:00.360+08:00",
       "error": "Claude 登录凭证中没有 accessToken",
       "stale": true,
-      "lastAttemptAt": "2026-07-21T06:45:00.357+08:00"
+      "lastAttemptAt": "2026-07-21T06:54:00.353+08:00"
     },
     "codex": {
       "ok": true,
@@ -52,10 +52,10 @@
         {
           "name": "周",
           "usedPct": 98,
-          "resetAt": "2026-07-25T11:27:41.000+08:00"
+          "resetAt": "2026-07-25T11:27:42.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-21T06:45:00.357+08:00",
+      "fetchedAt": "2026-07-21T06:54:00.353+08:00",
       "error": null
     },
     "kimi": {
@@ -79,7 +79,7 @@
           "observedAt": "2026-07-20T22:00:04.871+08:00"
         }
       ],
-      "fetchedAt": "2026-07-21T06:45:00.366+08:00",
+      "fetchedAt": "2026-07-21T06:54:00.363+08:00",
       "error": null
     }
   },
