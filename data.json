@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-07-22T00:36:05.516+08:00",
+  "updatedAt": "2026-07-22T00:45:05.516+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
     "description": "雾霾",
     "iconKey": "fog",
     "tempC": 26,
-    "feelsLikeC": 29,
-    "humidity": 92,
-    "windKph": 6,
-    "windDir": "东南风",
+    "feelsLikeC": 31,
+    "humidity": 98,
+    "windKph": 2,
+    "windDir": "北风",
     "place": "北京",
-    "observedAt": "2026-07-21T21:39:36.890+08:00",
-    "fetchedAt": "2026-07-22T00:36:05.516+08:00",
+    "observedAt": "2026-07-22T00:40:06.860+08:00",
+    "fetchedAt": "2026-07-22T00:45:05.516+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@
       "balance": 26.58,
       "currency": "CNY",
       "detail": "余额 ¥26.58",
-      "fetchedAt": "2026-07-22T00:36:00.304+08:00",
+      "fetchedAt": "2026-07-22T00:45:00.315+08:00",
       "error": null
     },
     "claude": {
@@ -43,7 +43,7 @@
       "fetchedAt": "2026-07-21T23:39:00.374+08:00",
       "error": "fetch failed",
       "stale": true,
-      "lastAttemptAt": "2026-07-22T00:36:00.350+08:00"
+      "lastAttemptAt": "2026-07-22T00:45:00.367+08:00"
     },
     "codex": {
       "ok": true,
@@ -58,7 +58,7 @@
       "fetchedAt": "2026-07-21T23:39:00.376+08:00",
       "error": "failed to fetch codex rate limits: error sending request for url (https://chatgpt.com/backend-api/wham/usage)",
       "stale": true,
-      "lastAttemptAt": "2026-07-22T00:36:00.352+08:00"
+      "lastAttemptAt": "2026-07-22T00:45:00.369+08:00"
     },
     "kimi": {
       "ok": true,
@@ -81,7 +81,7 @@
           "observedAt": "2026-07-21T08:00:04.607+08:00"
         }
       ],
-      "fetchedAt": "2026-07-22T00:36:00.362+08:00",
+      "fetchedAt": "2026-07-22T00:45:00.378+08:00",
       "error": null
     }
   },
