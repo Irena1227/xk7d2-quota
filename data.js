@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-22T01:24:05.867+08:00",
+  "updatedAt": "2026-07-22T01:36:01.737+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "北风",
     "place": "北京",
     "observedAt": "2026-07-22T00:40:06.860+08:00",
-    "fetchedAt": "2026-07-22T01:24:05.868+08:00",
+    "fetchedAt": "2026-07-22T01:36:01.738+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 26.58,
       "currency": "CNY",
       "detail": "余额 ¥26.58",
-      "fetchedAt": "2026-07-22T01:24:00.316+08:00",
+      "fetchedAt": "2026-07-22T01:36:00.317+08:00",
       "error": null
     },
     "claude": {
@@ -41,9 +41,9 @@ window.DASH_DATA = {
         }
       ],
       "fetchedAt": "2026-07-21T23:39:00.374+08:00",
-      "error": "fetch failed",
+      "error": "HTTP 401：Invalid authentication credentials",
       "stale": true,
-      "lastAttemptAt": "2026-07-22T01:24:00.365+08:00"
+      "lastAttemptAt": "2026-07-22T01:36:00.363+08:00"
     },
     "codex": {
       "ok": true,
@@ -51,14 +51,12 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "周",
-          "usedPct": 6,
-          "resetAt": "2026-07-28T16:13:56.000+08:00"
+          "usedPct": 0,
+          "resetAt": "2026-07-29T01:36:01.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-21T23:39:00.376+08:00",
-      "error": "failed to fetch codex rate limits: error sending request for url (https://chatgpt.com/backend-api/wham/usage)",
-      "stale": true,
-      "lastAttemptAt": "2026-07-22T01:24:00.366+08:00"
+      "fetchedAt": "2026-07-22T01:36:00.365+08:00",
+      "error": null
     },
     "kimi": {
       "ok": true,
@@ -81,7 +79,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-21T08:00:04.607+08:00"
         }
       ],
-      "fetchedAt": "2026-07-22T01:24:00.375+08:00",
+      "fetchedAt": "2026-07-22T01:36:00.375+08:00",
       "error": null
     }
   },
