@@ -1,5 +1,6 @@
 (function () {
   var LIVE = window.DASH_LIVE_ENDPOINT || '';
+  var ENDPOINT_POINTER = 'https://irena1227.github.io/xk7d2-quota/live-endpoint.js';
   var last = null;
   var rendered = '';
   var POLL_INTERVAL_MS = 3 * 60 * 1000;
@@ -209,8 +210,7 @@
     heartbeat();
   }
 
-  function poll() {
-    loadDeviceStatus();
+  function loadLiveData() {
     if (!LIVE || LIVE.indexOf('__LIVE_') === 0) return;
     var script = document.createElement('script');
     script.async = true;
@@ -218,6 +218,24 @@
     script.onload = function () { render(window.DASH_DATA); if (script.parentNode) script.parentNode.removeChild(script); };
     script.onerror = function () { if (script.parentNode) script.parentNode.removeChild(script); };
     document.getElementsByTagName('head')[0].appendChild(script);
+  }
+
+  function poll() {
+    loadDeviceStatus();
+    var pointer = document.createElement('script');
+    pointer.async = true;
+    pointer.src = ENDPOINT_POINTER + '?_=' + Date.now();
+    pointer.onload = function () {
+      var next = window.DASH_LIVE_ENDPOINT || '';
+      if (next && next.indexOf('__LIVE_') !== 0) LIVE = next;
+      if (pointer.parentNode) pointer.parentNode.removeChild(pointer);
+      loadLiveData();
+    };
+    pointer.onerror = function () {
+      if (pointer.parentNode) pointer.parentNode.removeChild(pointer);
+      loadLiveData();
+    };
+    document.getElementsByTagName('head')[0].appendChild(pointer);
   }
 
   function schedulePoll() {
