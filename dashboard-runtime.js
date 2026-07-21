@@ -1,6 +1,6 @@
 (function () {
   var LIVE = window.DASH_LIVE_ENDPOINT || '';
-  var ENDPOINT_POINTER = 'https://irena1227.github.io/xk7d2-quota/live-endpoint.js';
+  var ENDPOINT_POINTER = 'https://raw.githubusercontent.com/Irena1227/xk7d2-quota/refs/heads/main/live-endpoint.js';
   var last = null;
   var rendered = '';
   var POLL_INTERVAL_MS = 3 * 60 * 1000;
