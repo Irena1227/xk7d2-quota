@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-21T09:45:01.644+08:00",
+  "updatedAt": "2026-07-21T09:54:01.684+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "东北风",
     "place": "北京",
     "observedAt": "2026-07-21T09:23:17.624+08:00",
-    "fetchedAt": "2026-07-21T09:45:01.644+08:00",
+    "fetchedAt": "2026-07-21T09:54:01.684+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 26.63,
       "currency": "CNY",
       "detail": "余额 ¥26.63",
-      "fetchedAt": "2026-07-21T09:45:00.309+08:00",
+      "fetchedAt": "2026-07-21T09:54:00.301+08:00",
       "error": null
     },
     "claude": {
@@ -31,16 +31,16 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 9,
-          "resetAt": "2026-07-21T13:30:00.131+08:00"
+          "usedPct": 13,
+          "resetAt": "2026-07-21T13:30:00.161+08:00"
         },
         {
           "name": "7天",
           "usedPct": 61,
-          "resetAt": "2026-07-23T20:00:00.131+08:00"
+          "resetAt": "2026-07-23T20:00:00.162+08:00"
         }
       ],
-      "fetchedAt": "2026-07-21T09:45:00.354+08:00",
+      "fetchedAt": "2026-07-21T09:54:00.346+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@ window.DASH_DATA = {
           "resetAt": "2026-07-25T11:27:41.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-21T09:45:00.355+08:00",
+      "fetchedAt": "2026-07-21T09:54:00.348+08:00",
       "error": null
     },
     "kimi": {
@@ -77,12 +77,12 @@ window.DASH_DATA = {
           "observedAt": "2026-07-21T08:00:04.607+08:00"
         }
       ],
-      "fetchedAt": "2026-07-21T09:45:00.365+08:00",
+      "fetchedAt": "2026-07-21T09:54:00.358+08:00",
       "error": null
     }
   },
   "quote": {
-    "text": "从前的日色变得慢，车，马，邮件都慢，一生只够爱一个人。",
-    "source": "木心 ·《从前慢》"
+    "text": "人生天地之间，若白驹之过隙，忽然而已。",
+    "source": "庄子 ·《知北游》"
   }
 };
