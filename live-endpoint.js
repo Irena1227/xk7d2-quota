@@ -1,1 +1,1 @@
-window.DASH_LIVE_ENDPOINT = 'https://voices-halloween-delicious-courtesy.trycloudflare.com/data.js';
+window.DASH_LIVE_ENDPOINT = 'https://kindle-quota-feed.cyberboss-avenil.workers.dev/data.js';
