@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-07-22T05:24:01.611+08:00",
+  "updatedAt": "2026-07-22T05:36:01.630+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
-    "description": "雾霾",
-    "iconKey": "fog",
+    "description": "雨",
+    "iconKey": "rain",
     "tempC": 24,
     "feelsLikeC": 27,
     "humidity": 98,
     "windKph": 7,
     "windDir": "北风",
     "place": "北京",
-    "observedAt": "2026-07-22T04:55:49.502+08:00",
-    "fetchedAt": "2026-07-22T05:24:01.611+08:00",
+    "observedAt": "2026-07-22T05:25:52.282+08:00",
+    "fetchedAt": "2026-07-22T05:36:01.630+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@
       "balance": 26.58,
       "currency": "CNY",
       "detail": "余额 ¥26.58",
-      "fetchedAt": "2026-07-22T05:24:00.302+08:00",
+      "fetchedAt": "2026-07-22T05:36:00.311+08:00",
       "error": null
     },
     "claude": {
@@ -32,15 +32,15 @@
         {
           "name": "5小时",
           "usedPct": 8,
-          "resetAt": "2026-07-22T06:29:59.961+08:00"
+          "resetAt": "2026-07-22T06:29:59.991+08:00"
         },
         {
           "name": "7天",
           "usedPct": 70,
-          "resetAt": "2026-07-23T19:59:59.961+08:00"
+          "resetAt": "2026-07-23T19:59:59.991+08:00"
         }
       ],
-      "fetchedAt": "2026-07-22T05:24:00.345+08:00",
+      "fetchedAt": "2026-07-22T05:36:00.353+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@
           "resetAt": "2026-07-29T01:36:11.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-22T05:24:00.347+08:00",
+      "fetchedAt": "2026-07-22T05:36:00.355+08:00",
       "error": null
     },
     "kimi": {
@@ -77,7 +77,7 @@
           "observedAt": "2026-07-21T08:00:04.607+08:00"
         }
       ],
-      "fetchedAt": "2026-07-22T05:24:00.356+08:00",
+      "fetchedAt": "2026-07-22T05:36:00.364+08:00",
       "error": null
     }
   },
