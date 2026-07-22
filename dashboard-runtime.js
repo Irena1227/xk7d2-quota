@@ -1,6 +1,7 @@
 (function () {
-  var LIVE = window.DASH_LIVE_ENDPOINT || '';
-  var ENDPOINT_POINTER = 'https://raw.githubusercontent.com/Irena1227/xk7d2-quota/refs/heads/main/live-endpoint.js';
+  var STABLE_DATA_FALLBACK = 'https://irena1227.github.io/xk7d2-quota/data.js';
+  var LIVE = window.DASH_LIVE_ENDPOINT || STABLE_DATA_FALLBACK;
+  var ENDPOINT_POINTER = 'https://irena1227.github.io/xk7d2-quota/live-endpoint.js';
   var last = null;
   var rendered = '';
   var POLL_INTERVAL_MS = 3 * 60 * 1000;
@@ -78,6 +79,8 @@
     var when = hhmm(last && last.updatedAt);
     var status = el('dataStatus');
     var alert = el('dataAlert');
+    var rel = el('relTime');
+    if (last) nodeText(rel, age < 1 ? '刚刚更新' : age + '分钟前更新');
     if (quietHours()) {
       nodeText(status, '夜间省电 · 08:00恢复');
       nodeClass(status, '');
@@ -210,14 +213,21 @@
     heartbeat();
   }
 
-  function loadLiveData() {
-    if (!LIVE || LIVE.indexOf('__LIVE_') === 0) return;
+  function loadDataFrom(url, allowFallback) {
+    if (!url || url.indexOf('__LIVE_') === 0) return;
     var script = document.createElement('script');
     script.async = true;
-    script.src = LIVE + (LIVE.indexOf('?') < 0 ? '?' : '&') + '_=' + Date.now();
+    script.src = url + (url.indexOf('?') < 0 ? '?' : '&') + '_=' + Date.now();
     script.onload = function () { render(window.DASH_DATA); if (script.parentNode) script.parentNode.removeChild(script); };
-    script.onerror = function () { if (script.parentNode) script.parentNode.removeChild(script); };
+    script.onerror = function () {
+      if (script.parentNode) script.parentNode.removeChild(script);
+      if (allowFallback && url !== STABLE_DATA_FALLBACK) loadDataFrom(STABLE_DATA_FALLBACK, false);
+    };
     document.getElementsByTagName('head')[0].appendChild(script);
+  }
+
+  function loadLiveData() {
+    loadDataFrom(LIVE, true);
   }
 
   function poll() {
@@ -233,6 +243,7 @@
     };
     pointer.onerror = function () {
       if (pointer.parentNode) pointer.parentNode.removeChild(pointer);
+      LIVE = STABLE_DATA_FALLBACK;
       loadLiveData();
     };
     document.getElementsByTagName('head')[0].appendChild(pointer);
