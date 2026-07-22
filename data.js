@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-22T17:36:11.764+08:00",
+  "updatedAt": "2026-07-22T17:45:02.815+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "北风",
     "place": "北京",
     "observedAt": "2026-07-22T17:27:06.848+08:00",
-    "fetchedAt": "2026-07-22T17:36:11.764+08:00",
+    "fetchedAt": "2026-07-22T17:45:02.815+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 26.58,
       "currency": "CNY",
       "detail": "余额 ¥26.58",
-      "fetchedAt": "2026-07-22T17:36:00.309+08:00",
+      "fetchedAt": "2026-07-22T17:45:00.314+08:00",
       "error": null
     },
     "claude": {
@@ -32,16 +32,18 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-07-22T21:49:59.840+08:00"
+          "resetAt": "2026-07-22T21:49:59.827+08:00"
         },
         {
           "name": "7天",
           "usedPct": 73,
-          "resetAt": "2026-07-23T19:59:59.840+08:00"
+          "resetAt": "2026-07-23T19:59:59.827+08:00"
         }
       ],
-      "fetchedAt": "2026-07-22T17:36:00.354+08:00",
-      "error": null
+      "fetchedAt": "2026-07-22T17:39:00.361+08:00",
+      "error": "HTTP 401：Invalid authentication credentials",
+      "stale": true,
+      "lastAttemptAt": "2026-07-22T17:45:00.357+08:00"
     },
     "codex": {
       "ok": true,
@@ -49,11 +51,11 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "周",
-          "usedPct": 8,
-          "resetAt": "2026-07-29T01:36:20.000+08:00"
+          "usedPct": 9,
+          "resetAt": "2026-07-29T01:36:11.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-22T17:36:00.356+08:00",
+      "fetchedAt": "2026-07-22T17:45:00.359+08:00",
       "error": null
     },
     "kimi": {
@@ -77,7 +79,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-22T08:00:04.501+08:00"
         }
       ],
-      "fetchedAt": "2026-07-22T17:36:00.364+08:00",
+      "fetchedAt": "2026-07-22T17:45:00.368+08:00",
       "error": null
     }
   },
