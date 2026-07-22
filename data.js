@@ -1,18 +1,18 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-22T12:54:01.732+08:00",
+  "updatedAt": "2026-07-22T13:06:01.829+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
     "description": "阴",
     "iconKey": "overcast",
     "tempC": 23,
-    "feelsLikeC": 24,
-    "humidity": 96,
-    "windKph": 16,
+    "feelsLikeC": 23,
+    "humidity": 94,
+    "windKph": 17,
     "windDir": "东风",
     "place": "北京",
-    "observedAt": "2026-07-22T11:56:34.919+08:00",
-    "fetchedAt": "2026-07-22T12:54:01.732+08:00",
+    "observedAt": "2026-07-22T12:56:40.572+08:00",
+    "fetchedAt": "2026-07-22T13:06:01.829+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 26.58,
       "currency": "CNY",
       "detail": "余额 ¥26.58",
-      "fetchedAt": "2026-07-22T12:54:00.311+08:00",
+      "fetchedAt": "2026-07-22T13:06:00.304+08:00",
       "error": null
     },
     "claude": {
@@ -32,15 +32,15 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 2,
-          "resetAt": "2026-07-22T16:49:59.852+08:00"
+          "resetAt": "2026-07-22T16:49:59.775+08:00"
         },
         {
           "name": "7天",
           "usedPct": 73,
-          "resetAt": "2026-07-23T19:59:59.852+08:00"
+          "resetAt": "2026-07-23T19:59:59.775+08:00"
         }
       ],
-      "fetchedAt": "2026-07-22T12:54:00.356+08:00",
+      "fetchedAt": "2026-07-22T13:06:00.350+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@ window.DASH_DATA = {
           "resetAt": "2026-07-29T01:36:11.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-22T12:54:00.357+08:00",
+      "fetchedAt": "2026-07-22T13:06:00.351+08:00",
       "error": null
     },
     "kimi": {
@@ -62,8 +62,8 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 33,
-          "resetAt": "2026-07-22T13:02:02.691+08:00"
+          "usedPct": 0,
+          "resetAt": "2026-07-22T18:02:02.691+08:00"
         },
         {
           "name": "周",
@@ -77,7 +77,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-22T08:00:04.501+08:00"
         }
       ],
-      "fetchedAt": "2026-07-22T12:54:00.366+08:00",
+      "fetchedAt": "2026-07-22T13:06:00.360+08:00",
       "error": null
     }
   },
