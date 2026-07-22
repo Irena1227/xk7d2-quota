@@ -209,6 +209,8 @@
       quota('cardKimi', data.sources.kimi);
       deepseek(data.sources.deepseek);
       renderQuote(data.quote);
+      var rel = el('relTime');
+      if (rel) nodeAttr(rel, 'data-ts', data.updatedAt);
     }
     heartbeat();
   }
