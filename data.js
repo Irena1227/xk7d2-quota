@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-23T06:24:01.580+08:00",
+  "updatedAt": "2026-07-23T06:36:01.885+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -7,12 +7,12 @@ window.DASH_DATA = {
     "iconKey": "fog",
     "tempC": 22,
     "feelsLikeC": 24,
-    "humidity": 99,
-    "windKph": 6,
-    "windDir": "东风",
+    "humidity": 98,
+    "windKph": 8,
+    "windDir": "北风",
     "place": "北京",
-    "observedAt": "2026-07-23T06:13:35.523+08:00",
-    "fetchedAt": "2026-07-23T06:24:01.581+08:00",
+    "observedAt": "2026-07-23T06:28:36.870+08:00",
+    "fetchedAt": "2026-07-23T06:36:01.885+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 26.41,
       "currency": "CNY",
       "detail": "余额 ¥26.41",
-      "fetchedAt": "2026-07-23T06:24:00.307+08:00",
+      "fetchedAt": "2026-07-23T06:36:00.306+08:00",
       "error": null
     },
     "claude": {
@@ -31,16 +31,16 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 7,
-          "resetAt": "2026-07-23T10:10:00.061+08:00"
+          "usedPct": 8,
+          "resetAt": "2026-07-23T10:10:00.100+08:00"
         },
         {
           "name": "7天",
           "usedPct": 77,
-          "resetAt": "2026-07-23T20:00:00.061+08:00"
+          "resetAt": "2026-07-23T20:00:00.100+08:00"
         }
       ],
-      "fetchedAt": "2026-07-23T06:24:00.353+08:00",
+      "fetchedAt": "2026-07-23T06:36:00.350+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@ window.DASH_DATA = {
           "resetAt": "2026-07-29T01:36:11.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-23T06:24:00.355+08:00",
+      "fetchedAt": "2026-07-23T06:36:00.352+08:00",
       "error": null
     },
     "kimi": {
@@ -77,7 +77,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-22T08:00:04.501+08:00"
         }
       ],
-      "fetchedAt": "2026-07-23T06:24:00.364+08:00",
+      "fetchedAt": "2026-07-23T06:36:00.360+08:00",
       "error": null
     }
   },
