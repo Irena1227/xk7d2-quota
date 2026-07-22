@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-07-23T02:24:01.703+08:00",
+  "updatedAt": "2026-07-23T02:36:01.740+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
     "description": "雾霾",
     "iconKey": "fog",
     "tempC": 21,
-    "feelsLikeC": 24,
-    "humidity": 99,
-    "windKph": 2,
-    "windDir": "东风",
+    "feelsLikeC": 23,
+    "humidity": 100,
+    "windKph": 4,
+    "windDir": "西北风",
     "place": "北京",
-    "observedAt": "2026-07-23T01:28:04.701+08:00",
-    "fetchedAt": "2026-07-23T02:24:01.703+08:00",
+    "observedAt": "2026-07-23T02:28:13.125+08:00",
+    "fetchedAt": "2026-07-23T02:36:01.740+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@
       "balance": 26.41,
       "currency": "CNY",
       "detail": "余额 ¥26.41",
-      "fetchedAt": "2026-07-23T02:24:00.303+08:00",
+      "fetchedAt": "2026-07-23T02:36:00.301+08:00",
       "error": null
     },
     "claude": {
@@ -32,18 +32,16 @@
         {
           "name": "5小时",
           "usedPct": 10,
-          "resetAt": "2026-07-23T03:40:00.456+08:00"
+          "resetAt": "2026-07-23T03:40:00.309+08:00"
         },
         {
           "name": "7天",
           "usedPct": 76,
-          "resetAt": "2026-07-23T20:00:00.456+08:00"
+          "resetAt": "2026-07-23T20:00:00.309+08:00"
         }
       ],
-      "fetchedAt": "2026-07-23T02:00:00.354+08:00",
-      "error": "HTTP 429：Rate limited. Please try again later.",
-      "stale": true,
-      "lastAttemptAt": "2026-07-23T02:24:00.348+08:00"
+      "fetchedAt": "2026-07-23T02:36:00.347+08:00",
+      "error": null
     },
     "codex": {
       "ok": true,
@@ -55,7 +53,7 @@
           "resetAt": "2026-07-29T01:36:11.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-23T02:24:00.350+08:00",
+      "fetchedAt": "2026-07-23T02:36:00.348+08:00",
       "error": null
     },
     "kimi": {
@@ -79,7 +77,7 @@
           "observedAt": "2026-07-22T08:00:04.501+08:00"
         }
       ],
-      "fetchedAt": "2026-07-23T02:24:00.359+08:00",
+      "fetchedAt": "2026-07-23T02:36:00.358+08:00",
       "error": null
     }
   },
