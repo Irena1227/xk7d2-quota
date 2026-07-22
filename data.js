@@ -1,18 +1,18 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-22T18:24:01.774+08:00",
+  "updatedAt": "2026-07-22T18:36:02.122+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
     "description": "阴",
     "iconKey": "overcast",
     "tempC": 24,
-    "feelsLikeC": 25,
-    "humidity": 88,
-    "windKph": 12,
-    "windDir": "北风",
+    "feelsLikeC": 26,
+    "humidity": 86,
+    "windKph": 7,
+    "windDir": "东北风",
     "place": "北京",
-    "observedAt": "2026-07-22T17:27:06.848+08:00",
-    "fetchedAt": "2026-07-22T18:24:01.774+08:00",
+    "observedAt": "2026-07-22T18:27:15.456+08:00",
+    "fetchedAt": "2026-07-22T18:36:02.122+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 26.58,
       "currency": "CNY",
       "detail": "余额 ¥26.58",
-      "fetchedAt": "2026-07-22T18:24:00.318+08:00",
+      "fetchedAt": "2026-07-22T18:36:00.315+08:00",
       "error": null
     },
     "claude": {
@@ -31,16 +31,16 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 3,
-          "resetAt": "2026-07-22T21:49:59.568+08:00"
+          "usedPct": 4,
+          "resetAt": "2026-07-22T21:49:59.884+08:00"
         },
         {
           "name": "7天",
           "usedPct": 73,
-          "resetAt": "2026-07-23T19:59:59.568+08:00"
+          "resetAt": "2026-07-23T19:59:59.884+08:00"
         }
       ],
-      "fetchedAt": "2026-07-22T18:24:00.363+08:00",
+      "fetchedAt": "2026-07-22T18:36:00.363+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@ window.DASH_DATA = {
           "resetAt": "2026-07-29T01:36:11.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-22T18:24:00.364+08:00",
+      "fetchedAt": "2026-07-22T18:36:00.365+08:00",
       "error": null
     },
     "kimi": {
@@ -77,7 +77,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-22T08:00:04.501+08:00"
         }
       ],
-      "fetchedAt": "2026-07-22T18:24:00.373+08:00",
+      "fetchedAt": "2026-07-22T18:36:00.376+08:00",
       "error": null
     }
   },
