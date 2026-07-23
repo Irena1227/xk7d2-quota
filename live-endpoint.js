@@ -1,1 +1,1 @@
-window.DASH_LIVE_ENDPOINT = 'https://factors-insured-worth-purchasing.trycloudflare.com/data.js';
+window.DASH_LIVE_ENDPOINT = 'https://irena1227.github.io/xk7d2-quota/data.js';
