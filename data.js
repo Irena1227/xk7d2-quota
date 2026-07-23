@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-23T11:15:02.111+08:00",
+  "updatedAt": "2026-07-23T11:24:02.375+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "东北风",
     "place": "北京",
     "observedAt": "2026-07-23T10:59:12.295+08:00",
-    "fetchedAt": "2026-07-23T11:15:02.111+08:00",
+    "fetchedAt": "2026-07-23T11:24:02.375+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 26.41,
       "currency": "CNY",
       "detail": "余额 ¥26.41",
-      "fetchedAt": "2026-07-23T11:15:00.313+08:00",
+      "fetchedAt": "2026-07-23T11:24:00.317+08:00",
       "error": null
     },
     "claude": {
@@ -31,16 +31,16 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 21,
-          "resetAt": "2026-07-23T15:10:00.261+08:00"
+          "usedPct": 22,
+          "resetAt": "2026-07-23T15:10:00.194+08:00"
         },
         {
           "name": "7天",
           "usedPct": 80,
-          "resetAt": "2026-07-23T20:00:00.261+08:00"
+          "resetAt": "2026-07-23T20:00:00.194+08:00"
         }
       ],
-      "fetchedAt": "2026-07-23T11:15:00.363+08:00",
+      "fetchedAt": "2026-07-23T11:24:00.363+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@ window.DASH_DATA = {
           "resetAt": "2026-07-29T01:36:11.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-23T11:15:00.365+08:00",
+      "fetchedAt": "2026-07-23T11:24:00.365+08:00",
       "error": null
     },
     "kimi": {
@@ -77,12 +77,12 @@ window.DASH_DATA = {
           "observedAt": "2026-07-23T08:00:04.233+08:00"
         }
       ],
-      "fetchedAt": "2026-07-23T11:15:00.376+08:00",
+      "fetchedAt": "2026-07-23T11:24:00.375+08:00",
       "error": null
     }
   },
   "quote": {
-    "text": "我们把无人走过的路，踩成后来人的近路。",
-    "source": "纤凝 · 给 Avenil"
+    "text": "所谓无底深渊，下去，也是前程万里。",
+    "source": "木心《素履之往》"
   }
 };
