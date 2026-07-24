@@ -1,18 +1,18 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-24T19:24:01.842+08:00",
+  "updatedAt": "2026-07-24T19:36:01.767+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
     "description": "雾霾",
     "iconKey": "fog",
-    "tempC": 29,
-    "feelsLikeC": 32,
-    "humidity": 79,
-    "windKph": 9,
-    "windDir": "东风",
+    "tempC": 27,
+    "feelsLikeC": 30,
+    "humidity": 87,
+    "windKph": 7,
+    "windDir": "东南风",
     "place": "北京",
-    "observedAt": "2026-07-24T18:33:10.854+08:00",
-    "fetchedAt": "2026-07-24T19:24:01.842+08:00",
+    "observedAt": "2026-07-24T19:33:16.551+08:00",
+    "fetchedAt": "2026-07-24T19:36:01.767+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.8,
       "currency": "CNY",
       "detail": "余额 ¥25.80",
-      "fetchedAt": "2026-07-24T19:24:00.322+08:00",
+      "fetchedAt": "2026-07-24T19:36:00.303+08:00",
       "error": null
     },
     "claude": {
@@ -32,15 +32,15 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 2,
-          "resetAt": "2026-07-24T22:59:59.957+08:00"
+          "resetAt": "2026-07-24T23:00:00.001+08:00"
         },
         {
           "name": "7天",
           "usedPct": 10,
-          "resetAt": "2026-07-30T19:59:59.957+08:00"
+          "resetAt": "2026-07-30T20:00:00.001+08:00"
         }
       ],
-      "fetchedAt": "2026-07-24T19:24:00.366+08:00",
+      "fetchedAt": "2026-07-24T19:36:00.349+08:00",
       "error": null
     },
     "codex": {
@@ -49,11 +49,11 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "周",
-          "usedPct": 46,
+          "usedPct": 47,
           "resetAt": "2026-07-29T01:36:11.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-24T19:24:00.368+08:00",
+      "fetchedAt": "2026-07-24T19:36:00.350+08:00",
       "error": null
     },
     "kimi": {
@@ -62,7 +62,7 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 17,
+          "usedPct": 19,
           "resetAt": "2026-07-24T20:02:02.691+08:00"
         },
         {
@@ -77,7 +77,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-24T08:00:04.127+08:00"
         }
       ],
-      "fetchedAt": "2026-07-24T19:24:00.380+08:00",
+      "fetchedAt": "2026-07-24T19:36:00.361+08:00",
       "error": null
     }
   },
