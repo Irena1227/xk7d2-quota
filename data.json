@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-07-24T07:54:01.795+08:00",
+  "updatedAt": "2026-07-24T08:06:01.936+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
     "description": "雾霾",
     "iconKey": "fog",
-    "tempC": 22,
-    "feelsLikeC": 25,
-    "humidity": 100,
-    "windKph": 3,
-    "windDir": "南风",
+    "tempC": 24,
+    "feelsLikeC": 27,
+    "humidity": 97,
+    "windKph": 7,
+    "windDir": "西北风",
     "place": "北京",
-    "observedAt": "2026-07-24T05:01:27.556+08:00",
-    "fetchedAt": "2026-07-24T07:54:01.795+08:00",
+    "observedAt": "2026-07-24T08:01:46.759+08:00",
+    "fetchedAt": "2026-07-24T08:06:01.937+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@
       "balance": 25.95,
       "currency": "CNY",
       "detail": "余额 ¥25.95",
-      "fetchedAt": "2026-07-24T07:54:00.320+08:00",
+      "fetchedAt": "2026-07-24T08:06:00.315+08:00",
       "error": null
     },
     "claude": {
@@ -31,16 +31,16 @@
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 26,
-          "resetAt": "2026-07-24T08:00:00.016+08:00"
+          "usedPct": 0,
+          "resetAt": "2026-07-24T13:00:00.037+08:00"
         },
         {
           "name": "7天",
           "usedPct": 6,
-          "resetAt": "2026-07-30T20:00:00.016+08:00"
+          "resetAt": "2026-07-30T20:00:00.037+08:00"
         }
       ],
-      "fetchedAt": "2026-07-24T07:54:00.366+08:00",
+      "fetchedAt": "2026-07-24T08:06:00.362+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@
           "resetAt": "2026-07-29T01:36:11.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-24T07:54:00.368+08:00",
+      "fetchedAt": "2026-07-24T08:06:00.364+08:00",
       "error": null
     },
     "kimi": {
@@ -72,12 +72,12 @@
         },
         {
           "name": "月",
-          "usedPct": 35.1,
+          "usedPct": 36.9,
           "resetAt": "2026-08-16T00:00:00.000+08:00",
-          "observedAt": "2026-07-23T08:00:04.233+08:00"
+          "observedAt": "2026-07-24T08:00:04.127+08:00"
         }
       ],
-      "fetchedAt": "2026-07-24T07:54:00.377+08:00",
+      "fetchedAt": "2026-07-24T08:06:00.373+08:00",
       "error": null
     }
   },
