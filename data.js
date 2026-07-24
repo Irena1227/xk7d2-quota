@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-24T12:54:01.766+08:00",
+  "updatedAt": "2026-07-24T13:06:01.645+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,17 +12,17 @@ window.DASH_DATA = {
     "windDir": "东风",
     "place": "北京",
     "observedAt": "2026-07-24T12:32:20.105+08:00",
-    "fetchedAt": "2026-07-24T12:54:01.766+08:00",
+    "fetchedAt": "2026-07-24T13:06:01.646+08:00",
     "error": null
   },
   "sources": {
     "deepseek": {
       "ok": true,
       "label": "DeepSeek",
-      "balance": 25.95,
+      "balance": 25.8,
       "currency": "CNY",
-      "detail": "余额 ¥25.95",
-      "fetchedAt": "2026-07-24T12:54:00.312+08:00",
+      "detail": "余额 ¥25.80",
+      "fetchedAt": "2026-07-24T13:06:00.314+08:00",
       "error": null
     },
     "claude": {
@@ -31,16 +31,16 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 5,
-          "resetAt": "2026-07-24T12:59:59.951+08:00"
+          "usedPct": 3,
+          "resetAt": "2026-07-24T17:59:59.986+08:00"
         },
         {
           "name": "7天",
-          "usedPct": 6,
-          "resetAt": "2026-07-30T19:59:59.952+08:00"
+          "usedPct": 7,
+          "resetAt": "2026-07-30T19:59:59.986+08:00"
         }
       ],
-      "fetchedAt": "2026-07-24T12:54:00.356+08:00",
+      "fetchedAt": "2026-07-24T13:06:00.359+08:00",
       "error": null
     },
     "codex": {
@@ -49,11 +49,11 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "周",
-          "usedPct": 40,
+          "usedPct": 41,
           "resetAt": "2026-07-29T01:36:11.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-24T12:54:00.357+08:00",
+      "fetchedAt": "2026-07-24T13:06:00.361+08:00",
       "error": null
     },
     "kimi": {
@@ -66,18 +66,13 @@ window.DASH_DATA = {
           "resetAt": "2026-07-24T15:02:02.691+08:00"
         },
         {
-          "name": "周",
-          "usedPct": 100,
-          "resetAt": "2026-07-24T13:02:02.691+08:00"
-        },
-        {
           "name": "月",
           "usedPct": 36.9,
           "resetAt": "2026-08-16T00:00:00.000+08:00",
           "observedAt": "2026-07-24T08:00:04.127+08:00"
         }
       ],
-      "fetchedAt": "2026-07-24T12:54:00.366+08:00",
+      "fetchedAt": "2026-07-24T13:06:00.370+08:00",
       "error": null
     }
   },
