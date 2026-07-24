@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-25T03:24:01.694+08:00",
+  "updatedAt": "2026-07-25T03:36:01.620+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "东北风",
     "place": "北京",
     "observedAt": "2026-07-25T02:04:04.431+08:00",
-    "fetchedAt": "2026-07-25T03:24:01.694+08:00",
+    "fetchedAt": "2026-07-25T03:36:01.620+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.8,
       "currency": "CNY",
       "detail": "余额 ¥25.80",
-      "fetchedAt": "2026-07-25T03:24:00.308+08:00",
+      "fetchedAt": "2026-07-25T03:36:00.311+08:00",
       "error": null
     },
     "claude": {
@@ -32,16 +32,18 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 26,
-          "resetAt": "2026-07-25T04:50:00.894+08:00"
+          "resetAt": "2026-07-25T04:50:00.957+08:00"
         },
         {
           "name": "7天",
           "usedPct": 13,
-          "resetAt": "2026-07-30T19:59:59.894+08:00"
+          "resetAt": "2026-07-30T19:59:59.957+08:00"
         }
       ],
-      "fetchedAt": "2026-07-25T03:24:00.351+08:00",
-      "error": null
+      "fetchedAt": "2026-07-25T03:33:00.347+08:00",
+      "error": "HTTP 401：Invalid authentication credentials",
+      "stale": true,
+      "lastAttemptAt": "2026-07-25T03:36:00.353+08:00"
     },
     "codex": {
       "ok": true,
@@ -53,7 +55,7 @@ window.DASH_DATA = {
           "resetAt": "2026-07-29T01:36:11.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-25T03:24:00.352+08:00",
+      "fetchedAt": "2026-07-25T03:36:00.355+08:00",
       "error": null
     },
     "kimi": {
@@ -77,7 +79,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-24T08:00:04.127+08:00"
         }
       ],
-      "fetchedAt": "2026-07-25T03:24:00.362+08:00",
+      "fetchedAt": "2026-07-25T03:36:00.365+08:00",
       "error": null
     }
   },
