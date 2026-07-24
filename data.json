@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T11:06:01.873+08:00",
+  "updatedAt": "2026-07-24T11:15:01.864+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@
     "windDir": "北风",
     "place": "北京",
     "observedAt": "2026-07-24T10:32:07.437+08:00",
-    "fetchedAt": "2026-07-24T11:06:01.873+08:00",
+    "fetchedAt": "2026-07-24T11:15:01.864+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@
       "balance": 25.95,
       "currency": "CNY",
       "detail": "余额 ¥25.95",
-      "fetchedAt": "2026-07-24T11:06:00.313+08:00",
+      "fetchedAt": "2026-07-24T11:15:00.302+08:00",
       "error": null
     },
     "claude": {
@@ -41,7 +41,9 @@
         }
       ],
       "fetchedAt": "2026-07-24T11:06:00.359+08:00",
-      "error": null
+      "error": "HTTP 401：Invalid authentication credentials",
+      "stale": true,
+      "lastAttemptAt": "2026-07-24T11:15:00.346+08:00"
     },
     "codex": {
       "ok": true,
@@ -53,7 +55,7 @@
           "resetAt": "2026-07-29T01:36:11.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-24T11:06:00.361+08:00",
+      "fetchedAt": "2026-07-24T11:15:00.348+08:00",
       "error": null
     },
     "kimi": {
@@ -77,7 +79,7 @@
           "observedAt": "2026-07-24T08:00:04.127+08:00"
         }
       ],
-      "fetchedAt": "2026-07-24T11:06:00.370+08:00",
+      "fetchedAt": "2026-07-24T11:15:00.359+08:00",
       "error": null
     }
   },
