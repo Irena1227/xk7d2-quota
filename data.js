@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-27T07:24:01.657+08:00",
+  "updatedAt": "2026-07-27T07:36:01.650+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "东北风",
     "place": "北京",
     "observedAt": "2026-07-27T06:41:25.926+08:00",
-    "fetchedAt": "2026-07-27T07:24:01.657+08:00",
+    "fetchedAt": "2026-07-27T07:36:01.650+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.27,
       "currency": "CNY",
       "detail": "余额 ¥25.27",
-      "fetchedAt": "2026-07-27T07:24:00.316+08:00",
+      "fetchedAt": "2026-07-27T07:36:00.310+08:00",
       "error": null
     },
     "claude": {
@@ -31,16 +31,16 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 10,
-          "resetAt": "2026-07-27T11:20:00.419+08:00"
+          "usedPct": 11,
+          "resetAt": "2026-07-27T11:20:00.394+08:00"
         },
         {
           "name": "7天",
           "usedPct": 34,
-          "resetAt": "2026-07-30T20:00:00.419+08:00"
+          "resetAt": "2026-07-30T20:00:00.394+08:00"
         }
       ],
-      "fetchedAt": "2026-07-27T07:24:00.359+08:00",
+      "fetchedAt": "2026-07-27T07:36:00.354+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@ window.DASH_DATA = {
           "resetAt": "2026-08-02T03:30:23.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-27T07:24:00.361+08:00",
+      "fetchedAt": "2026-07-27T07:36:00.355+08:00",
       "error": null
     },
     "kimi": {
@@ -77,12 +77,12 @@ window.DASH_DATA = {
           "observedAt": "2026-07-26T08:00:03.880+08:00"
         }
       ],
-      "fetchedAt": "2026-07-27T07:24:00.370+08:00",
+      "fetchedAt": "2026-07-27T07:36:00.364+08:00",
       "error": null
     }
   },
   "quote": {
-    "text": "真正的发现之旅，不在于寻找新风景，而在于拥有新眼光。",
-    "source": "马塞尔·普鲁斯特《追忆似水年华》"
+    "text": "所有的大人都曾经是小孩，虽然，只有少数的人记得。",
+    "source": "圣-埃克苏佩里《小王子》"
   }
 };
