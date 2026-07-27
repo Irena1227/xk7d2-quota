@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-27T20:54:12.594+08:00",
+  "updatedAt": "2026-07-27T21:18:30.414+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,17 +12,17 @@ window.DASH_DATA = {
     "windDir": "东南风",
     "place": "北京",
     "observedAt": "2026-07-27T12:12:17.839+08:00",
-    "fetchedAt": "2026-07-27T20:54:12.594+08:00",
+    "fetchedAt": "2026-07-27T21:18:30.415+08:00",
     "error": null
   },
   "sources": {
     "deepseek": {
       "ok": true,
       "label": "DeepSeek",
-      "balance": 25.27,
+      "balance": 25.22,
       "currency": "CNY",
-      "detail": "余额 ¥25.27",
-      "fetchedAt": "2026-07-27T20:54:00.304+08:00",
+      "detail": "余额 ¥25.22",
+      "fetchedAt": "2026-07-27T21:18:08.628+08:00",
       "error": null
     },
     "claude": {
@@ -32,16 +32,18 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 21,
-          "resetAt": "2026-07-27T22:50:00.339+08:00"
+          "resetAt": "2026-07-27T22:50:00.466+08:00"
         },
         {
           "name": "7天",
-          "usedPct": 39,
-          "resetAt": "2026-07-30T20:00:00.339+08:00"
+          "usedPct": 40,
+          "resetAt": "2026-07-30T20:00:00.466+08:00"
         }
       ],
-      "fetchedAt": "2026-07-27T20:54:00.347+08:00",
-      "error": null
+      "fetchedAt": "2026-07-27T21:03:00.376+08:00",
+      "error": "HTTP 403：Request not allowed",
+      "stale": true,
+      "lastAttemptAt": "2026-07-27T21:18:09.356+08:00"
     },
     "codex": {
       "ok": true,
@@ -49,12 +51,14 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "周",
-          "usedPct": 40,
+          "usedPct": 41,
           "resetAt": "2026-08-02T03:30:23.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-27T20:54:00.349+08:00",
-      "error": null
+      "fetchedAt": "2026-07-27T21:03:00.378+08:00",
+      "error": "Codex app-server 查询超时",
+      "stale": true,
+      "lastAttemptAt": "2026-07-27T21:18:09.390+08:00"
     },
     "kimi": {
       "ok": true,
@@ -62,7 +66,7 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 6,
+          "usedPct": 7,
           "resetAt": "2026-07-27T23:02:02.691+08:00"
         },
         {
@@ -77,7 +81,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-26T08:00:03.880+08:00"
         }
       ],
-      "fetchedAt": "2026-07-27T20:54:00.358+08:00",
+      "fetchedAt": "2026-07-27T21:18:10.210+08:00",
       "error": null
     }
   },
