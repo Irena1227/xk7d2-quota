@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-27T07:54:01.715+08:00",
+  "updatedAt": "2026-07-27T08:06:05.746+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "东北风",
     "place": "北京",
     "observedAt": "2026-07-27T06:41:25.926+08:00",
-    "fetchedAt": "2026-07-27T07:54:01.715+08:00",
+    "fetchedAt": "2026-07-27T08:06:05.746+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.27,
       "currency": "CNY",
       "detail": "余额 ¥25.27",
-      "fetchedAt": "2026-07-27T07:54:00.301+08:00",
+      "fetchedAt": "2026-07-27T08:06:00.304+08:00",
       "error": null
     },
     "claude": {
@@ -32,15 +32,15 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 11,
-          "resetAt": "2026-07-27T11:20:00.373+08:00"
+          "resetAt": "2026-07-27T11:20:00.366+08:00"
         },
         {
           "name": "7天",
           "usedPct": 34,
-          "resetAt": "2026-07-30T20:00:00.374+08:00"
+          "resetAt": "2026-07-30T20:00:00.366+08:00"
         }
       ],
-      "fetchedAt": "2026-07-27T07:54:00.345+08:00",
+      "fetchedAt": "2026-07-27T08:06:00.349+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@ window.DASH_DATA = {
           "resetAt": "2026-08-02T03:30:23.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-27T07:54:00.346+08:00",
+      "fetchedAt": "2026-07-27T08:06:00.350+08:00",
       "error": null
     },
     "kimi": {
@@ -63,7 +63,7 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-07-27T08:02:02.691+08:00"
+          "resetAt": "2026-07-27T13:02:02.691+08:00"
         },
         {
           "name": "周",
@@ -77,7 +77,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-26T08:00:03.880+08:00"
         }
       ],
-      "fetchedAt": "2026-07-27T07:54:00.355+08:00",
+      "fetchedAt": "2026-07-27T08:06:00.359+08:00",
       "error": null
     }
   },
