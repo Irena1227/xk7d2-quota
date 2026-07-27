@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-27T14:15:12.674+08:00",
+  "updatedAt": "2026-07-27T14:24:12.619+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "东南风",
     "place": "北京",
     "observedAt": "2026-07-27T12:12:17.839+08:00",
-    "fetchedAt": "2026-07-27T14:15:12.674+08:00",
+    "fetchedAt": "2026-07-27T14:24:12.619+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.27,
       "currency": "CNY",
       "detail": "余额 ¥25.27",
-      "fetchedAt": "2026-07-27T14:15:00.313+08:00",
+      "fetchedAt": "2026-07-27T14:24:00.310+08:00",
       "error": null
     },
     "claude": {
@@ -41,9 +41,9 @@ window.DASH_DATA = {
         }
       ],
       "fetchedAt": "2026-07-27T13:09:00.347+08:00",
-      "error": "HTTP 429：Rate limited. Please try again later.",
+      "error": "HTTP 401：Invalid authentication credentials",
       "stale": true,
-      "lastAttemptAt": "2026-07-27T14:15:00.361+08:00"
+      "lastAttemptAt": "2026-07-27T14:24:00.361+08:00"
     },
     "codex": {
       "ok": true,
@@ -55,7 +55,7 @@ window.DASH_DATA = {
           "resetAt": "2026-08-02T03:30:23.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-27T14:15:00.363+08:00",
+      "fetchedAt": "2026-07-27T14:24:00.363+08:00",
       "error": null
     },
     "kimi": {
@@ -79,7 +79,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-26T08:00:03.880+08:00"
         }
       ],
-      "fetchedAt": "2026-07-27T14:15:00.373+08:00",
+      "fetchedAt": "2026-07-27T14:24:00.372+08:00",
       "error": null
     }
   },
