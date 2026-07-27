@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-27T09:24:05.801+08:00",
+  "updatedAt": "2026-07-27T09:36:05.713+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "西北风",
     "place": "北京",
     "observedAt": "2026-07-27T09:11:45.053+08:00",
-    "fetchedAt": "2026-07-27T09:24:05.801+08:00",
+    "fetchedAt": "2026-07-27T09:36:05.713+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.27,
       "currency": "CNY",
       "detail": "余额 ¥25.27",
-      "fetchedAt": "2026-07-27T09:24:00.299+08:00",
+      "fetchedAt": "2026-07-27T09:36:00.304+08:00",
       "error": null
     },
     "claude": {
@@ -32,16 +32,18 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 24,
-          "resetAt": "2026-07-27T11:19:59.909+08:00"
+          "resetAt": "2026-07-27T11:20:00.040+08:00"
         },
         {
           "name": "7天",
           "usedPct": 35,
-          "resetAt": "2026-07-30T19:59:59.909+08:00"
+          "resetAt": "2026-07-30T20:00:00.040+08:00"
         }
       ],
-      "fetchedAt": "2026-07-27T09:24:00.343+08:00",
-      "error": null
+      "fetchedAt": "2026-07-27T09:30:00.367+08:00",
+      "error": "fetch failed",
+      "stale": true,
+      "lastAttemptAt": "2026-07-27T09:36:00.350+08:00"
     },
     "codex": {
       "ok": true,
@@ -49,11 +51,11 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "周",
-          "usedPct": 33,
+          "usedPct": 34,
           "resetAt": "2026-08-02T03:30:23.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-27T09:24:00.345+08:00",
+      "fetchedAt": "2026-07-27T09:36:00.352+08:00",
       "error": null
     },
     "kimi": {
@@ -62,7 +64,7 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 3,
+          "usedPct": 4,
           "resetAt": "2026-07-27T13:02:02.691+08:00"
         },
         {
@@ -77,7 +79,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-26T08:00:03.880+08:00"
         }
       ],
-      "fetchedAt": "2026-07-27T09:24:00.355+08:00",
+      "fetchedAt": "2026-07-27T09:36:00.362+08:00",
       "error": null
     }
   },
