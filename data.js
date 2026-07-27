@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-28T07:24:02.630+08:00",
+  "updatedAt": "2026-07-28T07:36:03.037+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "东风",
     "place": "北京",
     "observedAt": "2026-07-28T05:09:30.571+08:00",
-    "fetchedAt": "2026-07-28T07:24:02.630+08:00",
+    "fetchedAt": "2026-07-28T07:36:03.037+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.17,
       "currency": "CNY",
       "detail": "余额 ¥25.17",
-      "fetchedAt": "2026-07-28T07:24:00.302+08:00",
+      "fetchedAt": "2026-07-28T07:36:00.317+08:00",
       "error": null
     },
     "claude": {
@@ -31,16 +31,16 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 8,
-          "resetAt": "2026-07-28T10:00:00.439+08:00"
+          "usedPct": 16,
+          "resetAt": "2026-07-28T09:59:59.407+08:00"
         },
         {
           "name": "7天",
-          "usedPct": 42,
-          "resetAt": "2026-07-30T20:00:00.439+08:00"
+          "usedPct": 43,
+          "resetAt": "2026-07-30T19:59:59.407+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T07:24:00.347+08:00",
+      "fetchedAt": "2026-07-28T07:36:00.372+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@ window.DASH_DATA = {
           "resetAt": "2026-08-02T03:30:23.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T07:24:00.349+08:00",
+      "fetchedAt": "2026-07-28T07:36:00.374+08:00",
       "error": null
     },
     "kimi": {
@@ -77,12 +77,12 @@ window.DASH_DATA = {
           "observedAt": "2026-07-26T08:00:03.880+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T07:24:00.373+08:00",
+      "fetchedAt": "2026-07-28T07:36:00.395+08:00",
       "error": null
     }
   },
   "quote": {
-    "text": "所有的大人都曾经是小孩，虽然，只有少数的人记得。",
-    "source": "圣-埃克苏佩里《小王子》"
+    "text": "家人闲坐，灯火可亲。",
+    "source": "汪曾祺《冬天》"
   }
 };
