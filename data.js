@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-27T22:54:05.733+08:00",
+  "updatedAt": "2026-07-27T23:06:05.841+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "东南风",
     "place": "北京",
     "observedAt": "2026-07-27T21:38:48.180+08:00",
-    "fetchedAt": "2026-07-27T22:54:05.733+08:00",
+    "fetchedAt": "2026-07-27T23:06:05.841+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.17,
       "currency": "CNY",
       "detail": "余额 ¥25.17",
-      "fetchedAt": "2026-07-27T22:54:00.305+08:00",
+      "fetchedAt": "2026-07-27T23:06:00.330+08:00",
       "error": null
     },
     "claude": {
@@ -32,16 +32,18 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-07-27T22:54:01.886+08:00"
+          "resetAt": "2026-07-27T23:03:01.865+08:00"
         },
         {
           "name": "7天",
           "usedPct": 41,
-          "resetAt": "2026-07-30T19:59:59.739+08:00"
+          "resetAt": "2026-07-30T19:59:59.844+08:00"
         }
       ],
-      "fetchedAt": "2026-07-27T22:54:00.353+08:00",
-      "error": null
+      "fetchedAt": "2026-07-27T23:03:00.364+08:00",
+      "error": "HTTP 401：Invalid authentication credentials",
+      "stale": true,
+      "lastAttemptAt": "2026-07-27T23:06:00.391+08:00"
     },
     "codex": {
       "ok": true,
@@ -49,11 +51,11 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "周",
-          "usedPct": 44,
+          "usedPct": 45,
           "resetAt": "2026-08-02T03:30:23.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-27T22:54:00.355+08:00",
+      "fetchedAt": "2026-07-27T23:06:00.395+08:00",
       "error": null
     },
     "kimi": {
@@ -62,8 +64,8 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 17,
-          "resetAt": "2026-07-27T23:02:02.691+08:00"
+          "usedPct": 0,
+          "resetAt": "2026-07-28T04:02:02.691+08:00"
         },
         {
           "name": "周",
@@ -77,7 +79,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-26T08:00:03.880+08:00"
         }
       ],
-      "fetchedAt": "2026-07-27T22:54:00.364+08:00",
+      "fetchedAt": "2026-07-27T23:06:00.404+08:00",
       "error": null
     }
   },
