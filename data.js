@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-28T10:24:12.591+08:00",
+  "updatedAt": "2026-07-28T10:36:12.599+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "西南风",
     "place": "北京",
     "observedAt": "2026-07-28T09:54:57.128+08:00",
-    "fetchedAt": "2026-07-28T10:24:12.591+08:00",
+    "fetchedAt": "2026-07-28T10:36:12.599+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.17,
       "currency": "CNY",
       "detail": "余额 ¥25.17",
-      "fetchedAt": "2026-07-28T10:24:00.305+08:00",
+      "fetchedAt": "2026-07-28T10:36:00.306+08:00",
       "error": null
     },
     "claude": {
@@ -31,16 +31,16 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 5,
-          "resetAt": "2026-07-28T15:10:00.269+08:00"
+          "usedPct": 8,
+          "resetAt": "2026-07-28T15:09:59.301+08:00"
         },
         {
           "name": "7天",
           "usedPct": 44,
-          "resetAt": "2026-07-30T19:59:59.269+08:00"
+          "resetAt": "2026-07-30T19:59:59.301+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T10:24:00.350+08:00",
+      "fetchedAt": "2026-07-28T10:36:00.350+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@ window.DASH_DATA = {
           "resetAt": "2026-08-02T03:30:23.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T10:24:00.352+08:00",
+      "fetchedAt": "2026-07-28T10:36:00.352+08:00",
       "error": null
     },
     "kimi": {
@@ -77,7 +77,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-26T08:00:03.880+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T10:24:00.360+08:00",
+      "fetchedAt": "2026-07-28T10:36:00.360+08:00",
       "error": null
     }
   },
