@@ -1,18 +1,18 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-28T15:27:02.152+08:00",
+  "updatedAt": "2026-07-28T15:45:12.623+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
     "description": "晴",
     "iconKey": "clear",
-    "tempC": 33,
+    "tempC": 34,
     "feelsLikeC": 36,
-    "humidity": 63,
-    "windKph": 9,
-    "windDir": "南风",
+    "humidity": 61,
+    "windKph": 16,
+    "windDir": "西南风",
     "place": "北京",
-    "observedAt": "2026-07-28T14:25:29.655+08:00",
-    "fetchedAt": "2026-07-28T15:27:02.152+08:00",
+    "observedAt": "2026-07-28T15:40:37.914+08:00",
+    "fetchedAt": "2026-07-28T15:45:12.623+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.17,
       "currency": "CNY",
       "detail": "余额 ¥25.17",
-      "fetchedAt": "2026-07-28T15:27:00.318+08:00",
+      "fetchedAt": "2026-07-28T15:45:00.305+08:00",
       "error": null
     },
     "claude": {
@@ -31,16 +31,16 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 0,
-          "resetAt": "2026-07-28T15:27:01.685+08:00"
+          "usedPct": 2,
+          "resetAt": "2026-07-28T20:30:00.100+08:00"
         },
         {
           "name": "7天",
           "usedPct": 45,
-          "resetAt": "2026-07-30T20:00:00.160+08:00"
+          "resetAt": "2026-07-30T20:00:00.100+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T15:27:00.367+08:00",
+      "fetchedAt": "2026-07-28T15:45:00.351+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@ window.DASH_DATA = {
           "resetAt": "2026-08-04T11:30:31.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T15:27:00.368+08:00",
+      "fetchedAt": "2026-07-28T15:45:00.353+08:00",
       "error": null
     },
     "kimi": {
@@ -77,7 +77,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-26T08:00:03.880+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T15:27:00.379+08:00",
+      "fetchedAt": "2026-07-28T15:45:00.365+08:00",
       "error": null
     }
   },
