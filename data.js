@@ -1,18 +1,18 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-29T05:06:01.689+08:00",
+  "updatedAt": "2026-07-29T05:15:01.955+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
     "description": "雾霾",
     "iconKey": "fog",
-    "tempC": 26,
-    "feelsLikeC": 30,
-    "humidity": 94,
-    "windKph": 4,
+    "tempC": 25,
+    "feelsLikeC": 29,
+    "humidity": 98,
+    "windKph": 5,
     "windDir": "东南风",
     "place": "北京",
-    "observedAt": "2026-07-29T02:11:35.976+08:00",
-    "fetchedAt": "2026-07-29T05:06:01.689+08:00",
+    "observedAt": "2026-07-29T05:11:59.605+08:00",
+    "fetchedAt": "2026-07-29T05:15:01.955+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.12,
       "currency": "CNY",
       "detail": "余额 ¥25.12",
-      "fetchedAt": "2026-07-29T05:06:00.301+08:00",
+      "fetchedAt": "2026-07-29T05:15:00.304+08:00",
       "error": null
     },
     "claude": {
@@ -31,16 +31,16 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 0,
-          "resetAt": "2026-07-29T07:09:59.872+08:00"
+          "usedPct": 18,
+          "resetAt": "2026-07-29T07:10:00.087+08:00"
         },
         {
           "name": "7天",
-          "usedPct": 51,
-          "resetAt": "2026-07-30T19:59:59.872+08:00"
+          "usedPct": 53,
+          "resetAt": "2026-07-30T20:00:00.087+08:00"
         }
       ],
-      "fetchedAt": "2026-07-29T05:06:00.344+08:00",
+      "fetchedAt": "2026-07-29T05:15:00.346+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@ window.DASH_DATA = {
           "resetAt": "2026-08-04T11:30:31.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-29T05:06:00.345+08:00",
+      "fetchedAt": "2026-07-29T05:15:00.348+08:00",
       "error": null
     },
     "kimi": {
@@ -77,7 +77,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-28T21:01:25.002+08:00"
         }
       ],
-      "fetchedAt": "2026-07-29T05:06:00.354+08:00",
+      "fetchedAt": "2026-07-29T05:15:00.356+08:00",
       "error": null
     }
   },
