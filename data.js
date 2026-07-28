@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-29T07:24:01.698+08:00",
+  "updatedAt": "2026-07-29T07:36:01.802+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "东南风",
     "place": "北京",
     "observedAt": "2026-07-29T05:11:59.605+08:00",
-    "fetchedAt": "2026-07-29T07:24:01.698+08:00",
+    "fetchedAt": "2026-07-29T07:36:01.802+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.12,
       "currency": "CNY",
       "detail": "余额 ¥25.12",
-      "fetchedAt": "2026-07-29T07:24:00.307+08:00",
+      "fetchedAt": "2026-07-29T07:36:00.310+08:00",
       "error": null
     },
     "claude": {
@@ -31,16 +31,16 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 0,
-          "resetAt": "2026-07-29T07:24:01.697+08:00"
+          "usedPct": 19,
+          "resetAt": "2026-07-29T12:29:59.897+08:00"
         },
         {
           "name": "7天",
-          "usedPct": 53,
-          "resetAt": "2026-07-30T19:59:59.908+08:00"
+          "usedPct": 55,
+          "resetAt": "2026-07-30T19:59:59.897+08:00"
         }
       ],
-      "fetchedAt": "2026-07-29T07:24:00.350+08:00",
+      "fetchedAt": "2026-07-29T07:36:00.353+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@ window.DASH_DATA = {
           "resetAt": "2026-08-04T11:30:31.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-29T07:24:00.353+08:00",
+      "fetchedAt": "2026-07-29T07:36:00.355+08:00",
       "error": null
     },
     "kimi": {
@@ -77,12 +77,12 @@ window.DASH_DATA = {
           "observedAt": "2026-07-28T21:01:25.002+08:00"
         }
       ],
-      "fetchedAt": "2026-07-29T07:24:00.360+08:00",
+      "fetchedAt": "2026-07-29T07:36:00.363+08:00",
       "error": null
     }
   },
   "quote": {
-    "text": "家人闲坐，灯火可亲。",
-    "source": "汪曾祺《冬天》"
+    "text": "仔细看吧，篱笆墙下，荠菜花开了。",
+    "source": "松尾芭蕉 俳句"
   }
 };
