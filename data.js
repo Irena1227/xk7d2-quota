@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-28T09:36:13.449+08:00",
+  "updatedAt": "2026-07-28T09:45:20.391+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "东南风",
     "place": "北京",
     "observedAt": "2026-07-28T08:54:51.527+08:00",
-    "fetchedAt": "2026-07-28T09:36:13.449+08:00",
+    "fetchedAt": "2026-07-28T09:45:20.391+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.17,
       "currency": "CNY",
       "detail": "余额 ¥25.17",
-      "fetchedAt": "2026-07-28T09:36:00.318+08:00",
+      "fetchedAt": "2026-07-28T09:45:00.322+08:00",
       "error": null
     },
     "claude": {
@@ -32,16 +32,18 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 18,
-          "resetAt": "2026-07-28T10:00:00.120+08:00"
+          "resetAt": "2026-07-28T10:00:00.338+08:00"
         },
         {
           "name": "7天",
           "usedPct": 43,
-          "resetAt": "2026-07-30T20:00:00.120+08:00"
+          "resetAt": "2026-07-30T20:00:00.338+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T09:36:00.367+08:00",
-      "error": null
+      "fetchedAt": "2026-07-28T09:42:00.350+08:00",
+      "error": "fetch failed",
+      "stale": true,
+      "lastAttemptAt": "2026-07-28T09:45:00.366+08:00"
     },
     "codex": {
       "ok": true,
@@ -53,8 +55,10 @@ window.DASH_DATA = {
           "resetAt": "2026-08-02T03:30:23.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T09:36:00.369+08:00",
-      "error": null
+      "fetchedAt": "2026-07-28T09:42:00.352+08:00",
+      "error": "Codex app-server 查询超时",
+      "stale": true,
+      "lastAttemptAt": "2026-07-28T09:45:00.367+08:00"
     },
     "kimi": {
       "ok": true,
@@ -77,7 +81,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-26T08:00:03.880+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T09:36:01.181+08:00",
+      "fetchedAt": "2026-07-28T09:45:00.377+08:00",
       "error": null
     }
   },
