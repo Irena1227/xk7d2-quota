@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-28T16:12:12.570+08:00",
+  "updatedAt": "2026-07-28T16:33:01.723+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "西南风",
     "place": "北京",
     "observedAt": "2026-07-28T15:40:37.914+08:00",
-    "fetchedAt": "2026-07-28T16:12:12.570+08:00",
+    "fetchedAt": "2026-07-28T16:33:01.723+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.17,
       "currency": "CNY",
       "detail": "余额 ¥25.17",
-      "fetchedAt": "2026-07-28T16:12:00.307+08:00",
+      "fetchedAt": "2026-07-28T16:33:00.313+08:00",
       "error": null
     },
     "claude": {
@@ -31,16 +31,16 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 3,
-          "resetAt": "2026-07-28T20:30:00.126+08:00"
+          "usedPct": 4,
+          "resetAt": "2026-07-28T20:30:00.164+08:00"
         },
         {
           "name": "7天",
           "usedPct": 46,
-          "resetAt": "2026-07-30T20:00:00.126+08:00"
+          "resetAt": "2026-07-30T20:00:00.164+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T16:12:00.351+08:00",
+      "fetchedAt": "2026-07-28T16:33:00.357+08:00",
       "error": null
     },
     "codex": {
@@ -54,7 +54,9 @@ window.DASH_DATA = {
         }
       ],
       "fetchedAt": "2026-07-28T16:12:00.353+08:00",
-      "error": null
+      "error": "memory allocation of 524288 bytes failed\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace",
+      "stale": true,
+      "lastAttemptAt": "2026-07-28T16:33:00.359+08:00"
     },
     "kimi": {
       "ok": true,
@@ -62,7 +64,7 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 3,
+          "usedPct": 4,
           "resetAt": "2026-07-28T19:02:02.691+08:00"
         },
         {
@@ -77,7 +79,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-26T08:00:03.880+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T16:12:00.362+08:00",
+      "fetchedAt": "2026-07-28T16:33:00.369+08:00",
       "error": null
     }
   },
