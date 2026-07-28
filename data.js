@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-28T21:24:01.765+08:00",
+  "updatedAt": "2026-07-28T21:36:01.732+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "东南风",
     "place": "北京",
     "observedAt": "2026-07-28T21:11:08.989+08:00",
-    "fetchedAt": "2026-07-28T21:24:01.765+08:00",
+    "fetchedAt": "2026-07-28T21:36:01.732+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.12,
       "currency": "CNY",
       "detail": "余额 ¥25.12",
-      "fetchedAt": "2026-07-28T21:24:00.308+08:00",
+      "fetchedAt": "2026-07-28T21:36:00.305+08:00",
       "error": null
     },
     "claude": {
@@ -31,16 +31,16 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 2,
-          "resetAt": "2026-07-29T01:50:00.258+08:00"
+          "usedPct": 5,
+          "resetAt": "2026-07-29T01:50:00.110+08:00"
         },
         {
           "name": "7天",
-          "usedPct": 48,
-          "resetAt": "2026-07-30T20:00:00.258+08:00"
+          "usedPct": 49,
+          "resetAt": "2026-07-30T20:00:00.110+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T21:24:00.351+08:00",
+      "fetchedAt": "2026-07-28T21:36:00.351+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@ window.DASH_DATA = {
           "resetAt": "2026-08-04T11:30:31.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T21:24:00.352+08:00",
+      "fetchedAt": "2026-07-28T21:36:00.353+08:00",
       "error": null
     },
     "kimi": {
@@ -62,12 +62,12 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 9,
+          "usedPct": 11,
           "resetAt": "2026-07-29T00:02:02.691+08:00"
         },
         {
           "name": "周",
-          "usedPct": 55,
+          "usedPct": 56,
           "resetAt": "2026-07-31T13:02:02.691+08:00"
         },
         {
@@ -77,7 +77,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-28T21:01:25.002+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T21:24:00.362+08:00",
+      "fetchedAt": "2026-07-28T21:36:00.362+08:00",
       "error": null
     }
   },
