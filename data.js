@@ -1,18 +1,18 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-28T10:54:12.648+08:00",
+  "updatedAt": "2026-07-28T11:06:12.727+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
-    "description": "晴",
-    "iconKey": "clear",
-    "tempC": 31,
-    "feelsLikeC": 34,
-    "humidity": 75,
-    "windKph": 13,
-    "windDir": "西南风",
+    "description": "多云",
+    "iconKey": "cloudy",
+    "tempC": 32,
+    "feelsLikeC": 35,
+    "humidity": 73,
+    "windKph": 15,
+    "windDir": "东南风",
     "place": "北京",
-    "observedAt": "2026-07-28T09:54:57.128+08:00",
-    "fetchedAt": "2026-07-28T10:54:12.648+08:00",
+    "observedAt": "2026-07-28T10:55:03.077+08:00",
+    "fetchedAt": "2026-07-28T11:06:12.727+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.17,
       "currency": "CNY",
       "detail": "余额 ¥25.17",
-      "fetchedAt": "2026-07-28T10:54:00.303+08:00",
+      "fetchedAt": "2026-07-28T11:06:00.307+08:00",
       "error": null
     },
     "claude": {
@@ -41,7 +41,9 @@ window.DASH_DATA = {
         }
       ],
       "fetchedAt": "2026-07-28T10:54:00.347+08:00",
-      "error": null
+      "error": "fetch failed",
+      "stale": true,
+      "lastAttemptAt": "2026-07-28T11:06:00.358+08:00"
     },
     "codex": {
       "ok": true,
@@ -54,7 +56,9 @@ window.DASH_DATA = {
         }
       ],
       "fetchedAt": "2026-07-28T10:54:00.349+08:00",
-      "error": null
+      "error": "failed to fetch codex rate limits: error sending request for url (https://chatgpt.com/backend-api/wham/usage)",
+      "stale": true,
+      "lastAttemptAt": "2026-07-28T11:06:00.360+08:00"
     },
     "kimi": {
       "ok": true,
@@ -77,7 +81,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-26T08:00:03.880+08:00"
         }
       ],
-      "fetchedAt": "2026-07-28T10:54:00.358+08:00",
+      "fetchedAt": "2026-07-28T11:06:00.369+08:00",
       "error": null
     }
   },
