@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-29T09:24:01.708+08:00",
+  "updatedAt": "2026-07-29T09:36:01.795+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,7 +12,7 @@ window.DASH_DATA = {
     "windDir": "南风",
     "place": "北京",
     "observedAt": "2026-07-29T08:57:20.521+08:00",
-    "fetchedAt": "2026-07-29T09:24:01.708+08:00",
+    "fetchedAt": "2026-07-29T09:36:01.796+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.12,
       "currency": "CNY",
       "detail": "余额 ¥25.12",
-      "fetchedAt": "2026-07-29T09:24:00.316+08:00",
+      "fetchedAt": "2026-07-29T09:36:00.313+08:00",
       "error": null
     },
     "claude": {
@@ -31,16 +31,16 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 25,
-          "resetAt": "2026-07-29T12:29:59.930+08:00"
+          "usedPct": 26,
+          "resetAt": "2026-07-29T12:30:00.953+08:00"
         },
         {
           "name": "7天",
           "usedPct": 56,
-          "resetAt": "2026-07-30T19:59:59.930+08:00"
+          "resetAt": "2026-07-30T19:59:59.953+08:00"
         }
       ],
-      "fetchedAt": "2026-07-29T09:24:00.359+08:00",
+      "fetchedAt": "2026-07-29T09:36:00.356+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@ window.DASH_DATA = {
           "resetAt": "2026-08-04T11:30:31.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-29T09:24:00.361+08:00",
+      "fetchedAt": "2026-07-29T09:36:00.358+08:00",
       "error": null
     },
     "kimi": {
@@ -62,7 +62,7 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 10,
+          "usedPct": 11,
           "resetAt": "2026-07-29T10:02:02.691+08:00"
         },
         {
@@ -77,7 +77,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-29T08:00:03.717+08:00"
         }
       ],
-      "fetchedAt": "2026-07-29T09:24:00.369+08:00",
+      "fetchedAt": "2026-07-29T09:36:00.367+08:00",
       "error": null
     }
   },
