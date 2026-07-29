@@ -1,18 +1,18 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-29T10:54:01.864+08:00",
+  "updatedAt": "2026-07-29T11:06:02.020+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
-    "description": "晴",
-    "iconKey": "clear",
+    "description": "多云",
+    "iconKey": "cloudy",
     "tempC": 31,
     "feelsLikeC": 33,
     "humidity": 74,
-    "windKph": 20,
+    "windKph": 15,
     "windDir": "南风",
     "place": "北京",
-    "observedAt": "2026-07-29T09:57:26.215+08:00",
-    "fetchedAt": "2026-07-29T10:54:01.864+08:00",
+    "observedAt": "2026-07-29T10:57:32.038+08:00",
+    "fetchedAt": "2026-07-29T11:06:02.021+08:00",
     "error": null
   },
   "sources": {
@@ -22,7 +22,7 @@ window.DASH_DATA = {
       "balance": 25.12,
       "currency": "CNY",
       "detail": "余额 ¥25.12",
-      "fetchedAt": "2026-07-29T10:54:00.311+08:00",
+      "fetchedAt": "2026-07-29T11:06:00.312+08:00",
       "error": null
     },
     "claude": {
@@ -31,16 +31,16 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 38,
-          "resetAt": "2026-07-29T12:29:59.846+08:00"
+          "usedPct": 44,
+          "resetAt": "2026-07-29T12:30:00.827+08:00"
         },
         {
           "name": "7天",
           "usedPct": 57,
-          "resetAt": "2026-07-30T19:59:59.846+08:00"
+          "resetAt": "2026-07-30T20:00:00.827+08:00"
         }
       ],
-      "fetchedAt": "2026-07-29T10:54:00.355+08:00",
+      "fetchedAt": "2026-07-29T11:06:00.356+08:00",
       "error": null
     },
     "codex": {
@@ -53,7 +53,7 @@ window.DASH_DATA = {
           "resetAt": "2026-08-04T11:30:31.000+08:00"
         }
       ],
-      "fetchedAt": "2026-07-29T10:54:00.356+08:00",
+      "fetchedAt": "2026-07-29T11:06:00.357+08:00",
       "error": null
     },
     "kimi": {
@@ -77,7 +77,7 @@ window.DASH_DATA = {
           "observedAt": "2026-07-29T08:00:03.717+08:00"
         }
       ],
-      "fetchedAt": "2026-07-29T10:54:00.365+08:00",
+      "fetchedAt": "2026-07-29T11:06:00.366+08:00",
       "error": null
     }
   },
