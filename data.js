@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-07-30T09:06:01+08:00",
+  "updatedAt": "2026-07-30T09:15:01+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,10 +12,10 @@ window.DASH_DATA = {
     "windDir": "南风",
     "place": "北京",
     "observedAt": "2026-07-30T09:00:38+08:00",
-    "fetchedAt": "2026-07-30T09:06:01+08:00",
+    "fetchedAt": "2026-07-30T09:15:01+08:00",
     "error": null,
-    "checkedAt": "2026-07-30T09:06:01+08:00",
-    "lastSuccessAt": "2026-07-30T09:06:01+08:00",
+    "checkedAt": "2026-07-30T09:15:01+08:00",
+    "lastSuccessAt": "2026-07-30T09:15:01+08:00",
     "stale": false
   },
   "sources": {
@@ -25,10 +25,10 @@ window.DASH_DATA = {
       "balance": 24.95,
       "currency": "CNY",
       "detail": "余额 ¥24.95",
-      "fetchedAt": "2026-07-30T09:06:00+08:00",
+      "fetchedAt": "2026-07-30T09:15:00+08:00",
       "error": null,
-      "checkedAt": "2026-07-30T09:06:01+08:00",
-      "lastSuccessAt": "2026-07-30T09:06:01+08:00",
+      "checkedAt": "2026-07-30T09:15:01+08:00",
+      "lastSuccessAt": "2026-07-30T09:15:01+08:00",
       "stale": false
     },
     "claude": {
@@ -37,27 +37,26 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 0,
-          "resetAt": "2026-07-30T00:24:01+08:00",
-          "stale": true,
-          "checkedAt": "2026-07-30T09:06:01+08:00",
-          "lastSuccessAt": "2026-07-30T00:24:01+08:00"
+          "usedPct": 25,
+          "resetAt": "2026-07-30T14:09:59+08:00",
+          "stale": false,
+          "checkedAt": "2026-07-30T09:15:01+08:00",
+          "lastSuccessAt": "2026-07-30T09:15:01+08:00"
         },
         {
           "name": "7天",
-          "usedPct": 60,
+          "usedPct": 63,
           "resetAt": "2026-07-30T19:59:59+08:00",
-          "stale": true,
-          "checkedAt": "2026-07-30T09:06:01+08:00",
-          "lastSuccessAt": "2026-07-30T00:24:01+08:00"
+          "stale": false,
+          "checkedAt": "2026-07-30T09:15:01+08:00",
+          "lastSuccessAt": "2026-07-30T09:15:01+08:00"
         }
       ],
-      "fetchedAt": "2026-07-30T00:24:00+08:00",
-      "error": "HTTP 429：Rate limited. Please try again later.",
-      "checkedAt": "2026-07-30T09:06:01+08:00",
-      "lastSuccessAt": "2026-07-30T00:24:01+08:00",
-      "stale": true,
-      "lastAttemptAt": "2026-07-30T09:06:01+08:00"
+      "fetchedAt": "2026-07-30T09:15:00+08:00",
+      "error": null,
+      "checkedAt": "2026-07-30T09:15:01+08:00",
+      "lastSuccessAt": "2026-07-30T09:15:01+08:00",
+      "stale": false
     },
     "codex": {
       "ok": true,
@@ -65,17 +64,17 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "周",
-          "usedPct": 23,
+          "usedPct": 24,
           "resetAt": "2026-08-05T12:40:10+08:00",
           "stale": false,
-          "checkedAt": "2026-07-30T09:06:01+08:00",
-          "lastSuccessAt": "2026-07-30T09:06:01+08:00"
+          "checkedAt": "2026-07-30T09:15:01+08:00",
+          "lastSuccessAt": "2026-07-30T09:15:01+08:00"
         }
       ],
-      "fetchedAt": "2026-07-30T09:06:00+08:00",
+      "fetchedAt": "2026-07-30T09:15:00+08:00",
       "error": null,
-      "checkedAt": "2026-07-30T09:06:01+08:00",
-      "lastSuccessAt": "2026-07-30T09:06:01+08:00",
+      "checkedAt": "2026-07-30T09:15:01+08:00",
+      "lastSuccessAt": "2026-07-30T09:15:01+08:00",
       "stale": false
     },
     "kimi": {
@@ -87,16 +86,16 @@ window.DASH_DATA = {
           "usedPct": 9,
           "resetAt": "2026-07-30T11:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-07-30T09:06:01+08:00",
-          "lastSuccessAt": "2026-07-30T09:06:01+08:00"
+          "checkedAt": "2026-07-30T09:15:01+08:00",
+          "lastSuccessAt": "2026-07-30T09:15:01+08:00"
         },
         {
           "name": "周",
           "usedPct": 80,
           "resetAt": "2026-07-31T13:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-07-30T09:06:01+08:00",
-          "lastSuccessAt": "2026-07-30T09:06:01+08:00"
+          "checkedAt": "2026-07-30T09:15:01+08:00",
+          "lastSuccessAt": "2026-07-30T09:15:01+08:00"
         },
         {
           "name": "月",
@@ -104,19 +103,19 @@ window.DASH_DATA = {
           "resetAt": "2026-08-16T00:00:00+08:00",
           "observedAt": "2026-07-30T08:00:04+08:00",
           "stale": false,
-          "checkedAt": "2026-07-30T09:06:01+08:00",
+          "checkedAt": "2026-07-30T09:15:01+08:00",
           "lastSuccessAt": "2026-07-30T08:00:04+08:00"
         }
       ],
-      "fetchedAt": "2026-07-30T09:06:00+08:00",
+      "fetchedAt": "2026-07-30T09:15:00+08:00",
       "error": null,
-      "checkedAt": "2026-07-30T09:06:01+08:00",
-      "lastSuccessAt": "2026-07-30T09:06:01+08:00",
+      "checkedAt": "2026-07-30T09:15:01+08:00",
+      "lastSuccessAt": "2026-07-30T09:15:01+08:00",
       "stale": false
     }
   },
   "quote": {
-    "text": "仔细看吧，篱笆墙下，荠菜花开了。",
-    "source": "松尾芭蕉 俳句"
+    "text": "万物皆有裂痕，那是光照进来的地方。",
+    "source": "莱昂纳德·科恩《颂歌》"
   }
 };
