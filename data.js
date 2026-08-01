@@ -1,21 +1,21 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-08-01T08:54:02+08:00",
+  "updatedAt": "2026-08-01T09:06:02+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
     "description": "阴",
     "iconKey": "overcast",
-    "tempC": 26,
-    "feelsLikeC": 29,
-    "humidity": 90,
+    "tempC": 29,
+    "feelsLikeC": 33,
+    "humidity": 84,
     "windKph": 9,
-    "windDir": "西风",
+    "windDir": "西北风",
     "place": "北京",
-    "observedAt": "2026-08-01T08:04:17+08:00",
-    "fetchedAt": "2026-08-01T08:54:02+08:00",
+    "observedAt": "2026-08-01T09:04:21+08:00",
+    "fetchedAt": "2026-08-01T09:06:02+08:00",
     "error": null,
-    "checkedAt": "2026-08-01T08:54:02+08:00",
-    "lastSuccessAt": "2026-08-01T08:54:02+08:00",
+    "checkedAt": "2026-08-01T09:06:02+08:00",
+    "lastSuccessAt": "2026-08-01T09:06:02+08:00",
     "stale": false
   },
   "sources": {
@@ -25,10 +25,10 @@ window.DASH_DATA = {
       "balance": 24.95,
       "currency": "CNY",
       "detail": "余额 ¥24.95",
-      "fetchedAt": "2026-08-01T08:54:00+08:00",
+      "fetchedAt": "2026-08-01T09:06:00+08:00",
       "error": null,
-      "checkedAt": "2026-08-01T08:54:02+08:00",
-      "lastSuccessAt": "2026-08-01T08:54:02+08:00",
+      "checkedAt": "2026-08-01T09:06:02+08:00",
+      "lastSuccessAt": "2026-08-01T09:06:02+08:00",
       "stale": false
     },
     "claude": {
@@ -40,22 +40,22 @@ window.DASH_DATA = {
           "usedPct": 10,
           "resetAt": "2026-08-01T09:59:59+08:00",
           "stale": false,
-          "checkedAt": "2026-08-01T08:54:02+08:00",
-          "lastSuccessAt": "2026-08-01T08:54:02+08:00"
+          "checkedAt": "2026-08-01T09:06:02+08:00",
+          "lastSuccessAt": "2026-08-01T09:06:02+08:00"
         },
         {
           "name": "7天",
           "usedPct": 4,
           "resetAt": "2026-08-06T19:59:59+08:00",
           "stale": false,
-          "checkedAt": "2026-08-01T08:54:02+08:00",
-          "lastSuccessAt": "2026-08-01T08:54:02+08:00"
+          "checkedAt": "2026-08-01T09:06:02+08:00",
+          "lastSuccessAt": "2026-08-01T09:06:02+08:00"
         }
       ],
-      "fetchedAt": "2026-08-01T08:54:00+08:00",
+      "fetchedAt": "2026-08-01T09:06:00+08:00",
       "error": null,
-      "checkedAt": "2026-08-01T08:54:02+08:00",
-      "lastSuccessAt": "2026-08-01T08:54:02+08:00",
+      "checkedAt": "2026-08-01T09:06:02+08:00",
+      "lastSuccessAt": "2026-08-01T09:06:02+08:00",
       "stale": false
     },
     "codex": {
@@ -67,14 +67,14 @@ window.DASH_DATA = {
           "usedPct": 10,
           "resetAt": "2026-08-07T22:41:48+08:00",
           "stale": false,
-          "checkedAt": "2026-08-01T08:54:02+08:00",
-          "lastSuccessAt": "2026-08-01T08:54:02+08:00"
+          "checkedAt": "2026-08-01T09:06:02+08:00",
+          "lastSuccessAt": "2026-08-01T09:06:02+08:00"
         }
       ],
-      "fetchedAt": "2026-08-01T08:54:00+08:00",
+      "fetchedAt": "2026-08-01T09:06:00+08:00",
       "error": null,
-      "checkedAt": "2026-08-01T08:54:02+08:00",
-      "lastSuccessAt": "2026-08-01T08:54:02+08:00",
+      "checkedAt": "2026-08-01T09:06:02+08:00",
+      "lastSuccessAt": "2026-08-01T09:06:02+08:00",
       "stale": false
     },
     "kimi": {
@@ -86,16 +86,16 @@ window.DASH_DATA = {
           "usedPct": 0,
           "resetAt": "2026-08-01T13:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-08-01T08:54:02+08:00",
-          "lastSuccessAt": "2026-08-01T08:54:02+08:00"
+          "checkedAt": "2026-08-01T09:06:02+08:00",
+          "lastSuccessAt": "2026-08-01T09:06:02+08:00"
         },
         {
           "name": "周",
           "usedPct": 7,
           "resetAt": "2026-08-07T13:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-08-01T08:54:02+08:00",
-          "lastSuccessAt": "2026-08-01T08:54:02+08:00"
+          "checkedAt": "2026-08-01T09:06:02+08:00",
+          "lastSuccessAt": "2026-08-01T09:06:02+08:00"
         },
         {
           "name": "月",
@@ -103,19 +103,19 @@ window.DASH_DATA = {
           "resetAt": "2026-08-16T00:00:00+08:00",
           "observedAt": "2026-08-01T08:00:07+08:00",
           "stale": false,
-          "checkedAt": "2026-08-01T08:54:02+08:00",
+          "checkedAt": "2026-08-01T09:06:02+08:00",
           "lastSuccessAt": "2026-08-01T08:00:07+08:00"
         }
       ],
-      "fetchedAt": "2026-08-01T08:54:00+08:00",
+      "fetchedAt": "2026-08-01T09:06:00+08:00",
       "error": null,
-      "checkedAt": "2026-08-01T08:54:02+08:00",
-      "lastSuccessAt": "2026-08-01T08:54:02+08:00",
+      "checkedAt": "2026-08-01T09:06:02+08:00",
+      "lastSuccessAt": "2026-08-01T09:06:02+08:00",
       "stale": false
     }
   },
   "quote": {
-    "text": "岁月不饶人，我亦未曾饶过岁月。",
-    "source": "木心《云雀叫了一整天》"
+    "text": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
+    "source": "苏轼《定风波》"
   }
 };
