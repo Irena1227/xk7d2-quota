@@ -1,21 +1,21 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-08-11T07:24:01+08:00",
+  "updatedAt": "2026-08-11T07:36:01+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
     "description": "雾霾",
     "iconKey": "fog",
-    "tempC": 23,
-    "feelsLikeC": 25,
-    "humidity": 99,
+    "tempC": 25,
+    "feelsLikeC": 28,
+    "humidity": 97,
     "windKph": 9,
     "windDir": "东风",
     "place": "北京",
-    "observedAt": "2026-08-11T05:01:17+08:00",
-    "fetchedAt": "2026-08-11T07:24:01+08:00",
+    "observedAt": "2026-08-11T07:31:30+08:00",
+    "fetchedAt": "2026-08-11T07:36:01+08:00",
     "error": null,
-    "checkedAt": "2026-08-11T07:24:01+08:00",
-    "lastSuccessAt": "2026-08-11T07:24:01+08:00",
+    "checkedAt": "2026-08-11T07:36:01+08:00",
+    "lastSuccessAt": "2026-08-11T07:36:01+08:00",
     "stale": false
   },
   "sources": {
@@ -25,10 +25,10 @@ window.DASH_DATA = {
       "balance": 23.64,
       "currency": "CNY",
       "detail": "余额 ¥23.64",
-      "fetchedAt": "2026-08-11T07:24:00+08:00",
+      "fetchedAt": "2026-08-11T07:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-08-11T07:24:01+08:00",
-      "lastSuccessAt": "2026-08-11T07:24:01+08:00",
+      "checkedAt": "2026-08-11T07:36:01+08:00",
+      "lastSuccessAt": "2026-08-11T07:36:01+08:00",
       "stale": false
     },
     "claude": {
@@ -37,25 +37,25 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 10,
+          "usedPct": 20,
           "resetAt": "2026-08-11T10:00:00+08:00",
           "stale": false,
-          "checkedAt": "2026-08-11T07:24:01+08:00",
-          "lastSuccessAt": "2026-08-11T07:24:01+08:00"
+          "checkedAt": "2026-08-11T07:36:01+08:00",
+          "lastSuccessAt": "2026-08-11T07:36:01+08:00"
         },
         {
           "name": "7天",
-          "usedPct": 62,
+          "usedPct": 63,
           "resetAt": "2026-08-13T20:00:01+08:00",
           "stale": false,
-          "checkedAt": "2026-08-11T07:24:01+08:00",
-          "lastSuccessAt": "2026-08-11T07:24:01+08:00"
+          "checkedAt": "2026-08-11T07:36:01+08:00",
+          "lastSuccessAt": "2026-08-11T07:36:01+08:00"
         }
       ],
-      "fetchedAt": "2026-08-11T07:24:00+08:00",
+      "fetchedAt": "2026-08-11T07:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-08-11T07:24:01+08:00",
-      "lastSuccessAt": "2026-08-11T07:24:01+08:00",
+      "checkedAt": "2026-08-11T07:36:01+08:00",
+      "lastSuccessAt": "2026-08-11T07:36:01+08:00",
       "stale": false
     },
     "codex": {
@@ -67,14 +67,14 @@ window.DASH_DATA = {
           "usedPct": 32,
           "resetAt": "2026-08-16T04:31:16+08:00",
           "stale": false,
-          "checkedAt": "2026-08-11T07:24:01+08:00",
-          "lastSuccessAt": "2026-08-11T07:24:01+08:00"
+          "checkedAt": "2026-08-11T07:36:01+08:00",
+          "lastSuccessAt": "2026-08-11T07:36:01+08:00"
         }
       ],
-      "fetchedAt": "2026-08-11T07:24:00+08:00",
+      "fetchedAt": "2026-08-11T07:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-08-11T07:24:01+08:00",
-      "lastSuccessAt": "2026-08-11T07:24:01+08:00",
+      "checkedAt": "2026-08-11T07:36:01+08:00",
+      "lastSuccessAt": "2026-08-11T07:36:01+08:00",
       "stale": false
     },
     "kimi": {
@@ -86,16 +86,16 @@ window.DASH_DATA = {
           "usedPct": 4,
           "resetAt": "2026-08-11T08:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-08-11T07:24:01+08:00",
-          "lastSuccessAt": "2026-08-11T07:24:01+08:00"
+          "checkedAt": "2026-08-11T07:36:01+08:00",
+          "lastSuccessAt": "2026-08-11T07:36:01+08:00"
         },
         {
           "name": "周",
           "usedPct": 40,
           "resetAt": "2026-08-14T13:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-08-11T07:24:01+08:00",
-          "lastSuccessAt": "2026-08-11T07:24:01+08:00"
+          "checkedAt": "2026-08-11T07:36:01+08:00",
+          "lastSuccessAt": "2026-08-11T07:36:01+08:00"
         },
         {
           "name": "月",
@@ -103,19 +103,19 @@ window.DASH_DATA = {
           "resetAt": "2026-08-16T00:00:00+08:00",
           "observedAt": "2026-08-10T08:00:04+08:00",
           "stale": false,
-          "checkedAt": "2026-08-11T07:24:01+08:00",
+          "checkedAt": "2026-08-11T07:36:01+08:00",
           "lastSuccessAt": "2026-08-10T08:00:04+08:00"
         }
       ],
-      "fetchedAt": "2026-08-11T07:24:00+08:00",
+      "fetchedAt": "2026-08-11T07:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-08-11T07:24:01+08:00",
-      "lastSuccessAt": "2026-08-11T07:24:01+08:00",
+      "checkedAt": "2026-08-11T07:36:01+08:00",
+      "lastSuccessAt": "2026-08-11T07:36:01+08:00",
       "stale": false
     }
   },
   "quote": {
-    "text": "所谓无底深渊，下去，也是前程万里。",
-    "source": "木心《素履之往》"
+    "text": "我们于日用必需的东西以外，必须还有一点无用的游戏与享乐，生活才觉得有意思。",
+    "source": "周作人《北京的茶食》"
   }
 };
