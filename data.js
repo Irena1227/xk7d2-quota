@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-08-12T10:24:01+08:00",
+  "updatedAt": "2026-08-12T10:36:01+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -8,14 +8,14 @@ window.DASH_DATA = {
     "tempC": 25,
     "feelsLikeC": 28,
     "humidity": 98,
-    "windKph": 7,
+    "windKph": 6,
     "windDir": "北风",
     "place": "北京",
-    "observedAt": "2026-08-12T10:05:27+08:00",
-    "fetchedAt": "2026-08-12T10:24:01+08:00",
+    "observedAt": "2026-08-12T10:35:29+08:00",
+    "fetchedAt": "2026-08-12T10:36:01+08:00",
     "error": null,
-    "checkedAt": "2026-08-12T10:24:01+08:00",
-    "lastSuccessAt": "2026-08-12T10:24:01+08:00",
+    "checkedAt": "2026-08-12T10:36:01+08:00",
+    "lastSuccessAt": "2026-08-12T10:36:01+08:00",
     "stale": false
   },
   "sources": {
@@ -25,10 +25,10 @@ window.DASH_DATA = {
       "balance": 23.61,
       "currency": "CNY",
       "detail": "余额 ¥23.61",
-      "fetchedAt": "2026-08-12T10:24:00+08:00",
+      "fetchedAt": "2026-08-12T10:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-08-12T10:24:01+08:00",
-      "lastSuccessAt": "2026-08-12T10:24:01+08:00",
+      "checkedAt": "2026-08-12T10:36:01+08:00",
+      "lastSuccessAt": "2026-08-12T10:36:01+08:00",
       "stale": false
     },
     "claude": {
@@ -37,25 +37,25 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 9,
+          "usedPct": 11,
           "resetAt": "2026-08-12T14:59:59+08:00",
           "stale": false,
-          "checkedAt": "2026-08-12T10:24:01+08:00",
-          "lastSuccessAt": "2026-08-12T10:24:01+08:00"
+          "checkedAt": "2026-08-12T10:36:01+08:00",
+          "lastSuccessAt": "2026-08-12T10:36:01+08:00"
         },
         {
           "name": "7天",
           "usedPct": 70,
           "resetAt": "2026-08-13T19:59:59+08:00",
           "stale": false,
-          "checkedAt": "2026-08-12T10:24:01+08:00",
-          "lastSuccessAt": "2026-08-12T10:24:01+08:00"
+          "checkedAt": "2026-08-12T10:36:01+08:00",
+          "lastSuccessAt": "2026-08-12T10:36:01+08:00"
         }
       ],
-      "fetchedAt": "2026-08-12T10:24:00+08:00",
+      "fetchedAt": "2026-08-12T10:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-08-12T10:24:01+08:00",
-      "lastSuccessAt": "2026-08-12T10:24:01+08:00",
+      "checkedAt": "2026-08-12T10:36:01+08:00",
+      "lastSuccessAt": "2026-08-12T10:36:01+08:00",
       "stale": false
     },
     "codex": {
@@ -67,14 +67,14 @@ window.DASH_DATA = {
           "usedPct": 7,
           "resetAt": "2026-08-18T08:03:16+08:00",
           "stale": false,
-          "checkedAt": "2026-08-12T10:24:01+08:00",
-          "lastSuccessAt": "2026-08-12T10:24:01+08:00"
+          "checkedAt": "2026-08-12T10:36:01+08:00",
+          "lastSuccessAt": "2026-08-12T10:36:01+08:00"
         }
       ],
-      "fetchedAt": "2026-08-12T10:24:00+08:00",
+      "fetchedAt": "2026-08-12T10:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-08-12T10:24:01+08:00",
-      "lastSuccessAt": "2026-08-12T10:24:01+08:00",
+      "checkedAt": "2026-08-12T10:36:01+08:00",
+      "lastSuccessAt": "2026-08-12T10:36:01+08:00",
       "stale": false
     },
     "kimi": {
@@ -86,16 +86,16 @@ window.DASH_DATA = {
           "usedPct": 6,
           "resetAt": "2026-08-12T14:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-08-12T10:24:01+08:00",
-          "lastSuccessAt": "2026-08-12T10:24:01+08:00"
+          "checkedAt": "2026-08-12T10:36:01+08:00",
+          "lastSuccessAt": "2026-08-12T10:36:01+08:00"
         },
         {
           "name": "周",
           "usedPct": 57,
           "resetAt": "2026-08-14T13:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-08-12T10:24:01+08:00",
-          "lastSuccessAt": "2026-08-12T10:24:01+08:00"
+          "checkedAt": "2026-08-12T10:36:01+08:00",
+          "lastSuccessAt": "2026-08-12T10:36:01+08:00"
         },
         {
           "name": "月",
@@ -103,19 +103,19 @@ window.DASH_DATA = {
           "resetAt": "2026-08-16T00:00:00+08:00",
           "observedAt": "2026-08-11T08:00:04+08:00",
           "stale": false,
-          "checkedAt": "2026-08-12T10:24:01+08:00",
+          "checkedAt": "2026-08-12T10:36:01+08:00",
           "lastSuccessAt": "2026-08-11T08:00:04+08:00"
         }
       ],
-      "fetchedAt": "2026-08-12T10:24:00+08:00",
+      "fetchedAt": "2026-08-12T10:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-08-12T10:24:01+08:00",
-      "lastSuccessAt": "2026-08-12T10:24:01+08:00",
+      "checkedAt": "2026-08-12T10:36:01+08:00",
+      "lastSuccessAt": "2026-08-12T10:36:01+08:00",
       "stale": false
     }
   },
   "quote": {
-    "text": "我们于日用必需的东西以外，必须还有一点无用的游戏与享乐，生活才觉得有意思。",
-    "source": "周作人《北京的茶食》"
+    "text": "回首向来萧瑟处，归去，也无风雨也无晴。",
+    "source": "苏轼《定风波·莫听穿林打叶声》"
   }
 };
