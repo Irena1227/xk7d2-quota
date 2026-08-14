@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-08-14T17:15:06+08:00",
+  "updatedAt": "2026-08-14T17:24:01+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,23 +12,23 @@ window.DASH_DATA = {
     "windDir": "东风",
     "place": "北京",
     "observedAt": "2026-08-14T16:36:52+08:00",
-    "fetchedAt": "2026-08-14T17:15:06+08:00",
+    "fetchedAt": "2026-08-14T17:24:01+08:00",
     "error": null,
-    "checkedAt": "2026-08-14T17:15:06+08:00",
-    "lastSuccessAt": "2026-08-14T17:15:06+08:00",
+    "checkedAt": "2026-08-14T17:24:01+08:00",
+    "lastSuccessAt": "2026-08-14T17:24:01+08:00",
     "stale": false
   },
   "sources": {
     "deepseek": {
       "ok": true,
       "label": "DeepSeek",
-      "balance": 21.74,
+      "balance": 21.54,
       "currency": "CNY",
-      "detail": "余额 ¥21.74",
-      "fetchedAt": "2026-08-14T17:15:00+08:00",
+      "detail": "余额 ¥21.54",
+      "fetchedAt": "2026-08-14T17:24:00+08:00",
       "error": null,
-      "checkedAt": "2026-08-14T17:15:06+08:00",
-      "lastSuccessAt": "2026-08-14T17:15:06+08:00",
+      "checkedAt": "2026-08-14T17:24:01+08:00",
+      "lastSuccessAt": "2026-08-14T17:24:01+08:00",
       "stale": false
     },
     "claude": {
@@ -39,25 +39,24 @@ window.DASH_DATA = {
           "name": "5小时",
           "usedPct": 6,
           "resetAt": "2026-08-14T19:50:00+08:00",
-          "stale": true,
-          "checkedAt": "2026-08-14T17:15:06+08:00",
-          "lastSuccessAt": "2026-08-14T17:06:02+08:00"
+          "stale": false,
+          "checkedAt": "2026-08-14T17:24:01+08:00",
+          "lastSuccessAt": "2026-08-14T17:24:01+08:00"
         },
         {
           "name": "7天",
           "usedPct": 4,
           "resetAt": "2026-08-20T20:00:00+08:00",
-          "stale": true,
-          "checkedAt": "2026-08-14T17:15:06+08:00",
-          "lastSuccessAt": "2026-08-14T17:06:02+08:00"
+          "stale": false,
+          "checkedAt": "2026-08-14T17:24:01+08:00",
+          "lastSuccessAt": "2026-08-14T17:24:01+08:00"
         }
       ],
-      "fetchedAt": "2026-08-14T17:06:00+08:00",
-      "error": "fetch failed",
-      "checkedAt": "2026-08-14T17:15:06+08:00",
-      "lastSuccessAt": "2026-08-14T17:06:02+08:00",
-      "stale": true,
-      "lastAttemptAt": "2026-08-14T17:15:06+08:00"
+      "fetchedAt": "2026-08-14T17:24:00+08:00",
+      "error": null,
+      "checkedAt": "2026-08-14T17:24:01+08:00",
+      "lastSuccessAt": "2026-08-14T17:24:01+08:00",
+      "stale": false
     },
     "codex": {
       "ok": true,
@@ -65,27 +64,26 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "周",
-          "usedPct": 10,
+          "usedPct": 11,
           "resetAt": "2026-08-20T11:49:22+08:00",
-          "stale": true,
-          "checkedAt": "2026-08-14T17:15:06+08:00",
-          "lastSuccessAt": "2026-08-14T17:06:02+08:00"
+          "stale": false,
+          "checkedAt": "2026-08-14T17:24:01+08:00",
+          "lastSuccessAt": "2026-08-14T17:24:01+08:00"
         },
         {
           "name": "30天",
           "usedPct": 0,
           "resetAt": "2026-09-12T02:18:01+08:00",
           "stale": true,
-          "checkedAt": "2026-08-14T17:15:06+08:00",
+          "checkedAt": "2026-08-14T17:24:01+08:00",
           "lastSuccessAt": "2026-08-13T02:18:01+08:00"
         }
       ],
-      "fetchedAt": "2026-08-14T17:06:00+08:00",
-      "error": "failed to fetch codex rate limits: error sending request for url (https://chatgpt.com/backend-api/wham/usage)",
-      "checkedAt": "2026-08-14T17:15:06+08:00",
-      "lastSuccessAt": "2026-08-14T17:06:02+08:00",
-      "stale": true,
-      "lastAttemptAt": "2026-08-14T17:15:06+08:00"
+      "fetchedAt": "2026-08-14T17:24:00+08:00",
+      "error": "部分额度窗口沿用上次成功值",
+      "checkedAt": "2026-08-14T17:24:01+08:00",
+      "lastSuccessAt": "2026-08-14T17:24:01+08:00",
+      "stale": true
     },
     "kimi": {
       "ok": true,
@@ -96,32 +94,31 @@ window.DASH_DATA = {
           "usedPct": 0,
           "resetAt": "2026-08-14T21:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-08-14T17:15:06+08:00",
-          "lastSuccessAt": "2026-08-14T17:15:06+08:00"
+          "checkedAt": "2026-08-14T17:24:01+08:00",
+          "lastSuccessAt": "2026-08-14T17:24:01+08:00"
         },
         {
           "name": "周",
           "usedPct": 0,
           "resetAt": "2026-08-21T13:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-08-14T17:15:06+08:00",
-          "lastSuccessAt": "2026-08-14T17:15:06+08:00"
+          "checkedAt": "2026-08-14T17:24:01+08:00",
+          "lastSuccessAt": "2026-08-14T17:24:01+08:00"
         },
         {
           "name": "月",
-          "usedPct": 92,
+          "usedPct": 100,
           "resetAt": "2026-08-16T00:00:00+08:00",
-          "observedAt": "2026-08-14T17:15:00+08:00",
-          "source": "Kimi usages boosterWallet",
+          "observedAt": "2026-08-14T17:21:00+08:00",
           "stale": false,
-          "checkedAt": "2026-08-14T17:15:06+08:00",
-          "lastSuccessAt": "2026-08-14T17:15:00+08:00"
+          "checkedAt": "2026-08-14T17:24:01+08:00",
+          "lastSuccessAt": "2026-08-14T17:21:00+08:00"
         }
       ],
-      "fetchedAt": "2026-08-14T17:15:00+08:00",
+      "fetchedAt": "2026-08-14T17:24:00+08:00",
       "error": null,
-      "checkedAt": "2026-08-14T17:15:06+08:00",
-      "lastSuccessAt": "2026-08-14T17:15:06+08:00",
+      "checkedAt": "2026-08-14T17:24:01+08:00",
+      "lastSuccessAt": "2026-08-14T17:24:01+08:00",
       "stale": false
     }
   },
