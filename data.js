@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-08-27T07:24:01+08:00",
+  "updatedAt": "2026-08-27T07:36:01+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,10 +12,10 @@ window.DASH_DATA = {
     "windDir": "东风",
     "place": "北京",
     "observedAt": "2026-08-27T05:33:55+08:00",
-    "fetchedAt": "2026-08-27T07:24:01+08:00",
+    "fetchedAt": "2026-08-27T07:36:01+08:00",
     "error": null,
-    "checkedAt": "2026-08-27T07:24:01+08:00",
-    "lastSuccessAt": "2026-08-27T07:24:01+08:00",
+    "checkedAt": "2026-08-27T07:36:01+08:00",
+    "lastSuccessAt": "2026-08-27T07:36:01+08:00",
     "stale": false
   },
   "sources": {
@@ -25,10 +25,10 @@ window.DASH_DATA = {
       "balance": 20.1,
       "currency": "CNY",
       "detail": "余额 ¥20.10",
-      "fetchedAt": "2026-08-27T07:24:00+08:00",
+      "fetchedAt": "2026-08-27T07:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-08-27T07:24:01+08:00",
-      "lastSuccessAt": "2026-08-27T07:24:01+08:00",
+      "checkedAt": "2026-08-27T07:36:01+08:00",
+      "lastSuccessAt": "2026-08-27T07:36:01+08:00",
       "stale": false
     },
     "claude": {
@@ -37,25 +37,25 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 1,
-          "resetAt": "2026-08-27T09:29:59+08:00",
+          "usedPct": 7,
+          "resetAt": "2026-08-27T09:30:00+08:00",
           "stale": false,
-          "checkedAt": "2026-08-27T07:24:01+08:00",
-          "lastSuccessAt": "2026-08-27T07:24:01+08:00"
+          "checkedAt": "2026-08-27T07:36:01+08:00",
+          "lastSuccessAt": "2026-08-27T07:36:01+08:00"
         },
         {
           "name": "7天",
-          "usedPct": 50,
-          "resetAt": "2026-08-27T19:59:59+08:00",
+          "usedPct": 51,
+          "resetAt": "2026-08-27T20:00:00+08:00",
           "stale": false,
-          "checkedAt": "2026-08-27T07:24:01+08:00",
-          "lastSuccessAt": "2026-08-27T07:24:01+08:00"
+          "checkedAt": "2026-08-27T07:36:01+08:00",
+          "lastSuccessAt": "2026-08-27T07:36:01+08:00"
         }
       ],
-      "fetchedAt": "2026-08-27T07:24:00+08:00",
+      "fetchedAt": "2026-08-27T07:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-08-27T07:24:01+08:00",
-      "lastSuccessAt": "2026-08-27T07:24:01+08:00",
+      "checkedAt": "2026-08-27T07:36:01+08:00",
+      "lastSuccessAt": "2026-08-27T07:36:01+08:00",
       "stale": false
     },
     "codex": {
@@ -67,22 +67,22 @@ window.DASH_DATA = {
           "usedPct": 23,
           "resetAt": "2026-09-01T22:16:41+08:00",
           "stale": false,
-          "checkedAt": "2026-08-27T07:24:01+08:00",
-          "lastSuccessAt": "2026-08-27T07:24:01+08:00"
+          "checkedAt": "2026-08-27T07:36:01+08:00",
+          "lastSuccessAt": "2026-08-27T07:36:01+08:00"
         },
         {
           "name": "30天",
           "usedPct": 0,
           "resetAt": "2026-09-12T02:18:01+08:00",
           "stale": true,
-          "checkedAt": "2026-08-27T07:24:01+08:00",
+          "checkedAt": "2026-08-27T07:36:01+08:00",
           "lastSuccessAt": "2026-08-13T02:18:01+08:00"
         }
       ],
-      "fetchedAt": "2026-08-27T07:24:00+08:00",
+      "fetchedAt": "2026-08-27T07:36:00+08:00",
       "error": "部分额度窗口沿用上次成功值",
-      "checkedAt": "2026-08-27T07:24:01+08:00",
-      "lastSuccessAt": "2026-08-27T07:24:01+08:00",
+      "checkedAt": "2026-08-27T07:36:01+08:00",
+      "lastSuccessAt": "2026-08-27T07:36:01+08:00",
       "stale": false,
       "partialStale": true
     },
@@ -95,16 +95,16 @@ window.DASH_DATA = {
           "usedPct": 5,
           "resetAt": "2026-08-27T09:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-08-27T07:24:01+08:00",
-          "lastSuccessAt": "2026-08-27T07:24:01+08:00"
+          "checkedAt": "2026-08-27T07:36:01+08:00",
+          "lastSuccessAt": "2026-08-27T07:36:01+08:00"
         },
         {
           "name": "周",
           "usedPct": 69,
           "resetAt": "2026-08-28T13:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-08-27T07:24:01+08:00",
-          "lastSuccessAt": "2026-08-27T07:24:01+08:00"
+          "checkedAt": "2026-08-27T07:36:01+08:00",
+          "lastSuccessAt": "2026-08-27T07:36:01+08:00"
         },
         {
           "name": "月",
@@ -114,14 +114,14 @@ window.DASH_DATA = {
           "stale": false,
           "healthCode": null,
           "healthMessage": null,
-          "checkedAt": "2026-08-27T07:24:01+08:00",
+          "checkedAt": "2026-08-27T07:36:01+08:00",
           "lastSuccessAt": "2026-08-26T08:00:03+08:00"
         }
       ],
-      "fetchedAt": "2026-08-27T07:24:00+08:00",
+      "fetchedAt": "2026-08-27T07:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-08-27T07:24:01+08:00",
-      "lastSuccessAt": "2026-08-27T07:24:01+08:00",
+      "checkedAt": "2026-08-27T07:36:01+08:00",
+      "lastSuccessAt": "2026-08-27T07:36:01+08:00",
       "stale": false,
       "quotaWatch": {
         "status": "normal",
@@ -129,7 +129,7 @@ window.DASH_DATA = {
         "target": "月",
         "message": null,
         "firstSeenAt": null,
-        "checkedAt": "2026-08-27T07:24:01+08:00",
+        "checkedAt": "2026-08-27T07:36:01+08:00",
         "weeklyIncreasePct": 17,
         "fiveHourIncreasePct": 78,
         "contradictionChecks": 0,
@@ -144,7 +144,7 @@ window.DASH_DATA = {
     }
   },
   "quote": {
-    "text": "我们在黑暗中并肩而行，走在各自的朝圣路上，无法知道是否在走向圣地，唯一能做的是相信。",
-    "source": "尼尔·盖曼《美国众神》"
+    "text": "当你出发前往伊萨卡，愿你的道路漫长，充满奇迹，充满发现。",
+    "source": "卡瓦菲斯《伊萨卡》"
   }
 };
