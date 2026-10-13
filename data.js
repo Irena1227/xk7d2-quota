@@ -1,21 +1,21 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-10-13T19:54:05+08:00",
+  "updatedAt": "2026-10-13T20:06:02+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
     "description": "晴",
     "iconKey": "clear",
-    "tempC": 11.65,
-    "feelsLikeC": 10.1,
-    "humidity": 48,
-    "windKph": 12.132000000000001,
+    "tempC": 9.85,
+    "feelsLikeC": 8.6,
+    "humidity": 63,
+    "windKph": 8.748000000000001,
     "windDir": "",
     "place": "北京",
-    "observedAt": "2026-10-13T19:03:09+08:00",
-    "fetchedAt": "2026-10-13T19:54:05+08:00",
+    "observedAt": "2026-10-13T20:03:10+08:00",
+    "fetchedAt": "2026-10-13T20:06:02+08:00",
     "error": null,
-    "checkedAt": "2026-10-13T19:54:05+08:00",
-    "lastSuccessAt": "2026-10-13T19:54:05+08:00",
+    "checkedAt": "2026-10-13T20:06:02+08:00",
+    "lastSuccessAt": "2026-10-13T20:06:02+08:00",
     "stale": false
   },
   "sources": {
@@ -25,10 +25,10 @@ window.DASH_DATA = {
       "balance": 10.53,
       "currency": "CNY",
       "detail": "余额 ¥10.53",
-      "fetchedAt": "2026-10-13T19:54:00+08:00",
+      "fetchedAt": "2026-10-13T20:06:00+08:00",
       "error": null,
-      "checkedAt": "2026-10-13T19:54:05+08:00",
-      "lastSuccessAt": "2026-10-13T19:54:05+08:00",
+      "checkedAt": "2026-10-13T20:06:02+08:00",
+      "lastSuccessAt": "2026-10-13T20:06:02+08:00",
       "stale": false
     },
     "claude": {
@@ -37,35 +37,34 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 51,
+          "usedPct": 59,
           "resetAt": "2026-10-13T20:59:59+08:00",
-          "stale": true,
-          "checkedAt": "2026-10-13T19:54:05+08:00",
-          "lastSuccessAt": "2026-10-13T19:51:01+08:00"
+          "stale": false,
+          "checkedAt": "2026-10-13T20:06:02+08:00",
+          "lastSuccessAt": "2026-10-13T20:06:02+08:00"
         },
         {
           "name": "7天",
-          "usedPct": 23,
+          "usedPct": 24,
           "resetAt": "2026-10-15T19:59:59+08:00",
-          "stale": true,
-          "checkedAt": "2026-10-13T19:54:05+08:00",
-          "lastSuccessAt": "2026-10-13T19:51:01+08:00"
+          "stale": false,
+          "checkedAt": "2026-10-13T20:06:02+08:00",
+          "lastSuccessAt": "2026-10-13T20:06:02+08:00"
         },
         {
           "name": "Fable",
           "usedPct": 0,
           "resetAt": "2026-10-15T20:00:00+08:00",
-          "stale": true,
-          "checkedAt": "2026-10-13T19:54:05+08:00",
-          "lastSuccessAt": "2026-10-13T19:51:01+08:00"
+          "stale": false,
+          "checkedAt": "2026-10-13T20:06:02+08:00",
+          "lastSuccessAt": "2026-10-13T20:06:02+08:00"
         }
       ],
-      "fetchedAt": "2026-10-13T19:51:00+08:00",
-      "error": "fetch failed",
-      "checkedAt": "2026-10-13T19:54:05+08:00",
-      "lastSuccessAt": "2026-10-13T19:51:01+08:00",
-      "stale": true,
-      "lastAttemptAt": "2026-10-13T19:54:05+08:00"
+      "fetchedAt": "2026-10-13T20:06:00+08:00",
+      "error": null,
+      "checkedAt": "2026-10-13T20:06:02+08:00",
+      "lastSuccessAt": "2026-10-13T20:06:02+08:00",
+      "stale": false
     },
     "codex": {
       "ok": true,
@@ -77,22 +76,22 @@ window.DASH_DATA = {
           "resetAt": null,
           "detailText": "↻ -",
           "stale": false,
-          "checkedAt": "2026-10-13T19:54:05+08:00",
-          "lastSuccessAt": "2026-10-13T19:54:05+08:00"
+          "checkedAt": "2026-10-13T20:06:02+08:00",
+          "lastSuccessAt": "2026-10-13T20:06:02+08:00"
         },
         {
           "name": "周",
           "usedPct": 3,
           "resetAt": "2026-10-20T12:58:38+08:00",
           "stale": false,
-          "checkedAt": "2026-10-13T19:54:05+08:00",
-          "lastSuccessAt": "2026-10-13T19:54:05+08:00"
+          "checkedAt": "2026-10-13T20:06:02+08:00",
+          "lastSuccessAt": "2026-10-13T20:06:02+08:00"
         }
       ],
-      "fetchedAt": "2026-10-13T19:54:00+08:00",
+      "fetchedAt": "2026-10-13T20:06:00+08:00",
       "error": null,
-      "checkedAt": "2026-10-13T19:54:05+08:00",
-      "lastSuccessAt": "2026-10-13T19:54:05+08:00",
+      "checkedAt": "2026-10-13T20:06:02+08:00",
+      "lastSuccessAt": "2026-10-13T20:06:02+08:00",
       "stale": false
     },
     "kimi": {
@@ -104,16 +103,16 @@ window.DASH_DATA = {
           "usedPct": 0,
           "resetAt": "2026-10-13T21:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-10-13T19:54:05+08:00",
-          "lastSuccessAt": "2026-10-13T19:54:05+08:00"
+          "checkedAt": "2026-10-13T20:06:02+08:00",
+          "lastSuccessAt": "2026-10-13T20:06:02+08:00"
         },
         {
           "name": "周",
           "usedPct": 43,
           "resetAt": "2026-10-16T13:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-10-13T19:54:05+08:00",
-          "lastSuccessAt": "2026-10-13T19:54:05+08:00"
+          "checkedAt": "2026-10-13T20:06:02+08:00",
+          "lastSuccessAt": "2026-10-13T20:06:02+08:00"
         },
         {
           "name": "月",
@@ -123,14 +122,14 @@ window.DASH_DATA = {
           "stale": false,
           "healthCode": null,
           "healthMessage": null,
-          "checkedAt": "2026-10-13T19:54:05+08:00",
+          "checkedAt": "2026-10-13T20:06:02+08:00",
           "lastSuccessAt": "2026-10-13T08:00:05+08:00"
         }
       ],
-      "fetchedAt": "2026-10-13T19:54:00+08:00",
+      "fetchedAt": "2026-10-13T20:06:00+08:00",
       "error": null,
-      "checkedAt": "2026-10-13T19:54:05+08:00",
-      "lastSuccessAt": "2026-10-13T19:54:05+08:00",
+      "checkedAt": "2026-10-13T20:06:02+08:00",
+      "lastSuccessAt": "2026-10-13T20:06:02+08:00",
       "stale": false,
       "quotaWatch": {
         "status": "normal",
@@ -138,7 +137,7 @@ window.DASH_DATA = {
         "target": "月",
         "message": null,
         "firstSeenAt": null,
-        "checkedAt": "2026-10-13T19:54:05+08:00",
+        "checkedAt": "2026-10-13T20:06:02+08:00",
         "weeklyIncreasePct": 6,
         "fiveHourIncreasePct": 26,
         "contradictionChecks": 0,
