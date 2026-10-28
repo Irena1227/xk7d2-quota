@@ -1,21 +1,21 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-10-29T04:34:00+08:00",
+  "updatedAt": "2026-10-29T04:46:00+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
-    "description": "雾霾",
-    "iconKey": "fog",
-    "tempC": 4.15,
-    "feelsLikeC": 2.4,
-    "humidity": 96,
-    "windKph": 4.28,
+    "description": "晴",
+    "iconKey": "clear",
+    "tempC": 3.55,
+    "feelsLikeC": 1.3,
+    "humidity": 94,
+    "windKph": 6.65,
     "windDir": "",
     "place": "北京",
-    "observedAt": "2026-10-29T02:42:59+08:00",
-    "fetchedAt": "2026-10-29T04:34:00+08:00",
+    "observedAt": "2026-10-29T04:43:00+08:00",
+    "fetchedAt": "2026-10-29T04:46:00+08:00",
     "error": null,
-    "checkedAt": "2026-10-29T04:34:00+08:00",
-    "lastSuccessAt": "2026-10-29T04:34:00+08:00",
+    "checkedAt": "2026-10-29T04:46:00+08:00",
+    "lastSuccessAt": "2026-10-29T04:46:00+08:00",
     "stale": false
   },
   "sources": {
@@ -25,10 +25,10 @@ window.DASH_DATA = {
       "balance": 10.5,
       "currency": "CNY",
       "detail": "余额 ¥10.50",
-      "fetchedAt": "2026-10-29T04:33:00+08:00",
+      "fetchedAt": "2026-10-29T04:45:00+08:00",
       "error": null,
-      "checkedAt": "2026-10-29T04:34:00+08:00",
-      "lastSuccessAt": "2026-10-29T04:34:00+08:00",
+      "checkedAt": "2026-10-29T04:46:00+08:00",
+      "lastSuccessAt": "2026-10-29T04:46:00+08:00",
       "stale": false
     },
     "claude": {
@@ -40,7 +40,7 @@ window.DASH_DATA = {
           "usedPct": 13,
           "resetAt": "2026-10-29T01:40:00+08:00",
           "stale": true,
-          "checkedAt": "2026-10-29T04:34:00+08:00",
+          "checkedAt": "2026-10-29T04:46:00+08:00",
           "lastSuccessAt": "2026-10-28T23:39:10+08:00"
         },
         {
@@ -48,7 +48,7 @@ window.DASH_DATA = {
           "usedPct": 84,
           "resetAt": "2026-10-29T20:00:00+08:00",
           "stale": true,
-          "checkedAt": "2026-10-29T04:34:00+08:00",
+          "checkedAt": "2026-10-29T04:46:00+08:00",
           "lastSuccessAt": "2026-10-28T23:39:10+08:00"
         },
         {
@@ -56,17 +56,17 @@ window.DASH_DATA = {
           "usedPct": 0,
           "resetAt": "2026-10-22T20:00:00+08:00",
           "stale": true,
-          "checkedAt": "2026-10-29T04:34:00+08:00",
+          "checkedAt": "2026-10-29T04:46:00+08:00",
           "lastSuccessAt": "2026-10-18T04:15:03+08:00"
         }
       ],
       "fetchedAt": "2026-10-28T23:39:00+08:00",
       "error": "ECONNRESET",
-      "checkedAt": "2026-10-29T04:34:00+08:00",
+      "checkedAt": "2026-10-29T04:46:00+08:00",
       "lastSuccessAt": "2026-10-28T23:39:10+08:00",
       "stale": true,
       "partialStale": true,
-      "lastAttemptAt": "2026-10-29T04:34:00+08:00"
+      "lastAttemptAt": "2026-10-29T04:46:00+08:00"
     },
     "codex": {
       "ok": true,
@@ -78,7 +78,7 @@ window.DASH_DATA = {
           "resetAt": null,
           "detailText": "↻ -",
           "stale": true,
-          "checkedAt": "2026-10-29T04:34:00+08:00",
+          "checkedAt": "2026-10-29T04:46:00+08:00",
           "lastSuccessAt": "2026-10-28T23:39:10+08:00"
         },
         {
@@ -86,16 +86,16 @@ window.DASH_DATA = {
           "usedPct": 1,
           "resetAt": "2026-11-04T14:53:02+08:00",
           "stale": true,
-          "checkedAt": "2026-10-29T04:34:00+08:00",
+          "checkedAt": "2026-10-29T04:46:00+08:00",
           "lastSuccessAt": "2026-10-28T23:39:10+08:00"
         }
       ],
       "fetchedAt": "2026-10-28T23:39:00+08:00",
       "error": "failed to fetch codex rate limits: error sending request for url (https://chatgpt.com/backend-api/wham/usage)",
-      "checkedAt": "2026-10-29T04:34:00+08:00",
+      "checkedAt": "2026-10-29T04:46:00+08:00",
       "lastSuccessAt": "2026-10-28T23:39:10+08:00",
       "stale": true,
-      "lastAttemptAt": "2026-10-29T04:34:00+08:00"
+      "lastAttemptAt": "2026-10-29T04:46:00+08:00"
     },
     "kimi": {
       "ok": true,
@@ -106,16 +106,16 @@ window.DASH_DATA = {
           "usedPct": 0,
           "resetAt": "2026-10-29T07:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-10-29T04:34:00+08:00",
-          "lastSuccessAt": "2026-10-29T04:34:00+08:00"
+          "checkedAt": "2026-10-29T04:46:00+08:00",
+          "lastSuccessAt": "2026-10-29T04:46:00+08:00"
         },
         {
           "name": "周",
           "usedPct": 38,
           "resetAt": "2026-10-30T13:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-10-29T04:34:00+08:00",
-          "lastSuccessAt": "2026-10-29T04:34:00+08:00"
+          "checkedAt": "2026-10-29T04:46:00+08:00",
+          "lastSuccessAt": "2026-10-29T04:46:00+08:00"
         },
         {
           "name": "月",
@@ -125,14 +125,14 @@ window.DASH_DATA = {
           "stale": false,
           "healthCode": null,
           "healthMessage": null,
-          "checkedAt": "2026-10-29T04:34:00+08:00",
+          "checkedAt": "2026-10-29T04:46:00+08:00",
           "lastSuccessAt": "2026-10-28T08:00:05+08:00"
         }
       ],
-      "fetchedAt": "2026-10-29T04:33:00+08:00",
+      "fetchedAt": "2026-10-29T04:45:00+08:00",
       "error": null,
-      "checkedAt": "2026-10-29T04:34:00+08:00",
-      "lastSuccessAt": "2026-10-29T04:34:00+08:00",
+      "checkedAt": "2026-10-29T04:46:00+08:00",
+      "lastSuccessAt": "2026-10-29T04:46:00+08:00",
       "stale": false,
       "quotaWatch": {
         "status": "normal",
@@ -140,7 +140,7 @@ window.DASH_DATA = {
         "target": "月",
         "message": null,
         "firstSeenAt": null,
-        "checkedAt": "2026-10-29T04:34:00+08:00",
+        "checkedAt": "2026-10-29T04:46:00+08:00",
         "weeklyIncreasePct": 10,
         "fiveHourIncreasePct": 50,
         "contradictionChecks": 0,
