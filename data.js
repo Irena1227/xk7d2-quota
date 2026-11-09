@@ -1,21 +1,21 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-11-09T11:54:05+08:00",
+  "updatedAt": "2026-11-09T12:06:04+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
     "description": "晴",
     "iconKey": "clear",
-    "tempC": 8.35,
-    "feelsLikeC": 5.9,
-    "humidity": 45,
-    "windKph": 5.95,
+    "tempC": 10.25,
+    "feelsLikeC": 7.9,
+    "humidity": 39,
+    "windKph": 5.51,
     "windDir": "",
     "place": "北京",
-    "observedAt": "2026-11-09T10:58:02+08:00",
-    "fetchedAt": "2026-11-09T11:54:05+08:00",
+    "observedAt": "2026-11-09T11:58:02+08:00",
+    "fetchedAt": "2026-11-09T12:06:04+08:00",
     "error": null,
-    "checkedAt": "2026-11-09T11:54:05+08:00",
-    "lastSuccessAt": "2026-11-09T11:54:05+08:00",
+    "checkedAt": "2026-11-09T12:06:04+08:00",
+    "lastSuccessAt": "2026-11-09T12:06:04+08:00",
     "stale": false
   },
   "sources": {
@@ -25,10 +25,10 @@ window.DASH_DATA = {
       "balance": 4.92,
       "currency": "CNY",
       "detail": "余额 ¥4.92",
-      "fetchedAt": "2026-11-09T11:54:00+08:00",
+      "fetchedAt": "2026-11-09T12:06:00+08:00",
       "error": null,
-      "checkedAt": "2026-11-09T11:54:05+08:00",
-      "lastSuccessAt": "2026-11-09T11:54:05+08:00",
+      "checkedAt": "2026-11-09T12:06:04+08:00",
+      "lastSuccessAt": "2026-11-09T12:06:04+08:00",
       "stale": false
     },
     "claude": {
@@ -37,33 +37,33 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 73,
+          "usedPct": 74,
           "resetAt": "2026-11-09T14:19:59+08:00",
           "stale": false,
-          "checkedAt": "2026-11-09T11:54:05+08:00",
-          "lastSuccessAt": "2026-11-09T11:54:05+08:00"
+          "checkedAt": "2026-11-09T12:06:04+08:00",
+          "lastSuccessAt": "2026-11-09T12:06:04+08:00"
         },
         {
           "name": "7天",
           "usedPct": 39,
           "resetAt": "2026-11-12T19:59:59+08:00",
           "stale": false,
-          "checkedAt": "2026-11-09T11:54:05+08:00",
-          "lastSuccessAt": "2026-11-09T11:54:05+08:00"
+          "checkedAt": "2026-11-09T12:06:04+08:00",
+          "lastSuccessAt": "2026-11-09T12:06:04+08:00"
         },
         {
           "name": "Fable",
           "usedPct": 0,
           "resetAt": "2026-10-22T20:00:00+08:00",
           "stale": true,
-          "checkedAt": "2026-11-09T11:54:05+08:00",
+          "checkedAt": "2026-11-09T12:06:04+08:00",
           "lastSuccessAt": "2026-10-18T04:15:03+08:00"
         }
       ],
-      "fetchedAt": "2026-11-09T11:54:00+08:00",
+      "fetchedAt": "2026-11-09T12:06:00+08:00",
       "error": "部分额度窗口沿用上次成功值",
-      "checkedAt": "2026-11-09T11:54:05+08:00",
-      "lastSuccessAt": "2026-11-09T11:54:05+08:00",
+      "checkedAt": "2026-11-09T12:06:04+08:00",
+      "lastSuccessAt": "2026-11-09T12:06:04+08:00",
       "stale": false,
       "partialStale": true
     },
@@ -77,22 +77,22 @@ window.DASH_DATA = {
           "resetAt": null,
           "detailText": "↻ -",
           "stale": false,
-          "checkedAt": "2026-11-09T11:54:05+08:00",
-          "lastSuccessAt": "2026-11-09T11:54:05+08:00"
+          "checkedAt": "2026-11-09T12:06:04+08:00",
+          "lastSuccessAt": "2026-11-09T12:06:04+08:00"
         },
         {
           "name": "周",
-          "usedPct": 39,
+          "usedPct": 40,
           "resetAt": "2026-11-11T15:16:03+08:00",
           "stale": false,
-          "checkedAt": "2026-11-09T11:54:05+08:00",
-          "lastSuccessAt": "2026-11-09T11:54:05+08:00"
+          "checkedAt": "2026-11-09T12:06:04+08:00",
+          "lastSuccessAt": "2026-11-09T12:06:04+08:00"
         }
       ],
-      "fetchedAt": "2026-11-09T11:54:00+08:00",
+      "fetchedAt": "2026-11-09T12:06:00+08:00",
       "error": null,
-      "checkedAt": "2026-11-09T11:54:05+08:00",
-      "lastSuccessAt": "2026-11-09T11:54:05+08:00",
+      "checkedAt": "2026-11-09T12:06:04+08:00",
+      "lastSuccessAt": "2026-11-09T12:06:04+08:00",
       "stale": false
     },
     "kimi": {
@@ -103,42 +103,42 @@ window.DASH_DATA = {
           "name": "5小时",
           "usedPct": 8,
           "resetAt": "2026-11-09T13:02:02+08:00",
-          "stale": true,
-          "checkedAt": "2026-11-09T11:54:05+08:00",
-          "lastSuccessAt": "2026-11-09T11:51:05+08:00"
+          "stale": false,
+          "checkedAt": "2026-11-09T12:06:04+08:00",
+          "lastSuccessAt": "2026-11-09T12:06:04+08:00"
         },
         {
           "name": "周",
           "usedPct": 56,
           "resetAt": "2026-11-13T13:02:02+08:00",
-          "stale": true,
-          "checkedAt": "2026-11-09T11:54:05+08:00",
-          "lastSuccessAt": "2026-11-09T11:51:05+08:00"
+          "stale": false,
+          "checkedAt": "2026-11-09T12:06:04+08:00",
+          "lastSuccessAt": "2026-11-09T12:06:04+08:00"
         },
         {
           "name": "月",
           "usedPct": 36.1,
           "resetAt": "2026-11-14T00:00:00+08:00",
           "observedAt": "2026-11-09T09:56:42+08:00",
-          "stale": true,
+          "stale": false,
           "healthCode": null,
           "healthMessage": null,
-          "checkedAt": "2026-11-09T11:54:05+08:00",
+          "checkedAt": "2026-11-09T12:06:04+08:00",
           "lastSuccessAt": "2026-11-09T09:56:42+08:00"
         }
       ],
-      "fetchedAt": "2026-11-09T11:51:00+08:00",
-      "error": "fetch failed",
-      "checkedAt": "2026-11-09T11:54:05+08:00",
-      "lastSuccessAt": "2026-11-09T11:51:05+08:00",
-      "stale": true,
+      "fetchedAt": "2026-11-09T12:06:00+08:00",
+      "error": null,
+      "checkedAt": "2026-11-09T12:06:04+08:00",
+      "lastSuccessAt": "2026-11-09T12:06:04+08:00",
+      "stale": false,
       "quotaWatch": {
         "status": "normal",
         "code": null,
         "target": "月",
         "message": null,
         "firstSeenAt": null,
-        "checkedAt": "2026-11-09T11:51:05+08:00",
+        "checkedAt": "2026-11-09T12:06:04+08:00",
         "weeklyIncreasePct": 0,
         "fiveHourIncreasePct": 3,
         "contradictionChecks": 0,
@@ -149,8 +149,7 @@ window.DASH_DATA = {
         "lastNotifiedAt": "2026-11-09T09:56:45+08:00",
         "lastNotificationAttemptAt": "2026-11-09T09:56:45+08:00",
         "notificationError": null
-      },
-      "lastAttemptAt": "2026-11-09T11:54:05+08:00"
+      }
     }
   },
   "quote": {
