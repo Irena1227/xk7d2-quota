@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-11-11T07:24:04+08:00",
+  "updatedAt": "2026-11-11T07:36:06+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
@@ -12,10 +12,10 @@ window.DASH_DATA = {
     "windDir": "",
     "place": "北京",
     "observedAt": "2026-11-11T04:04:33+08:00",
-    "fetchedAt": "2026-11-11T07:24:04+08:00",
+    "fetchedAt": "2026-11-11T07:36:06+08:00",
     "error": null,
-    "checkedAt": "2026-11-11T07:24:04+08:00",
-    "lastSuccessAt": "2026-11-11T07:24:04+08:00",
+    "checkedAt": "2026-11-11T07:36:06+08:00",
+    "lastSuccessAt": "2026-11-11T07:36:06+08:00",
     "stale": false
   },
   "sources": {
@@ -25,10 +25,10 @@ window.DASH_DATA = {
       "balance": 4.89,
       "currency": "CNY",
       "detail": "余额 ¥4.89",
-      "fetchedAt": "2026-11-11T07:24:00+08:00",
+      "fetchedAt": "2026-11-11T07:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-11-11T07:24:04+08:00",
-      "lastSuccessAt": "2026-11-11T07:24:04+08:00",
+      "checkedAt": "2026-11-11T07:36:06+08:00",
+      "lastSuccessAt": "2026-11-11T07:36:06+08:00",
       "stale": false
     },
     "claude": {
@@ -37,33 +37,33 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 0,
-          "resetAt": "2026-11-11T07:24:01+08:00",
+          "usedPct": 5,
+          "resetAt": "2026-11-11T12:29:59+08:00",
           "stale": false,
-          "checkedAt": "2026-11-11T07:24:04+08:00",
-          "lastSuccessAt": "2026-11-11T07:24:04+08:00"
+          "checkedAt": "2026-11-11T07:36:06+08:00",
+          "lastSuccessAt": "2026-11-11T07:36:06+08:00"
         },
         {
           "name": "7天",
-          "usedPct": 69,
-          "resetAt": "2026-11-12T20:00:00+08:00",
+          "usedPct": 70,
+          "resetAt": "2026-11-12T19:59:59+08:00",
           "stale": false,
-          "checkedAt": "2026-11-11T07:24:04+08:00",
-          "lastSuccessAt": "2026-11-11T07:24:04+08:00"
+          "checkedAt": "2026-11-11T07:36:06+08:00",
+          "lastSuccessAt": "2026-11-11T07:36:06+08:00"
         },
         {
           "name": "Fable",
           "usedPct": 20,
-          "resetAt": "2026-11-12T20:00:00+08:00",
+          "resetAt": "2026-11-12T19:59:59+08:00",
           "stale": false,
-          "checkedAt": "2026-11-11T07:24:04+08:00",
-          "lastSuccessAt": "2026-11-11T07:24:04+08:00"
+          "checkedAt": "2026-11-11T07:36:06+08:00",
+          "lastSuccessAt": "2026-11-11T07:36:06+08:00"
         }
       ],
-      "fetchedAt": "2026-11-11T07:24:00+08:00",
+      "fetchedAt": "2026-11-11T07:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-11-11T07:24:04+08:00",
-      "lastSuccessAt": "2026-11-11T07:24:04+08:00",
+      "checkedAt": "2026-11-11T07:36:06+08:00",
+      "lastSuccessAt": "2026-11-11T07:36:06+08:00",
       "stale": false
     },
     "codex": {
@@ -76,22 +76,22 @@ window.DASH_DATA = {
           "resetAt": null,
           "detailText": "↻ -",
           "stale": false,
-          "checkedAt": "2026-11-11T07:24:04+08:00",
-          "lastSuccessAt": "2026-11-11T07:24:04+08:00"
+          "checkedAt": "2026-11-11T07:36:06+08:00",
+          "lastSuccessAt": "2026-11-11T07:36:06+08:00"
         },
         {
           "name": "周",
           "usedPct": 71,
           "resetAt": "2026-11-11T15:16:03+08:00",
           "stale": false,
-          "checkedAt": "2026-11-11T07:24:04+08:00",
-          "lastSuccessAt": "2026-11-11T07:24:04+08:00"
+          "checkedAt": "2026-11-11T07:36:06+08:00",
+          "lastSuccessAt": "2026-11-11T07:36:06+08:00"
         }
       ],
-      "fetchedAt": "2026-11-11T07:24:00+08:00",
+      "fetchedAt": "2026-11-11T07:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-11-11T07:24:04+08:00",
-      "lastSuccessAt": "2026-11-11T07:24:04+08:00",
+      "checkedAt": "2026-11-11T07:36:06+08:00",
+      "lastSuccessAt": "2026-11-11T07:36:06+08:00",
       "stale": false
     },
     "kimi": {
@@ -103,16 +103,16 @@ window.DASH_DATA = {
           "usedPct": 0,
           "resetAt": "2026-11-11T10:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-11-11T07:24:04+08:00",
-          "lastSuccessAt": "2026-11-11T07:24:04+08:00"
+          "checkedAt": "2026-11-11T07:36:06+08:00",
+          "lastSuccessAt": "2026-11-11T07:36:06+08:00"
         },
         {
           "name": "周",
           "usedPct": 72,
           "resetAt": "2026-11-13T13:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-11-11T07:24:04+08:00",
-          "lastSuccessAt": "2026-11-11T07:24:04+08:00"
+          "checkedAt": "2026-11-11T07:36:06+08:00",
+          "lastSuccessAt": "2026-11-11T07:36:06+08:00"
         },
         {
           "name": "月",
@@ -122,14 +122,14 @@ window.DASH_DATA = {
           "stale": false,
           "healthCode": null,
           "healthMessage": null,
-          "checkedAt": "2026-11-11T07:24:04+08:00",
+          "checkedAt": "2026-11-11T07:36:06+08:00",
           "lastSuccessAt": "2026-11-10T08:00:05+08:00"
         }
       ],
-      "fetchedAt": "2026-11-11T07:24:00+08:00",
+      "fetchedAt": "2026-11-11T07:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-11-11T07:24:04+08:00",
-      "lastSuccessAt": "2026-11-11T07:24:04+08:00",
+      "checkedAt": "2026-11-11T07:36:06+08:00",
+      "lastSuccessAt": "2026-11-11T07:36:06+08:00",
       "stale": false,
       "quotaWatch": {
         "status": "normal",
@@ -137,7 +137,7 @@ window.DASH_DATA = {
         "target": "月",
         "message": null,
         "firstSeenAt": null,
-        "checkedAt": "2026-11-11T07:24:04+08:00",
+        "checkedAt": "2026-11-11T07:36:06+08:00",
         "weeklyIncreasePct": 11,
         "fiveHourIncreasePct": 52,
         "contradictionChecks": 0,
@@ -152,7 +152,7 @@ window.DASH_DATA = {
     }
   },
   "quote": {
-    "text": "论画以形似，见与儿童邻。赋诗必此诗，定非知诗人。",
-    "source": "苏轼《书鄢陵王主簿所画折枝二首》"
+    "text": "如果你听见心里有个声音说「你不会画画」，那就无论如何都要去画，那个声音自然会沉默。",
+    "source": "梵高致提奥的信（1883年10月）"
   }
 };
