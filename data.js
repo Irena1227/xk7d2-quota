@@ -1,21 +1,21 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-11-11T17:15:04+08:00",
+  "updatedAt": "2026-11-11T17:24:06+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
-    "description": "雾霾",
-    "iconKey": "fog",
-    "tempC": 10.85,
-    "feelsLikeC": 9.2,
+    "description": "晴",
+    "iconKey": "clear",
+    "tempC": 10.25,
+    "feelsLikeC": 8.5,
     "humidity": 53,
     "windKph": 4.41,
     "windDir": "",
     "place": "北京",
-    "observedAt": "2026-11-11T17:04:45+08:00",
-    "fetchedAt": "2026-11-11T17:15:04+08:00",
+    "observedAt": "2026-11-11T17:19:46+08:00",
+    "fetchedAt": "2026-11-11T17:24:06+08:00",
     "error": null,
-    "checkedAt": "2026-11-11T17:15:04+08:00",
-    "lastSuccessAt": "2026-11-11T17:15:04+08:00",
+    "checkedAt": "2026-11-11T17:24:06+08:00",
+    "lastSuccessAt": "2026-11-11T17:24:06+08:00",
     "stale": false
   },
   "sources": {
@@ -25,10 +25,10 @@ window.DASH_DATA = {
       "balance": 4.88,
       "currency": "CNY",
       "detail": "余额 ¥4.88",
-      "fetchedAt": "2026-11-11T17:15:00+08:00",
+      "fetchedAt": "2026-11-11T17:24:00+08:00",
       "error": null,
-      "checkedAt": "2026-11-11T17:15:04+08:00",
-      "lastSuccessAt": "2026-11-11T17:15:04+08:00",
+      "checkedAt": "2026-11-11T17:24:06+08:00",
+      "lastSuccessAt": "2026-11-11T17:24:06+08:00",
       "stale": false
     },
     "claude": {
@@ -37,35 +37,34 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 16,
+          "usedPct": 17,
           "resetAt": "2026-11-11T17:30:00+08:00",
-          "stale": true,
-          "checkedAt": "2026-11-11T17:15:04+08:00",
-          "lastSuccessAt": "2026-11-11T17:12:05+08:00"
+          "stale": false,
+          "checkedAt": "2026-11-11T17:24:06+08:00",
+          "lastSuccessAt": "2026-11-11T17:24:06+08:00"
         },
         {
           "name": "7天",
           "usedPct": 73,
           "resetAt": "2026-11-12T20:00:00+08:00",
-          "stale": true,
-          "checkedAt": "2026-11-11T17:15:04+08:00",
-          "lastSuccessAt": "2026-11-11T17:12:05+08:00"
+          "stale": false,
+          "checkedAt": "2026-11-11T17:24:06+08:00",
+          "lastSuccessAt": "2026-11-11T17:24:06+08:00"
         },
         {
           "name": "Fable",
           "usedPct": 20,
           "resetAt": "2026-11-12T20:00:00+08:00",
-          "stale": true,
-          "checkedAt": "2026-11-11T17:15:04+08:00",
-          "lastSuccessAt": "2026-11-11T17:12:05+08:00"
+          "stale": false,
+          "checkedAt": "2026-11-11T17:24:06+08:00",
+          "lastSuccessAt": "2026-11-11T17:24:06+08:00"
         }
       ],
-      "fetchedAt": "2026-11-11T17:12:00+08:00",
-      "error": "HTTP 401 OAuth access token has expired. Re-authenticate to continue.",
-      "checkedAt": "2026-11-11T17:15:04+08:00",
-      "lastSuccessAt": "2026-11-11T17:12:05+08:00",
-      "stale": true,
-      "lastAttemptAt": "2026-11-11T17:15:04+08:00"
+      "fetchedAt": "2026-11-11T17:24:00+08:00",
+      "error": null,
+      "checkedAt": "2026-11-11T17:24:06+08:00",
+      "lastSuccessAt": "2026-11-11T17:24:06+08:00",
+      "stale": false
     },
     "codex": {
       "ok": true,
@@ -77,22 +76,22 @@ window.DASH_DATA = {
           "resetAt": null,
           "detailText": "↻ -",
           "stale": false,
-          "checkedAt": "2026-11-11T17:15:04+08:00",
-          "lastSuccessAt": "2026-11-11T17:15:04+08:00"
+          "checkedAt": "2026-11-11T17:24:06+08:00",
+          "lastSuccessAt": "2026-11-11T17:24:06+08:00"
         },
         {
           "name": "周",
           "usedPct": 1,
           "resetAt": "2026-11-18T15:20:40+08:00",
           "stale": false,
-          "checkedAt": "2026-11-11T17:15:04+08:00",
-          "lastSuccessAt": "2026-11-11T17:15:04+08:00"
+          "checkedAt": "2026-11-11T17:24:06+08:00",
+          "lastSuccessAt": "2026-11-11T17:24:06+08:00"
         }
       ],
-      "fetchedAt": "2026-11-11T17:15:00+08:00",
+      "fetchedAt": "2026-11-11T17:24:00+08:00",
       "error": null,
-      "checkedAt": "2026-11-11T17:15:04+08:00",
-      "lastSuccessAt": "2026-11-11T17:15:04+08:00",
+      "checkedAt": "2026-11-11T17:24:06+08:00",
+      "lastSuccessAt": "2026-11-11T17:24:06+08:00",
       "stale": false
     },
     "kimi": {
@@ -104,16 +103,16 @@ window.DASH_DATA = {
           "usedPct": 0,
           "resetAt": "2026-11-11T20:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-11-11T17:15:04+08:00",
-          "lastSuccessAt": "2026-11-11T17:15:04+08:00"
+          "checkedAt": "2026-11-11T17:24:06+08:00",
+          "lastSuccessAt": "2026-11-11T17:24:06+08:00"
         },
         {
           "name": "周",
           "usedPct": 79,
           "resetAt": "2026-11-13T13:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-11-11T17:15:04+08:00",
-          "lastSuccessAt": "2026-11-11T17:15:04+08:00"
+          "checkedAt": "2026-11-11T17:24:06+08:00",
+          "lastSuccessAt": "2026-11-11T17:24:06+08:00"
         },
         {
           "name": "月",
@@ -123,14 +122,14 @@ window.DASH_DATA = {
           "stale": false,
           "healthCode": null,
           "healthMessage": null,
-          "checkedAt": "2026-11-11T17:15:04+08:00",
+          "checkedAt": "2026-11-11T17:24:06+08:00",
           "lastSuccessAt": "2026-11-11T08:00:05+08:00"
         }
       ],
-      "fetchedAt": "2026-11-11T17:15:00+08:00",
+      "fetchedAt": "2026-11-11T17:24:01+08:00",
       "error": null,
-      "checkedAt": "2026-11-11T17:15:04+08:00",
-      "lastSuccessAt": "2026-11-11T17:15:04+08:00",
+      "checkedAt": "2026-11-11T17:24:06+08:00",
+      "lastSuccessAt": "2026-11-11T17:24:06+08:00",
       "stale": false,
       "quotaWatch": {
         "status": "normal",
@@ -138,7 +137,7 @@ window.DASH_DATA = {
         "target": "月",
         "message": null,
         "firstSeenAt": null,
-        "checkedAt": "2026-11-11T17:15:04+08:00",
+        "checkedAt": "2026-11-11T17:24:06+08:00",
         "weeklyIncreasePct": 7,
         "fiveHourIncreasePct": 33,
         "contradictionChecks": 0,
