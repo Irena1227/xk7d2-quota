@@ -1,21 +1,21 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-11-12T11:24:07+08:00",
+  "updatedAt": "2026-11-12T11:36:07+08:00",
   "weather": {
     "ok": true,
     "provider": "cyberboss",
     "description": "雾霾",
     "iconKey": "fog",
-    "tempC": 8.65,
-    "feelsLikeC": 7.8,
+    "tempC": 10.25,
+    "feelsLikeC": 9.8,
     "humidity": 100,
-    "windKph": 3.98,
+    "windKph": 3.52,
     "windDir": "",
     "place": "北京",
-    "observedAt": "2026-11-12T11:04:58+08:00",
-    "fetchedAt": "2026-11-12T11:24:07+08:00",
+    "observedAt": "2026-11-12T11:34:59+08:00",
+    "fetchedAt": "2026-11-12T11:36:07+08:00",
     "error": null,
-    "checkedAt": "2026-11-12T11:24:07+08:00",
-    "lastSuccessAt": "2026-11-12T11:24:07+08:00",
+    "checkedAt": "2026-11-12T11:36:07+08:00",
+    "lastSuccessAt": "2026-11-12T11:36:07+08:00",
     "stale": false
   },
   "sources": {
@@ -25,10 +25,10 @@ window.DASH_DATA = {
       "balance": 4.87,
       "currency": "CNY",
       "detail": "余额 ¥4.87",
-      "fetchedAt": "2026-11-12T11:24:00+08:00",
+      "fetchedAt": "2026-11-12T11:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-11-12T11:24:07+08:00",
-      "lastSuccessAt": "2026-11-12T11:24:07+08:00",
+      "checkedAt": "2026-11-12T11:36:07+08:00",
+      "lastSuccessAt": "2026-11-12T11:36:07+08:00",
       "stale": false
     },
     "claude": {
@@ -37,33 +37,33 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 35,
+          "usedPct": 36,
           "resetAt": "2026-11-12T12:29:59+08:00",
           "stale": false,
-          "checkedAt": "2026-11-12T11:24:07+08:00",
-          "lastSuccessAt": "2026-11-12T11:24:07+08:00"
+          "checkedAt": "2026-11-12T11:36:07+08:00",
+          "lastSuccessAt": "2026-11-12T11:36:07+08:00"
         },
         {
           "name": "7天",
-          "usedPct": 86,
+          "usedPct": 87,
           "resetAt": "2026-11-12T19:59:59+08:00",
           "stale": false,
-          "checkedAt": "2026-11-12T11:24:07+08:00",
-          "lastSuccessAt": "2026-11-12T11:24:07+08:00"
+          "checkedAt": "2026-11-12T11:36:07+08:00",
+          "lastSuccessAt": "2026-11-12T11:36:07+08:00"
         },
         {
           "name": "Fable",
           "usedPct": 26,
           "resetAt": "2026-11-12T19:59:59+08:00",
           "stale": false,
-          "checkedAt": "2026-11-12T11:24:07+08:00",
-          "lastSuccessAt": "2026-11-12T11:24:07+08:00"
+          "checkedAt": "2026-11-12T11:36:07+08:00",
+          "lastSuccessAt": "2026-11-12T11:36:07+08:00"
         }
       ],
-      "fetchedAt": "2026-11-12T11:24:00+08:00",
+      "fetchedAt": "2026-11-12T11:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-11-12T11:24:07+08:00",
-      "lastSuccessAt": "2026-11-12T11:24:07+08:00",
+      "checkedAt": "2026-11-12T11:36:07+08:00",
+      "lastSuccessAt": "2026-11-12T11:36:07+08:00",
       "stale": false
     },
     "codex": {
@@ -76,22 +76,22 @@ window.DASH_DATA = {
           "resetAt": null,
           "detailText": "↻ -",
           "stale": false,
-          "checkedAt": "2026-11-12T11:24:07+08:00",
-          "lastSuccessAt": "2026-11-12T11:24:07+08:00"
+          "checkedAt": "2026-11-12T11:36:07+08:00",
+          "lastSuccessAt": "2026-11-12T11:36:07+08:00"
         },
         {
           "name": "周",
           "usedPct": 10,
           "resetAt": "2026-11-18T15:20:40+08:00",
           "stale": false,
-          "checkedAt": "2026-11-12T11:24:07+08:00",
-          "lastSuccessAt": "2026-11-12T11:24:07+08:00"
+          "checkedAt": "2026-11-12T11:36:07+08:00",
+          "lastSuccessAt": "2026-11-12T11:36:07+08:00"
         }
       ],
-      "fetchedAt": "2026-11-12T11:24:00+08:00",
+      "fetchedAt": "2026-11-12T11:36:00+08:00",
       "error": null,
-      "checkedAt": "2026-11-12T11:24:07+08:00",
-      "lastSuccessAt": "2026-11-12T11:24:07+08:00",
+      "checkedAt": "2026-11-12T11:36:07+08:00",
+      "lastSuccessAt": "2026-11-12T11:36:07+08:00",
       "stale": false
     },
     "kimi": {
@@ -103,16 +103,16 @@ window.DASH_DATA = {
           "usedPct": 1,
           "resetAt": "2026-11-12T16:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-11-12T11:24:07+08:00",
-          "lastSuccessAt": "2026-11-12T11:24:07+08:00"
+          "checkedAt": "2026-11-12T11:36:07+08:00",
+          "lastSuccessAt": "2026-11-12T11:36:07+08:00"
         },
         {
           "name": "周",
-          "usedPct": 89,
+          "usedPct": 90,
           "resetAt": "2026-11-13T13:02:02+08:00",
           "stale": false,
-          "checkedAt": "2026-11-12T11:24:07+08:00",
-          "lastSuccessAt": "2026-11-12T11:24:07+08:00"
+          "checkedAt": "2026-11-12T11:36:07+08:00",
+          "lastSuccessAt": "2026-11-12T11:36:07+08:00"
         },
         {
           "name": "月",
@@ -122,15 +122,15 @@ window.DASH_DATA = {
           "stale": true,
           "healthCode": "monthly_login_required",
           "healthMessage": "月额度获取失败，当前为旧值",
-          "checkedAt": "2026-11-12T11:24:07+08:00",
+          "checkedAt": "2026-11-12T11:36:07+08:00",
           "lastSuccessAt": "2026-11-11T08:00:05+08:00",
           "detailText": "⚠ 月额度获取失败，当前为旧值"
         }
       ],
-      "fetchedAt": "2026-11-12T11:24:00+08:00",
+      "fetchedAt": "2026-11-12T11:36:00+08:00",
       "error": "部分额度窗口沿用上次成功值",
-      "checkedAt": "2026-11-12T11:24:07+08:00",
-      "lastSuccessAt": "2026-11-12T11:24:07+08:00",
+      "checkedAt": "2026-11-12T11:36:07+08:00",
+      "lastSuccessAt": "2026-11-12T11:36:07+08:00",
       "stale": false,
       "partialStale": true,
       "quotaWatch": {
@@ -139,7 +139,7 @@ window.DASH_DATA = {
         "target": "月",
         "message": "月额度获取失败，当前为旧值",
         "firstSeenAt": "2026-11-12T08:00:07+08:00",
-        "checkedAt": "2026-11-12T11:24:07+08:00",
+        "checkedAt": "2026-11-12T11:36:07+08:00",
         "weeklyIncreasePct": 0,
         "fiveHourIncreasePct": 0,
         "contradictionChecks": 0,
